@@ -1,0 +1,440 @@
+{
+  "bounds": {
+    "height": 200,
+    "width": 168,
+    "x": -837,
+    "y": 21719.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 40,
+        "width": 128,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 40,
+            "width": 128,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 25,
+                "width": 36,
+                "x": 46,
+                "y": 7.5
+              },
+              "characters": "ادامه",
+              "id": "1:1962",
+              "name": "ادامه",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "fontWeight": 400,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "WIDTH_AND_HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            }
+          ],
+          "id": "1:1961",
+          "name": "vuesax/linear/profile",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 8,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 8,
+            "fills": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "padding": {
+              "bottom": 0,
+              "left": 16,
+              "right": 16,
+              "top": 0
+            },
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "1:1960",
+      "name": "Property 1=Default",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 16,
+          "primaryAxisAlign": "MIN",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 40,
+        "width": 128,
+        "x": 20,
+        "y": 80
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 40,
+            "width": 128,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 25,
+                "width": 36,
+                "x": 46,
+                "y": 7.5
+              },
+              "characters": "ادامه",
+              "id": "1:1965",
+              "name": "ادامه",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#ffffff",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "fontWeight": 400,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "WIDTH_AND_HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            }
+          ],
+          "id": "1:1964",
+          "name": "vuesax/linear/profile",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 8,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 8,
+            "fills": [
+              {
+                "color": "#3563d8",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "padding": {
+              "bottom": 0,
+              "left": 16,
+              "right": 16,
+              "top": 0
+            },
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "1:1963",
+      "name": "Property 1=Variant2",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 16,
+          "primaryAxisAlign": "MIN",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 40,
+        "width": 128,
+        "x": 20,
+        "y": 140
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 40,
+            "width": 128,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 25,
+                "width": 36,
+                "x": 46,
+                "y": 7.5
+              },
+              "characters": "ادامه",
+              "id": "690:43082",
+              "name": "ادامه",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#7684a7",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 16,
+                "fontStyle": "Regular",
+                "fontWeight": 400,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "WIDTH_AND_HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            }
+          ],
+          "id": "690:43081",
+          "name": "vuesax/linear/profile",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 8,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 8,
+            "fills": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "padding": {
+              "bottom": 0,
+              "left": 16,
+              "right": 16,
+              "top": 0
+            },
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "690:43080",
+      "name": "Property 1=Disabled",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 16,
+          "primaryAxisAlign": "MIN",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 0.5,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1959",
+  "name": "Primary Button",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

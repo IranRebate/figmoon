@@ -1,0 +1,954 @@
+{
+  "bounds": {
+    "height": 645.0000610351562,
+    "width": 358,
+    "x": 16877.416015625,
+    "y": 22743.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 342.00006103515625,
+        "width": 342,
+        "x": 8,
+        "y": 8
+      },
+      "id": "613:16042",
+      "name": "image 133",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "fills": [
+          {
+            "imageHash": "a5942076f78f90fc2e6212262c9da89a506b9b83",
+            "imageTransform": [
+              [
+                0.8935427069664001,
+                0,
+                0.05322863161563873
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "opacity": 1,
+            "scaleMode": "FILL",
+            "type": "IMAGE"
+          }
+        ],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "RECTANGLE"
+    },
+    {
+      "bounds": {
+        "height": 271,
+        "width": 342,
+        "x": 8,
+        "y": 366.00006103515625
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 54,
+            "width": 326,
+            "x": 8,
+            "y": 8
+          },
+          "characters": "رگوله معتبر برای کاربران ایرانی چیست؟ آخرین تغییرات رگوله ها",
+          "id": "613:16044",
+          "name": "رگوله معتبر برای کاربران ایرانی چیست؟ آخرین تغییرات رگوله ها",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#000000",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PERCENT",
+              "value": 170.00000476837158
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 0.5979200005531311,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 120,
+            "width": 326,
+            "x": 8,
+            "y": 74
+          },
+          "characters": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در است ...",
+          "id": "613:16045",
+          "name": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در است ...",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#4c5e8c",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 13,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 0.800000011920929,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 57,
+            "width": 326,
+            "x": 8,
+            "y": 206
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 17,
+                "width": 60,
+                "x": 266,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 17,
+                    "width": 60,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "1 ساعت پیش",
+                  "id": "613:16054",
+                  "name": "1 ساعت پیش",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "fills": [
+                      {
+                        "color": "#a1abc3",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 11,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PERCENT",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "AUTO"
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 0.800000011920929,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "TOP",
+                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "613:16048",
+              "name": "Frame 1890167517",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "AUTO",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 16,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            },
+            {
+              "bounds": {
+                "height": 24,
+                "width": 326,
+                "x": 0,
+                "y": 33
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 24,
+                    "width": 107,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 8,
+                        "y": 4
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 16,
+                                "width": 16,
+                                "x": 0,
+                                "y": 0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 16,
+                                    "width": 16,
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 9.091666221618652,
+                                        "width": 5.043333530426025,
+                                        "x": 1.8350000381469727,
+                                        "y": 3.4549999237060547
+                                      },
+                                      "id": "I613:16047;1:1453;1:1429;55:12446",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "gradientStops": [
+                                              {
+                                                "color": "#0095ff",
+                                                "opacity": 1,
+                                                "position": 0
+                                              },
+                                              {
+                                                "color": "#0061ff",
+                                                "opacity": 1,
+                                                "position": 0.6394230723381042
+                                              },
+                                              {
+                                                "color": "#166fff",
+                                                "opacity": 1,
+                                                "position": 1
+                                              }
+                                            ],
+                                            "gradientTransform": [
+                                              [
+                                                0.9334349036216736,
+                                                0.08105746656656265,
+                                                -0.018538357689976692
+                                              ],
+                                              [
+                                                -0.9998855590820312,
+                                                0.9334349036216736,
+                                                0.5198581218719482
+                                              ]
+                                            ],
+                                            "opacity": 1,
+                                            "type": "GRADIENT_LINEAR"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 0.800000011920929,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 1,
+                                        "width": 12.220000267028809,
+                                        "x": 1.9466667175292969,
+                                        "y": 7.5
+                                      },
+                                      "id": "I613:16047;1:1453;1:1429;55:12447",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "gradientStops": [
+                                              {
+                                                "color": "#0095ff",
+                                                "opacity": 1,
+                                                "position": 0
+                                              },
+                                              {
+                                                "color": "#0061ff",
+                                                "opacity": 1,
+                                                "position": 0.6394230723381042
+                                              },
+                                              {
+                                                "color": "#166fff",
+                                                "opacity": 1,
+                                                "position": 1
+                                              }
+                                            ],
+                                            "gradientTransform": [
+                                              [
+                                                0.9334349036216736,
+                                                0.08105746656656265,
+                                                -0.018538357689976692
+                                              ],
+                                              [
+                                                -0.9998855590820312,
+                                                0.9334349036216736,
+                                                0.5198581218719482
+                                              ]
+                                            ],
+                                            "opacity": 1,
+                                            "type": "GRADIENT_LINEAR"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 0.800000011920929,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 16,
+                                        "width": 16,
+                                        "x": 0,
+                                        "y": 0
+                                      },
+                                      "id": "I613:16047;1:1453;1:1429;55:12448",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [],
+                                        "opacity": 0,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 0.800000011920929,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    }
+                                  ],
+                                  "id": "I613:16047;1:1453;1:1429;55:12445",
+                                  "name": "arrow-left",
+                                  "styles": {
+                                    "blendMode": "PASS_THROUGH",
+                                    "opacity": 1,
+                                    "visible": true
+                                  },
+                                  "type": "GROUP"
+                                }
+                              ],
+                              "id": "I613:16047;1:1453;1:1429;55:12444",
+                              "name": "vuesax/outline/arrow-left",
+                              "styles": {
+                                "blendMode": "PASS_THROUGH",
+                                "opacity": 1,
+                                "visible": true
+                              },
+                              "type": "GROUP"
+                            }
+                          ],
+                          "id": "I613:16047;1:1453;1:1429",
+                          "name": "vuesax/outline/arrow-left",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "clipsContent": false,
+                            "constraints": {
+                              "horizontal": "SCALE",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 0.800000011920929,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "INSTANCE"
+                        }
+                      ],
+                      "id": "I613:16047;1:1453",
+                      "name": "Dislike Action",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 0.800000011920929,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "INSTANCE"
+                    },
+                    {
+                      "bounds": {
+                        "height": 17,
+                        "width": 71,
+                        "x": 28,
+                        "y": 3.5
+                      },
+                      "characters": "تحلیل هوشمند",
+                      "id": "I613:16047;1:1454",
+                      "name": "از ریبو بپرس",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#4c5e8c",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 11,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    }
+                  ],
+                  "id": "613:16047",
+                  "name": "Ai Read more",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 4,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "AUTO",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 6.183349609375,
+                    "cornerSmoothing": 0.6000000238418579,
+                    "fills": [],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 4,
+                      "left": 8,
+                      "right": 8,
+                      "top": 4
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 0.5152791142463684,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 21,
+                    "width": 97,
+                    "x": 229,
+                    "y": 1.5
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 21,
+                        "width": 49,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 17,
+                            "width": 33,
+                            "x": 8,
+                            "y": 2
+                          },
+                          "characters": "فارکس",
+                          "id": "613:16067",
+                          "name": "فارکس",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#1c3472",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 11,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 0.800000011920929,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        }
+                      ],
+                      "id": "613:16066",
+                      "name": "Frame 165",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 10,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": true,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 6,
+                        "fills": [
+                          {
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "padding": {
+                          "bottom": 2,
+                          "left": 8,
+                          "right": 8,
+                          "top": 2
+                        },
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    },
+                    {
+                      "bounds": {
+                        "height": 21,
+                        "width": 40,
+                        "x": 57,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 17,
+                            "width": 24,
+                            "x": 8,
+                            "y": 2
+                          },
+                          "characters": "بروکر",
+                          "id": "613:16069",
+                          "name": "بروکر",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#1c3472",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 11,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 0.800000011920929,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        }
+                      ],
+                      "id": "613:16068",
+                      "name": "Frame 167",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 10,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": true,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 6,
+                        "fills": [
+                          {
+                            "color": "#ffffff",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "padding": {
+                          "bottom": 2,
+                          "left": 8,
+                          "right": 8,
+                          "top": 2
+                        },
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "613:16065",
+                  "name": "Frame 1000006364",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "AUTO",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 8,
+                      "primaryAxisAlign": "MIN",
+                      "primaryAxisSizing": "AUTO",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 0,
+                    "fills": [],
+                    "opacity": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "FRAME"
+                }
+              ],
+              "id": "613:16071",
+              "name": "Frame 2147225077",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "AUTO",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 31,
+                  "primaryAxisAlign": "SPACE_BETWEEN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "613:16046",
+          "name": "Frame 1890167517",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "613:16043",
+      "name": "Frame 1000006840",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 12,
+          "primaryAxisAlign": "MIN",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "padding": {
+          "bottom": 8,
+          "left": 8,
+          "right": 8,
+          "top": 8
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "FRAME"
+    }
+  ],
+  "id": "613:16064",
+  "name": "News Ai List Cards 2 - Phone",
+  "styles": {
+    "autoLayout": {
+      "counterAxisAlign": "MAX",
+      "counterAxisSizing": "FIXED",
+      "counterAxisSpacing": 0,
+      "direction": "VERTICAL",
+      "gap": 16,
+      "primaryAxisAlign": "CENTER",
+      "primaryAxisSizing": "AUTO",
+      "wrap": "NO_WRAP"
+    },
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": false,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 16,
+    "fills": [
+      {
+        "color": "#f6f8fe",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "opacity": 1,
+    "padding": {
+      "bottom": 8,
+      "left": 8,
+      "right": 8,
+      "top": 8
+    },
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#ecf1ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT"
+}

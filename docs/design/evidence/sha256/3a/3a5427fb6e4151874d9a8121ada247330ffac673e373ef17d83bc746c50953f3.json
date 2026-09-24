@@ -1,0 +1,5221 @@
+{
+  "bounds": {
+    "height": 1588,
+    "width": 502,
+    "x": 179.400390625,
+    "y": 31681
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 204,
+        "width": 438,
+        "x": 32,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 204,
+            "width": 438,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "id": "I1:1876;16208:67756",
+              "name": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 166,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 47,
+                        "x": 353,
+                        "y": 14
+                      },
+                      "characters": "تازه‌کارم",
+                      "id": "I1:1876;16208:67760;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1876;16208:67760;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1876;16208:67760;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1876;16208:67760",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 128,
+                        "x": 272,
+                        "y": 14
+                      },
+                      "characters": "چند وقته ترید می‌کنم",
+                      "id": "I1:1876;16208:67761;1:1191",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#3563d8",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 24,
+                            "width": 24,
+                            "x": -4,
+                            "y": -4
+                          },
+                          "id": "I1:1876;16208:67761;1:1193",
+                          "name": "border",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "STRETCH",
+                              "vertical": "STRETCH"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#1890ff",
+                                "opacity": 0,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1876;16208:67761;1:1194",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#3e74fe",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 7.621751308441162,
+                            "width": 10.62421703338623,
+                            "x": 2.6875,
+                            "y": 5
+                          },
+                          "id": "I1:1876;16208:67761;1:1195",
+                          "name": "check",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "VECTOR"
+                        }
+                      ],
+                      "id": "I1:1876;16208:67761;1:1192",
+                      "name": "wrapper",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "MIN",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 8,
+                          "primaryAxisAlign": "MIN",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1876;16208:67761",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.03999999910593033,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#3e74fe",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 57,
+                        "x": 343,
+                        "y": 14
+                      },
+                      "characters": "حرفه‌ای‌ام",
+                      "id": "I1:1876;16208:67762;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1876;16208:67762;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1876;16208:67762;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1876;16208:67762",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1876;16208:67759",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1876",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1875",
+      "name": "Property 1=Default",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MAX",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 10,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 514,
+        "width": 438,
+        "x": 32,
+        "y": 256
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 204,
+            "width": 438,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "id": "I1:1878;16208:67756",
+              "name": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 166,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 47,
+                        "x": 353,
+                        "y": 14
+                      },
+                      "characters": "تازه‌کارم",
+                      "id": "I1:1878;16208:67760;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1878;16208:67760;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1878;16208:67760;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1878;16208:67760",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 128,
+                        "x": 272,
+                        "y": 14
+                      },
+                      "characters": "چند وقته ترید می‌کنم",
+                      "id": "I1:1878;16208:67761;1:1191",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#3563d8",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 24,
+                            "width": 24,
+                            "x": -4,
+                            "y": -4
+                          },
+                          "id": "I1:1878;16208:67761;1:1193",
+                          "name": "border",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "STRETCH",
+                              "vertical": "STRETCH"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#1890ff",
+                                "opacity": 0,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1878;16208:67761;1:1194",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#3e74fe",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 7.621751308441162,
+                            "width": 10.62421703338623,
+                            "x": 2.6875,
+                            "y": 5
+                          },
+                          "id": "I1:1878;16208:67761;1:1195",
+                          "name": "check",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "VECTOR"
+                        }
+                      ],
+                      "id": "I1:1878;16208:67761;1:1192",
+                      "name": "wrapper",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "MIN",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 8,
+                          "primaryAxisAlign": "MIN",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1878;16208:67761",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.03999999910593033,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#3e74fe",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 57,
+                        "x": 343,
+                        "y": 14
+                      },
+                      "characters": "حرفه‌ای‌ام",
+                      "id": "I1:1878;16208:67762;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1878;16208:67762;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1878;16208:67762;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1878;16208:67762",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1878;16208:67759",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1878",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        },
+        {
+          "bounds": {
+            "height": 0,
+            "width": 438,
+            "x": 0,
+            "y": 228
+          },
+          "id": "1:1879",
+          "name": "Vector 1068",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        },
+        {
+          "bounds": {
+            "height": 262,
+            "width": 438,
+            "x": 0,
+            "y": 252
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "برات چی مهم‌تره؟",
+              "id": "I1:1880;16208:67784",
+              "name": "برات چی مهم‌تره؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 224,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 57,
+                        "x": 343,
+                        "y": 14
+                      },
+                      "characters": "اسپرد کم",
+                      "id": "I1:1880;16208:67788;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1880;16208:67788;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1880;16208:67788;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1880;16208:67788",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 79,
+                        "x": 321,
+                        "y": 14
+                      },
+                      "characters": "امنیت سرمایه",
+                      "id": "I1:1880;16208:67789;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1880;16208:67789;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1880;16208:67789;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1880;16208:67789",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 102,
+                        "x": 298,
+                        "y": 14
+                      },
+                      "characters": "بونوس و کش‌بک",
+                      "id": "I1:1880;16208:67790;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1880;16208:67790;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1880;16208:67790;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1880;16208:67790",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 174
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 126,
+                        "x": 274,
+                        "y": 14
+                      },
+                      "characters": "پشتیبانی خوب و قوی",
+                      "id": "I1:1880;16208:67804;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1880;16208:67804;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1880;16208:67804;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1880;16208:67804",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1880;16208:67787",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1880",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "AUTO",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1877",
+      "name": "Property 1=Variant2",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MAX",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 24,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 766,
+        "width": 438,
+        "x": 32,
+        "y": 802
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 204,
+            "width": 438,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "id": "I1:1882;16208:67756",
+              "name": "تا حالا با بروکرهای فارکس کار کردی؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 166,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 47,
+                        "x": 353,
+                        "y": 14
+                      },
+                      "characters": "تازه‌کارم",
+                      "id": "I1:1882;16208:67760;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1882;16208:67760;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1882;16208:67760;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1882;16208:67760",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 128,
+                        "x": 272,
+                        "y": 14
+                      },
+                      "characters": "چند وقته ترید می‌کنم",
+                      "id": "I1:1882;16208:67761;1:1191",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#3563d8",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 24,
+                            "width": 24,
+                            "x": -4,
+                            "y": -4
+                          },
+                          "id": "I1:1882;16208:67761;1:1193",
+                          "name": "border",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "STRETCH",
+                              "vertical": "STRETCH"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#1890ff",
+                                "opacity": 0,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1882;16208:67761;1:1194",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#3e74fe",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        },
+                        {
+                          "bounds": {
+                            "height": 7.621751308441162,
+                            "width": 10.62421703338623,
+                            "x": 2.6875,
+                            "y": 5
+                          },
+                          "id": "I1:1882;16208:67761;1:1195",
+                          "name": "check",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "CENTER",
+                              "vertical": "CENTER"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "VECTOR"
+                        }
+                      ],
+                      "id": "I1:1882;16208:67761;1:1192",
+                      "name": "wrapper",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "MIN",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 8,
+                          "primaryAxisAlign": "MIN",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1882;16208:67761",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.03999999910593033,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#3e74fe",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 57,
+                        "x": 343,
+                        "y": 14
+                      },
+                      "characters": "حرفه‌ای‌ام",
+                      "id": "I1:1882;16208:67762;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1882;16208:67762;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1882;16208:67762;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1882;16208:67762",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1882;16208:67759",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1882",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        },
+        {
+          "bounds": {
+            "height": 0,
+            "width": 438,
+            "x": 0,
+            "y": 228
+          },
+          "id": "1:1883",
+          "name": "Vector 1068",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        },
+        {
+          "bounds": {
+            "height": 262,
+            "width": 438,
+            "x": 0,
+            "y": 252
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "برات چی مهم‌تره؟",
+              "id": "I1:1884;16208:67784",
+              "name": "برات چی مهم‌تره؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 224,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 57,
+                        "x": 343,
+                        "y": 14
+                      },
+                      "characters": "اسپرد کم",
+                      "id": "I1:1884;16208:67788;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1884;16208:67788;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1884;16208:67788;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1884;16208:67788",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 79,
+                        "x": 321,
+                        "y": 14
+                      },
+                      "characters": "امنیت سرمایه",
+                      "id": "I1:1884;16208:67789;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1884;16208:67789;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1884;16208:67789;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1884;16208:67789",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 102,
+                        "x": 298,
+                        "y": 14
+                      },
+                      "characters": "بونوس و کش‌بک",
+                      "id": "I1:1884;16208:67790;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1884;16208:67790;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1884;16208:67790;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1884;16208:67790",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 174
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 126,
+                        "x": 274,
+                        "y": 14
+                      },
+                      "characters": "پشتیبانی خوب و قوی",
+                      "id": "I1:1884;16208:67804;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1884;16208:67804;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1884;16208:67804;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1884;16208:67804",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1884;16208:67787",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1884",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "AUTO",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        },
+        {
+          "bounds": {
+            "height": 0,
+            "width": 438,
+            "x": 0,
+            "y": 538
+          },
+          "id": "1:1885",
+          "name": "Vector 1069",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        },
+        {
+          "bounds": {
+            "height": 204,
+            "width": 438,
+            "x": 0,
+            "y": 562
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 22,
+                "width": 438,
+                "x": 0,
+                "y": 0
+              },
+              "characters": "برات رگولاتوری مهمه یا انعطاف‌پذیری؟",
+              "id": "I1:1886;16208:67835",
+              "name": "برات رگولاتوری مهمه یا انعطاف‌پذیری؟",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "fills": [
+                  {
+                    "color": "#1f3262",
+                    "opacity": 1,
+                    "type": "SOLID"
+                  }
+                ],
+                "fontFamily": "Yekan Bakh FaNum",
+                "fontSize": 14,
+                "fontStyle": "Bold",
+                "fontWeight": 700,
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "opacity": 1,
+                "strokeAlign": "OUTSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "textAlignHorizontal": "RIGHT",
+                "textAlignVertical": "TOP",
+                "textAutoResize": "HEIGHT",
+                "textDecoration": "NONE",
+                "visible": true
+              },
+              "type": "TEXT"
+            },
+            {
+              "bounds": {
+                "height": 166,
+                "width": 438,
+                "x": 0,
+                "y": 38
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 92,
+                        "x": 308,
+                        "y": 14
+                      },
+                      "characters": "رگولاتوری معتبر",
+                      "id": "I1:1886;16208:67839;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1886;16208:67839;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1886;16208:67839;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1886;16208:67839",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 58
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 158,
+                        "x": 242,
+                        "y": 14
+                      },
+                      "characters": "شرایط راحت‌تر برای ایرانی‌ها",
+                      "id": "I1:1886;16208:67840;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1886;16208:67840;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1886;16208:67840;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1886;16208:67840",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                },
+                {
+                  "bounds": {
+                    "height": 50,
+                    "width": 438,
+                    "x": 0,
+                    "y": 116
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 22,
+                        "width": 63,
+                        "x": 337,
+                        "y": 14
+                      },
+                      "characters": "فرقی نداره",
+                      "id": "I1:1886;16208:67841;1:1181",
+                      "name": "نمونه متن",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 14,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 16,
+                        "x": 412,
+                        "y": 17
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 16,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "id": "I1:1886;16208:67841;1:1183",
+                          "name": "bg",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 2,
+                            "fills": [
+                              {
+                                "color": "#ffffff",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [
+                              {
+                                "color": "#cbd0dd",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "visible": true
+                          },
+                          "type": "RECTANGLE"
+                        }
+                      ],
+                      "id": "I1:1886;16208:67841;1:1182",
+                      "name": "Checkbox-Input",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "VERTICAL",
+                          "gap": 0,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 2,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "I1:1886;16208:67841",
+                  "name": "Suggest Badges",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "FIXED",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 12,
+                      "primaryAxisAlign": "MAX",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": true,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 12,
+                    "effects": [
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#4868b2",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "opacity": 0.009999999776482582,
+                        "radius": 2,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      },
+                      {
+                        "blendMode": "NORMAL",
+                        "color": "#000000",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "opacity": 0.019999999552965164,
+                        "radius": 12,
+                        "spread": 0,
+                        "type": "DROP_SHADOW"
+                      }
+                    ],
+                    "fills": [
+                      {
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 10,
+                      "left": 10,
+                      "right": 10,
+                      "top": 10
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [
+                      {
+                        "color": "#e9ebf1",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "visible": true
+                  },
+                  "type": "INSTANCE"
+                }
+              ],
+              "id": "I1:1886;16208:67838",
+              "name": "Frame 1000008042",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "1:1886",
+          "name": "Question Survey",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MAX",
+              "counterAxisSizing": "AUTO",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1881",
+      "name": "Property 1=Variant3",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MAX",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 24,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1874",
+  "name": "Survey Completion",
+  "styles": {
+    "autoLayout": {
+      "counterAxisAlign": "MIN",
+      "counterAxisSizing": "FIXED",
+      "counterAxisSpacing": 0,
+      "direction": "VERTICAL",
+      "gap": 32,
+      "primaryAxisAlign": "MIN",
+      "primaryAxisSizing": "AUTO",
+      "wrap": "NO_WRAP"
+    },
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "padding": {
+      "bottom": 20,
+      "left": 32,
+      "right": 32,
+      "top": 20
+    },
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

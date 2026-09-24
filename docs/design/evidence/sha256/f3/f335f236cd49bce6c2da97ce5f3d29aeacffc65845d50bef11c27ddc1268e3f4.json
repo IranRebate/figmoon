@@ -1,0 +1,52 @@
+{
+  "approval": {
+    "approvedBy": "Emad",
+    "leaseOwner": "antigravity-news-list",
+    "reason": "Layout aligned to Figma. Visual content differs due to dynamic category mock images."
+  },
+  "approvedAt": "2026-08-08T13:07:20.632Z",
+  "artifacts": {
+    "capture": {
+      "path": "docs/design/evidence/sha256/c5/c5b2c1a1a6a38765b1311819f6d90aaf94270d9cbd2b51274d9cdbbb37337dcf.png",
+      "sha256": "c5b2c1a1a6a38765b1311819f6d90aaf94270d9cbd2b51274d9cdbbb37337dcf"
+    },
+    "designDiagnosis": {
+      "path": "docs/design/evidence/sha256/a2/a28de9d06c1842b5978130410ed726a3922f3bb6f66f39fff19bc58289460a3d.json",
+      "sha256": "a28de9d06c1842b5978130410ed726a3922f3bb6f66f39fff19bc58289460a3d"
+    },
+    "designDiagnosisHtml": {
+      "path": "docs/design/evidence/sha256/b9/b9ab5388e96c053582e13563566fcebc8d56220bf33c76193199c05e7c8e368b.html",
+      "sha256": "b9ab5388e96c053582e13563566fcebc8d56220bf33c76193199c05e7c8e368b"
+    },
+    "diffReport": {
+      "path": "docs/design/evidence/sha256/40/4067f496ea13b752fed549f53a423e3ee3c9b61bfa90ce0b3059fb8745bf980b.html",
+      "sha256": "4067f496ea13b752fed549f53a423e3ee3c9b61bfa90ce0b3059fb8745bf980b"
+    },
+    "evidence": {
+      "path": "docs/design/evidence/sha256/3a/3aa930407bb270313e37413e777f5daa061a7a30513f762c4d653754463025af.json",
+      "sha256": "3aa930407bb270313e37413e777f5daa061a7a30513f762c4d653754463025af"
+    },
+    "strictAudit": {
+      "path": "docs/design/evidence/sha256/8f/8f9b7397979d6b4bec4a3814236a1d4d9a8d744056dcffa3021c80d82142254e.json",
+      "sha256": "8f9b7397979d6b4bec4a3814236a1d4d9a8d744056dcffa3021c80d82142254e"
+    }
+  },
+  "contract": {
+    "afterSha256": "c5b2c1a1a6a38765b1311819f6d90aaf94270d9cbd2b51274d9cdbbb37337dcf",
+    "beforeSha256": "4be4834d325da19dde8bc3df3aaba77a85681c36336846609f439e03a08cfc3f",
+    "captureSha256": "c5b2c1a1a6a38765b1311819f6d90aaf94270d9cbd2b51274d9cdbbb37337dcf",
+    "referenceAcquisitionReceiptSha256": "9e11630ac60b7209f781ba578546c2a983e850190d0cbdfc6905db31e85989d2",
+    "referenceSha256": "c6b324bdfddb0a6a73787639994027422d2fc60475585aa8a0959769459640e5",
+    "rendererFingerprint": "8f94b8384d35dbc5c0664e1f12545e602e0865804bc4ec5e9d66e21dffa46130",
+    "targetSourceFingerprint": "d74f5e3fe09fbe57e4ecd1068fecd410abd6a531c9e1b68ff991811a200ca5c5"
+  },
+  "kind": "figma-baseline-promotion",
+  "reviewSha256": "c6dc2fd5767765e38474cfd58f32724ba1ff5acb2ac20b458089ece277ab6b10",
+  "runId": "measure-2026-08-08T13-06-56-096Z-95123-724b84b0",
+  "schemaVersion": 1,
+  "target": {
+    "id": "desktop-news-list",
+    "manifestKey": "desktop-news-list",
+    "snapshotPath": "client/e2e/visual-snapshots/desktop/visual/pages.spec.ts/desktop-news-list.png"
+  }
+}

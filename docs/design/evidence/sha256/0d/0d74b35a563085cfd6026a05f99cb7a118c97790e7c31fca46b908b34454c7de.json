@@ -1,0 +1,52 @@
+{
+  "approval": {
+    "approvedBy": "Emad",
+    "leaseOwner": "Codex",
+    "reason": "User authorized current desktop analysis loading baseline after chat and history changes."
+  },
+  "approvedAt": "2026-08-11T07:28:56.176Z",
+  "artifacts": {
+    "capture": {
+      "path": "docs/design/evidence/sha256/b5/b59502112f81f59bf64379c793b25343d95fbdf628fca79b614acbcd0de69c4e.png",
+      "sha256": "b59502112f81f59bf64379c793b25343d95fbdf628fca79b614acbcd0de69c4e"
+    },
+    "designDiagnosis": {
+      "path": "docs/design/evidence/sha256/05/05164f58771ea3d51aedcf51539e314793fe0cdcbe70d247d00f13f733665363.json",
+      "sha256": "05164f58771ea3d51aedcf51539e314793fe0cdcbe70d247d00f13f733665363"
+    },
+    "designDiagnosisHtml": {
+      "path": "docs/design/evidence/sha256/aa/aa8766565134ad46f5588190ef2e183adf5d13c1ded5246baebf7f7d90a71f5b.html",
+      "sha256": "aa8766565134ad46f5588190ef2e183adf5d13c1ded5246baebf7f7d90a71f5b"
+    },
+    "diffReport": {
+      "path": "docs/design/evidence/sha256/62/62a3a8d11929bfc761dc041bfd31c25378549ff52fdf50562c5305d7b94b9393.html",
+      "sha256": "62a3a8d11929bfc761dc041bfd31c25378549ff52fdf50562c5305d7b94b9393"
+    },
+    "evidence": {
+      "path": "docs/design/evidence/sha256/eb/ebad0794dae63fddc2217e89e7270abdee01a55714ae03bee9b584e5cb934303.json",
+      "sha256": "ebad0794dae63fddc2217e89e7270abdee01a55714ae03bee9b584e5cb934303"
+    },
+    "strictAudit": {
+      "path": "docs/design/evidence/sha256/7b/7b25a8587e778eaa726e293f06ce0d50d6195ee3816dd109b2ef6c46fade72fa.json",
+      "sha256": "7b25a8587e778eaa726e293f06ce0d50d6195ee3816dd109b2ef6c46fade72fa"
+    }
+  },
+  "contract": {
+    "afterSha256": "b59502112f81f59bf64379c793b25343d95fbdf628fca79b614acbcd0de69c4e",
+    "beforeSha256": "73ed456dba616b37a181bfc4921ff2c25626200da4061d1760733a81df58e86a",
+    "captureSha256": "b59502112f81f59bf64379c793b25343d95fbdf628fca79b614acbcd0de69c4e",
+    "referenceAcquisitionReceiptSha256": "9c71e96ada1299e3a0875bc02f64d64aef14c76a136f63e0c918f6088dbea6c4",
+    "referenceSha256": "7881401b7ca205bee132f2b7e4b4ecea94d33e20ae827ca36e74671f6e2da3c7",
+    "rendererFingerprint": "2ed86b01ec41f1f9f24aca6183f703eae1fc11aac8874eb2eecc11de7c66bae9",
+    "targetSourceFingerprint": "2adc2dc3153dfc1892b657574613267842d0f895a46f23771f17279d33c1363f"
+  },
+  "kind": "figma-baseline-promotion",
+  "reviewSha256": "9dcd25e5957d1a8916f9b3ed03c11b4cb80d2eb0a24d38edf07fad481afaf20a",
+  "runId": "measure-2026-08-11T07-22-37-038Z-9972-c291a031",
+  "schemaVersion": 1,
+  "target": {
+    "id": "desktop-analysis-loading",
+    "manifestKey": "desktop-analysis-loading",
+    "snapshotPath": "client/e2e/visual-snapshots/desktop/visual/pages.spec.ts/desktop-analysis-loading.png"
+  }
+}

@@ -1,0 +1,3305 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-15T08:22:13.795Z",
+  "run": "client/e2e/figma-audit-results/runs/measure-2026-08-15T08-21-59-852Z-31094-c743ac53",
+  "policy": {
+    "inference": "Ranked diagnostic evidence, not permission to mutate code, Figma, fixtures, references, or baselines.",
+    "mutation": "Prefer the highest shared owner that explains compatible regions; verify its complete impact matrix."
+  },
+  "shared": {
+    "components": [],
+    "tokens": []
+  },
+  "visualClusters": [],
+  "targets": [
+    {
+      "id": "desktop-settings",
+      "title": "Desktop – Settings Overlay",
+      "route": "/chat",
+      "ratio": 0.01188083224826389,
+      "spatialPyramid": [
+        {
+          "scale": 2,
+          "shares": [
+            0.07260688395456362,
+            0.6068268736800045,
+            0.2085164678349221,
+            0.11204977453050974
+          ]
+        },
+        {
+          "scale": 4,
+          "shares": [
+            0.022832353444831328,
+            0.020549118100348193,
+            0.04851875107026657,
+            0.27102003539014785,
+            0.0292254124093841,
+            0,
+            0.19361835721216963,
+            0.09366973000742052,
+            0.0887036931331697,
+            0.03807294936925624,
+            0.04223985387293795,
+            0.01461270620469205,
+            0.06119070723214795,
+            0.020549118100348193,
+            0.041440721502368855,
+            0.013756492950510874
+          ]
+        }
+      ],
+      "artifacts": {
+        "reference": "diff/figma/desktop-settings.png",
+        "snapshot": "diff/snapshots/desktop-settings.png",
+        "diff": "diff/diffs/desktop-settings-diff.png"
+      },
+      "regions": [
+        {
+          "x": 1216,
+          "y": 16,
+          "width": 160,
+          "height": 64,
+          "mismatchPixels": 4163,
+          "density": 0.40654296875,
+          "share": 0.23762771847708203,
+          "areaRatio": 0.006944444444444444,
+          "edgeRatio": 0.08239250540475619,
+          "colorConsistency": 1,
+          "meanSignedDelta": {
+            "red": -63.30867163103531,
+            "green": -30.494595243814558,
+            "blue": 2.9966370405957243
+          },
+          "normalized": {
+            "centerX": 0.9,
+            "centerY": 0.046875,
+            "width": 0.1111111111111111,
+            "height": 0.0625
+          },
+          "semanticSuspects": [
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "ChatEmptyState",
+                "ChatInterface",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 1217.484375,
+                "y": 28,
+                "width": 122.515625,
+                "height": 35
+              },
+              "style": {
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "12px",
+                "fontWeight": "400",
+                "lineHeight": "18px"
+              },
+              "overlap": 0.41875457763671875
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 256,
+          "y": 192,
+          "width": 928,
+          "height": 640,
+          "mismatchPixels": 4161,
+          "density": 0.007005994073275862,
+          "share": 0.23751355670985788,
+          "areaRatio": 0.4027777777777778,
+          "edgeRatio": 2.42225426580149,
+          "colorConsistency": 0.07959811416296082,
+          "meanSignedDelta": {
+            "red": -18.15020427781783,
+            "green": -20.84763278058159,
+            "blue": -21.272770968517182
+          },
+          "normalized": {
+            "centerX": 0.5,
+            "centerY": 0.5,
+            "width": 0.6444444444444445,
+            "height": 0.625
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9838126346982758
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-content",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 686,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.7288287984913793
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-sidebar",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 943,
+                "y": 196.5,
+                "width": 240,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(246, 248, 254)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.2549838362068966
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "chat-empty-greeting",
+              "owner": null,
+              "reactStack": [
+                "ChatEmptyState",
+                "ChatInterface",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 306,
+                "y": 367,
+                "width": 760,
+                "height": 76
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.0972521551724138
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "chat-empty-static-suggestions",
+              "owner": null,
+              "reactStack": [
+                "ChatEmptyState",
+                "ChatInterface",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 366,
+                "y": 573,
+                "width": 640,
+                "height": 84
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.09051724137931035
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        },
+        {
+          "x": 720,
+          "y": 496,
+          "width": 176,
+          "height": 16,
+          "mismatchPixels": 1144,
+          "density": 0.40625,
+          "share": 0.0653005308522176,
+          "areaRatio": 0.0019097222222222222,
+          "edgeRatio": 0.6486013986013986,
+          "colorConsistency": 0.1462089470218322,
+          "meanSignedDelta": {
+            "red": -19.541083916083917,
+            "green": -18.083916083916083,
+            "blue": -14.266608391608392
+          },
+          "normalized": {
+            "centerX": 0.5611111111111111,
+            "centerY": 0.4921875,
+            "width": 0.12222222222222222,
+            "height": 0.015625
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-content",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 686,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 1024,
+          "mismatchPixels": 1024,
+          "density": 0.0625,
+          "share": 0.0584508248187682,
+          "areaRatio": 0.011111111111111112,
+          "edgeRatio": 1,
+          "colorConsistency": 1,
+          "meanSignedDelta": {
+            "red": -64,
+            "green": -63,
+            "blue": -63
+          },
+          "normalized": {
+            "centerX": 0.005555555555555556,
+            "centerY": 0.5,
+            "width": 0.011111111111111112,
+            "height": 1
+          },
+          "semanticSuspects": [],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 288,
+          "y": 656,
+          "width": 128,
+          "height": 64,
+          "mismatchPixels": 924,
+          "density": 0.11279296875,
+          "share": 0.05274273645756036,
+          "areaRatio": 0.005555555555555556,
+          "edgeRatio": 0.9090909090909091,
+          "colorConsistency": 0.11482662367574281,
+          "meanSignedDelta": {
+            "red": 0.23917748917748918,
+            "green": -9.117965367965368,
+            "blue": -9.16017316017316
+          },
+          "normalized": {
+            "centerX": 0.24444444444444444,
+            "centerY": 0.671875,
+            "width": 0.08888888888888889,
+            "height": 0.0625
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-content",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 686,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "Button",
+                "ProfileTab",
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 289,
+                "y": 664.5,
+                "width": 116.046875,
+                "height": 40
+              },
+              "style": {
+                "color": "rgb(255, 77, 79)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.5666351318359375
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/shared/Button.tsx",
+              "stackDepth": 0
+            },
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/shared/Button.tsx",
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        },
+        {
+          "x": 288,
+          "y": 560,
+          "width": 144,
+          "height": 48,
+          "mismatchPixels": 774,
+          "density": 0.11197916666666667,
+          "share": 0.044180603915748615,
+          "areaRatio": 0.0046875,
+          "edgeRatio": 0.851421188630491,
+          "colorConsistency": 0.3439734283773233,
+          "meanSignedDelta": {
+            "red": 31.886304909560724,
+            "green": 22.96124031007752,
+            "blue": 0.3785529715762274
+          },
+          "normalized": {
+            "centerX": 0.25,
+            "centerY": 0.5703125,
+            "width": 0.1,
+            "height": 0.046875
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-content",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 686,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "Button",
+                "ProfileTab",
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 289,
+                "y": 561.5,
+                "width": 128,
+                "height": 40
+              },
+              "style": {
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgb(62, 116, 254)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.7407407407407407
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "chat-empty-static-suggestions",
+              "owner": null,
+              "reactStack": [
+                "ChatEmptyState",
+                "ChatInterface",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 366,
+                "y": 573,
+                "width": 640,
+                "height": 84
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.3342013888888889
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "ChatEmptyState",
+                "ChatInterface",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 396.84375,
+                "y": 573,
+                "width": 120.328125,
+                "height": 35
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "12px",
+                "fontWeight": "400",
+                "lineHeight": "20px"
+              },
+              "overlap": 0.17801920572916666
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/shared/Button.tsx",
+              "stackDepth": 0
+            },
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/shared/Button.tsx",
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        },
+        {
+          "x": 752,
+          "y": 672,
+          "width": 160,
+          "height": 32,
+          "mismatchPixels": 730,
+          "density": 0.142578125,
+          "share": 0.04166904503681717,
+          "areaRatio": 0.003472222222222222,
+          "edgeRatio": 0.7698630136986301,
+          "colorConsistency": 0.15529595917344577,
+          "meanSignedDelta": {
+            "red": -18.186301369863013,
+            "green": -16.84109589041096,
+            "blue": -12.826027397260274
+          },
+          "normalized": {
+            "centerX": 0.5777777777777777,
+            "centerY": 0.671875,
+            "width": 0.1111111111111111,
+            "height": 0.03125
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-content",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 686,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        },
+        {
+          "x": 1024,
+          "y": 336,
+          "width": 128,
+          "height": 32,
+          "mismatchPixels": 636,
+          "density": 0.1552734375,
+          "share": 0.03630344197728181,
+          "areaRatio": 0.002777777777777778,
+          "edgeRatio": 0.789308176100629,
+          "colorConsistency": 0.024862519058371873,
+          "meanSignedDelta": {
+            "red": 2.4339622641509435,
+            "green": 2.3050314465408803,
+            "blue": 1.721698113207547
+          },
+          "normalized": {
+            "centerX": 0.7555555555555555,
+            "centerY": 0.34375,
+            "width": 0.08888888888888889,
+            "height": 0.03125
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-panel",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "settings-modal-sidebar",
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 943,
+                "y": 196.5,
+                "width": 240,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(246, 248, 254)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": "ds-settings-modal",
+              "reactStack": [
+                "DesignNavItem",
+                "SettingsModal",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 960,
+                "y": 336.5,
+                "width": 207,
+                "height": 44
+              },
+              "style": {
+                "color": "rgb(76, 94, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "lineHeight": "20px"
+              },
+              "overlap": 0.984375
+            }
+          ],
+          "sourceAttribution": [
+            {
+              "module": "client/src/components/settings/SettingsModal.tsx",
+              "stackDepth": 0
+            }
+          ],
+          "sourceCandidates": [
+            "client/src/components/settings/SettingsModal.tsx"
+          ]
+        }
+      ],
+      "hypotheses": [
+        {
+          "cause": "shared-component-repetition",
+          "confidence": 0.7,
+          "reason": "Several separated regions repeat in one state; check repeated component instances before page-specific CSS."
+        },
+        {
+          "cause": "typography-or-icon",
+          "confidence": 0.68,
+          "reason": "The dominant region is short or line-shaped; inspect font metrics, label color, and vector source before layout."
+        }
+      ],
+      "components": [
+        {
+          "id": "ds-button",
+          "codeModule": "client/src/components/shared/Button.tsx",
+          "tokens": [
+            "color.action.primary",
+            "color.action.primary-hover",
+            "color.action.on-primary",
+            "component.button.secondary.border-default",
+            "component.button.secondary.border-hover",
+            "component.button.secondary.text-default",
+            "component.button.secondary.text-hover",
+            "color.background.error-soft",
+            "color.status.danger",
+            "color.text.muted",
+            "control.height.sm",
+            "control.height.md",
+            "control.height.lg",
+            "control.padding-x.md",
+            "control.padding-x.lg",
+            "radius.control",
+            "space.6",
+            "space.8"
+          ],
+          "verificationTargets": [
+            "comp-button-primary",
+            "comp-button-secondary",
+            "comp-button-secondary-error",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/admin/AdminActionConfirmation.tsx",
+            "client/src/components/admin/AdminDashboard.tsx",
+            "client/src/components/admin/sections/AgentConfigSection.tsx",
+            "client/src/components/admin/sections/AnalysisPresetsSection.tsx",
+            "client/src/components/admin/sections/DiscoverySection.tsx",
+            "client/src/components/admin/sections/NotificationsSection.tsx",
+            "client/src/components/admin/sections/PricingSection.tsx",
+            "client/src/components/admin/sections/PromptsSection.tsx",
+            "client/src/components/admin/sections/UsersSection.tsx",
+            "client/src/components/pwa/InstallPrompt.tsx",
+            "client/src/components/settings/PersonalizationTab.tsx",
+            "client/src/components/settings/ProfileTab.tsx",
+            "client/src/components/settings/SubscriptionTab.tsx",
+            "client/src/components/shared/ChatAccessDenied.tsx",
+            "client/src/components/shared/ConfirmDialog.tsx",
+            "client/src/components/shared/EmptyStateCard.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-message-actions",
+          "codeModule": "client/src/components/chat/MessageActions.tsx",
+          "tokens": [
+            "color.action.primary",
+            "color.icon.control",
+            "color.primitive.blue.100",
+            "color.primitive.dark-blue.300",
+            "color.primitive.dark-blue.500",
+            "color.status.negative-feedback",
+            "space.12"
+          ],
+          "verificationTargets": [
+            "comp-message-actions",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/chat/AssistantMessage.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-user-message",
+          "codeModule": "client/src/components/chat/UserMessage.tsx",
+          "tokens": [
+            "component.message.user.background",
+            "component.message.user.text",
+            "component.message.user.radius",
+            "component.message.user.padding-inline",
+            "component.message.user.padding-block",
+            "component.message.user.font-size",
+            "component.message.user.line-height"
+          ],
+          "verificationTargets": [
+            "comp-user-message-bubble",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/chat/MessageList.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-mobile-top-bar",
+          "codeModule": "client/src/components/shared/MobileTopBar.tsx",
+          "tokens": [
+            "color.background.card",
+            "color.border.default",
+            "color.text.heading",
+            "color.text.muted",
+            "color.icon.control",
+            "color.action.primary",
+            "component.mobile-top-bar.brand-primary",
+            "component.mobile-top-bar.brand-secondary",
+            "component.mobile-top-bar.brand-font-size",
+            "component.mobile-top-bar.brand-gap",
+            "component.mobile-top-bar.brand-offset-with-action",
+            "component.mobile-top-bar.brand-offset-without-action",
+            "component.mobile-top-bar.brand-center-offset",
+            "component.mobile-top-bar.title-center-offset",
+            "component.mobile-top-bar.title",
+            "component.mobile-top-bar.icon",
+            "component.mobile-top-bar.shadow",
+            "space.8",
+            "space.16",
+            "font.size.14",
+            "font.size.16",
+            "font.weight.bold"
+          ],
+          "verificationTargets": [
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "comp-phone-menu",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-news",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/App.tsx",
+            "client/src/components/onboarding/OnboardingFlow.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-news",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-chat-sidebar",
+          "codeModule": "client/src/components/chat/ChatSidebar.tsx",
+          "tokens": [
+            "color.background.surface",
+            "color.background.active",
+            "color.background.card",
+            "color.border.default",
+            "color.text.heading",
+            "color.text.body",
+            "color.text.muted",
+            "color.action.primary",
+            "space.8",
+            "space.12",
+            "space.16",
+            "radius.card",
+            "font.size.14",
+            "font.line-height.24"
+          ],
+          "verificationTargets": [
+            "comp-sidebar-full",
+            "mobile-sidebar",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ],
+          "consumers": [
+            "client/src/App.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ]
+        },
+        {
+          "id": "ds-chat-special-offer",
+          "codeModule": "client/src/components/chat/ChatHeader.tsx",
+          "tokens": [
+            "color.background.surface",
+            "color.action.primary",
+            "color.action.on-primary",
+            "color.text.heading",
+            "color.border.default",
+            "space.8",
+            "space.12",
+            "radius.card",
+            "font.size.14",
+            "font.line-height.24"
+          ],
+          "verificationTargets": [
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-chat-followup-response",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/chat/ChatInterface.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-onboarding-flow",
+          "codeModule": "client/src/components/onboarding/OnboardingFlow.tsx",
+          "tokens": [
+            "color.background.card",
+            "color.background.canvas",
+            "color.border.control",
+            "color.text.heading",
+            "color.text.body",
+            "color.text.muted",
+            "color.action.primary",
+            "color.action.on-primary",
+            "space.16",
+            "space.24",
+            "space.32",
+            "radius.modal",
+            "radius.card",
+            "font.size.16",
+            "font.line-height.28"
+          ],
+          "verificationTargets": [
+            "desktop-onboarding",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/App.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-sidebar-nav-item",
+          "codeModule": "client/src/components/shared/DesignSystem.tsx",
+          "tokens": [
+            "color.background.active",
+            "color.text.body",
+            "color.text.muted",
+            "color.action.primary",
+            "space.8",
+            "space.16",
+            "radius.control",
+            "font.size.14",
+            "font.line-height.22"
+          ],
+          "verificationTargets": [
+            "comp-sidebar-full",
+            "mobile-sidebar",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ],
+          "consumers": [
+            "client/src/components/admin/AdminDashboard.tsx",
+            "client/src/components/chat/ChatSidebar.tsx",
+            "client/src/components/settings/SettingsModal.tsx",
+            "client/src/components/settings/SettingsPage.tsx",
+            "client/src/components/shared/MobileTopBar.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ]
+        },
+        {
+          "id": "ds-settings-nav-item",
+          "codeModule": "client/src/components/shared/DesignSystem.tsx",
+          "tokens": [
+            "color.background.active",
+            "color.text.body",
+            "color.text.muted",
+            "color.action.primary",
+            "space.8",
+            "space.16",
+            "radius.control",
+            "font.size.14"
+          ],
+          "verificationTargets": [
+            "desktop-settings",
+            "desktop-chat-settings",
+            "comp-side-category",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/admin/AdminDashboard.tsx",
+            "client/src/components/chat/ChatSidebar.tsx",
+            "client/src/components/settings/SettingsModal.tsx",
+            "client/src/components/settings/SettingsPage.tsx",
+            "client/src/components/shared/MobileTopBar.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-settings-landing",
+            "mobile-settings-profile",
+            "mobile-settings-personalization",
+            "mobile-settings-subscription",
+            "mobile-settings-persona-list",
+            "mobile-settings-persona-quiz-q1",
+            "mobile-settings-persona-quiz-q2",
+            "mobile-settings-persona-loading",
+            "mobile-settings-persona-result",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-settings-modal",
+          "codeModule": "client/src/components/settings/SettingsModal.tsx",
+          "tokens": [
+            "color.background.card",
+            "color.background.surface",
+            "color.border.default",
+            "color.text.heading",
+            "color.text.body",
+            "color.action.primary",
+            "space.16",
+            "space.24",
+            "radius.modal",
+            "font.size.16",
+            "font.size.20"
+          ],
+          "verificationTargets": [
+            "desktop-settings",
+            "desktop-chat-settings",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/App.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-data-table",
+          "codeModule": "client/src/components/interactive/DataTable.tsx",
+          "tokens": [
+            "color.background.card",
+            "color.background.surface",
+            "color.background.control-active",
+            "color.background.message-user",
+            "color.border.focus",
+            "color.primitive.dark-blue.100",
+            "color.primitive.gray.300",
+            "color.text.control",
+            "color.text.message-user",
+            "color.action.secondary",
+            "radius.table",
+            "space.12",
+            "space.16",
+            "font.size.13"
+          ],
+          "verificationTargets": [
+            "desktop-references",
+            "comp-table",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/interactive/BrokerReferenceTable.tsx",
+            "client/src/components/interactive/InteractiveElementRenderer.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-related-content",
+          "codeModule": "client/src/components/chat/RelatedContent.tsx",
+          "tokens": [
+            "color.text.body",
+            "color.text.muted",
+            "color.action.primary",
+            "color.border.default",
+            "space.16",
+            "font.size.14"
+          ],
+          "verificationTargets": [
+            "desktop-references",
+            "mobile-chat-references",
+            "comp-references-related",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/chat/AssistantMessage.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-chat-input",
+          "codeModule": "client/src/components/chat/ChatInput.tsx",
+          "tokens": [
+            "component.chat.input.background",
+            "component.chat.input.border-default",
+            "component.chat.input.border-focus",
+            "component.chat.input.text",
+            "component.chat.input.placeholder",
+            "component.chat.input.font-size",
+            "component.chat.input.radius",
+            "component.chat.input.shadow",
+            "component.chat.input.max-width",
+            "component.chat.input.min-height",
+            "color.status.danger",
+            "color.action.primary"
+          ],
+          "verificationTargets": [
+            "desktop-chat-active",
+            "mobile-chat-empty",
+            "desktop-chat-empty",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/components/chat/ChatInterface.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ]
+        },
+        {
+          "id": "ds-analysis-summary-card",
+          "codeModule": "client/src/components/analysis/AnalysisSummeryCard.tsx",
+          "tokens": [
+            "component.analysis-summary-card.background",
+            "component.analysis-summary-card.border",
+            "component.analysis-summary-card.radius",
+            "component.analysis-summary-card.height",
+            "component.analysis-summary-card.padding-inline",
+            "component.analysis-summary-card.padding-block",
+            "component.analysis-summary-card.primary-row-height",
+            "component.analysis-summary-card.secondary-row-height",
+            "component.analysis-summary-card.row-gap",
+            "component.analysis-summary-card.change-inline-start",
+            "component.analysis-summary-card.symbol.color",
+            "component.analysis-summary-card.symbol.font-size",
+            "component.analysis-summary-card.symbol.rendered-font-size",
+            "component.analysis-summary-card.symbol.rendered-font-weight",
+            "component.analysis-summary-card.symbol.line-height",
+            "component.analysis-summary-card.metadata.color",
+            "component.analysis-summary-card.metadata.font-size",
+            "component.analysis-summary-card.metadata.rendered-font-size",
+            "component.analysis-summary-card.metadata.rendered-font-weight",
+            "component.analysis-summary-card.metadata.line-height",
+            "component.analysis-summary-card.metadata.gap",
+            "component.analysis-summary-card.change.font-family",
+            "component.analysis-summary-card.change.font-size",
+            "component.analysis-summary-card.change.rendered-font-size",
+            "component.analysis-summary-card.change.positive",
+            "component.analysis-summary-card.change.negative",
+            "component.analysis-summary-card.change.neutral",
+            "component.analysis-summary-card.badge.height",
+            "component.analysis-summary-card.badge.radius",
+            "component.analysis-summary-card.badge.padding-inline",
+            "component.analysis-summary-card.badge.padding-inline-start",
+            "component.analysis-summary-card.badge.gap",
+            "component.analysis-summary-card.badge.font-size",
+            "component.analysis-summary-card.badge.rendered-font-size",
+            "component.analysis-summary-card.badge.rendered-font-weight",
+            "component.analysis-summary-card.badge.line-height",
+            "component.analysis-summary-card.badge.long.background",
+            "component.analysis-summary-card.badge.long.text",
+            "component.analysis-summary-card.badge.short.background",
+            "component.analysis-summary-card.badge.short.text",
+            "component.analysis-summary-card.badge.neutral.background",
+            "component.analysis-summary-card.badge.neutral.text"
+          ],
+          "verificationTargets": [
+            "comp-sidebar-full",
+            "comp-analysis-summary-card-long",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ],
+          "consumers": [
+            "client/src/components/chat/ChatSidebar.tsx",
+            "client/src/components/shared/VisualQAComponents.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-date-picker",
+            "desktop-filters",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-discover",
+            "desktop-calendar",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-discover",
+            "mobile-news",
+            "mobile-prompts",
+            "mobile-calendar",
+            "mobile-calendar-filters",
+            "mobile-calendar-filters-partial",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-analysis-copilot",
+            "desktop-analysis-copilot-chat",
+            "desktop-analysis-manual-symbol",
+            "desktop-analysis-manual-strategy",
+            "desktop-analysis-manual-indicators",
+            "desktop-analysis-manual-custom",
+            "desktop-analysis-loading",
+            "desktop-analysis-result",
+            "mobile-analysis-copilot",
+            "mobile-analysis-copilot-chat",
+            "mobile-analysis-loading",
+            "mobile-analysis-result",
+            "mobile-analysis-manual-symbol",
+            "mobile-analysis-manual-strategy",
+            "mobile-analysis-manual-indicators",
+            "mobile-analysis-manual-custom",
+            "desktop-calendar-expanded",
+            "mobile-calendar-expanded",
+            "desktop-chat-followup-response",
+            "desktop-news-list",
+            "desktop-news-grid",
+            "desktop-prompt-repository",
+            "mobile-date-picker-full",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list",
+            "mobile-discover-filtered",
+            "mobile-analysis-mode-select",
+            "mobile-analysis-manual-symbol-focus",
+            "mobile-analysis-manual-custom-loading",
+            "tablet-analysis-landscape-1",
+            "tablet-analysis-portrait-2",
+            "tablet-analysis-portrait-3",
+            "tablet-analysis-portrait-4",
+            "tablet-analysis-portrait-5"
+          ]
+        }
+      ],
+      "verifiedOwners": [
+        {
+          "id": "ds-settings-modal",
+          "codeModule": "client/src/components/settings/SettingsModal.tsx",
+          "tokens": [
+            "color.background.card",
+            "color.background.surface",
+            "color.border.default",
+            "color.text.heading",
+            "color.text.body",
+            "color.action.primary",
+            "space.16",
+            "space.24",
+            "radius.modal",
+            "font.size.16",
+            "font.size.20"
+          ],
+          "verificationTargets": [
+            "desktop-settings",
+            "desktop-chat-settings",
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "consumers": [
+            "client/src/App.tsx"
+          ],
+          "affectedScreens": [
+            "desktop-chat-empty",
+            "desktop-chat-active",
+            "desktop-chat-with-response",
+            "desktop-chat-settings",
+            "desktop-onboarding",
+            "desktop-references",
+            "desktop-survey-long-response",
+            "desktop-survey-cta",
+            "desktop-survey-multiple-choice",
+            "desktop-settings",
+            "mobile-chat-empty",
+            "mobile-chat-empty-alt",
+            "mobile-chat-user-message",
+            "mobile-chat-long-response",
+            "mobile-chat-references",
+            "mobile-chat-onboarding-in-chat",
+            "mobile-sidebar",
+            "mobile-onboarding-q1",
+            "mobile-onboarding-q2",
+            "mobile-onboarding-loading",
+            "mobile-onboarding-persona-result",
+            "desktop-chat-followup-response",
+            "mobile-chat-onboarding-options",
+            "mobile-sidebar-menu",
+            "mobile-chat-response-variant",
+            "mobile-onboarding-persona-list"
+          ],
+          "instances": [
+            {
+              "rect": {
+                "x": 257,
+                "y": 196.5,
+                "width": 926,
+                "height": 631
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderColor": "rgb(51, 69, 111)",
+                "borderRadius": "24px",
+                "fontFamily": "\"Yekan Bakh FaNum\", YekanBakh, system-ui, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlappingRegions": [
+                {
+                  "index": 2,
+                  "overlap": 0.9838126346982758
+                },
+                {
+                  "index": 3,
+                  "overlap": 1
+                },
+                {
+                  "index": 5,
+                  "overlap": 1
+                },
+                {
+                  "index": 6,
+                  "overlap": 1
+                },
+                {
+                  "index": 7,
+                  "overlap": 1
+                },
+                {
+                  "index": 8,
+                  "overlap": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ownershipEvidence": "client/e2e/figma-audit-results/runs/measure-2026-08-15T08-21-59-852Z-31094-c743ac53/design-ownership/desktop-settings.design-ownership.json",
+      "coverage": {
+        "statusContract": {
+          "matched": "checked with zero perceptual mismatch inside bounds",
+          "minor-drift": "checked with up to 3% perceptual mismatch inside bounds",
+          "drift": "checked with more than 3% perceptual mismatch inside bounds",
+          "unresolved": "bounds unavailable or outside the captured viewport"
+        },
+        "components": [
+          {
+            "kind": "component",
+            "id": "ds-settings-modal",
+            "instance": 1,
+            "rect": {
+              "x": 257,
+              "y": 196,
+              "width": 926,
+              "height": 632
+            },
+            "mismatchPixels": 11497,
+            "mismatchShare": 0.6562589188880644,
+            "ratio": 0.019645200535855865,
+            "status": "minor-drift"
+          }
+        ],
+        "elements": [
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 1,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 1217,
+              "y": 28,
+              "width": 123,
+              "height": 35
+            },
+            "mismatchPixels": 3556,
+            "mismatchShare": 0.20297962212455048,
+            "ratio": 0.8260162601626017,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "chat-empty-greeting",
+            "instance": 2,
+            "tag": "div",
+            "role": null,
+            "testId": "chat-empty-greeting",
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 306,
+              "y": 367,
+              "width": 760,
+              "height": 76
+            },
+            "mismatchPixels": 1005,
+            "mismatchShare": 0.057366288030138705,
+            "ratio": 0.017399584487534626,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "h1",
+            "instance": 3,
+            "tag": "h1",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 646,
+              "y": 367,
+              "width": 44,
+              "height": 31
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "img",
+            "instance": 4,
+            "tag": "img",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 697,
+              "y": 368,
+              "width": 29,
+              "height": 29
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "p",
+            "instance": 5,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 546,
+              "y": 406,
+              "width": 280,
+              "height": 37
+            },
+            "mismatchPixels": 285,
+            "mismatchShare": 0.01626805182944232,
+            "ratio": 0.02750965250965251,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "response-length-trigger",
+            "instance": 6,
+            "tag": "button",
+            "role": null,
+            "testId": "response-length-trigger",
+            "owner": null,
+            "reactStack": [
+              "ChatInput",
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 319,
+              "y": 491,
+              "width": 81,
+              "height": 34
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 7,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatInput",
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 1013,
+              "y": 488,
+              "width": 40,
+              "height": 40
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "add-attachment-tooltip",
+            "instance": 8,
+            "tag": "span",
+            "role": "tooltip",
+            "testId": "add-attachment-tooltip",
+            "owner": null,
+            "reactStack": [
+              "ChatInput",
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 962,
+              "y": 448,
+              "width": 142,
+              "height": 32
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "chat-empty-static-suggestions",
+            "instance": 9,
+            "tag": "div",
+            "role": null,
+            "testId": "chat-empty-static-suggestions",
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 366,
+              "y": 573,
+              "width": 640,
+              "height": 84
+            },
+            "mismatchPixels": 219,
+            "mismatchShare": 0.01250071351104515,
+            "ratio": 0.0040736607142857146,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 10,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 840,
+              "y": 573,
+              "width": 136,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 11,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 670,
+              "y": 573,
+              "width": 157,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 12,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 531,
+              "y": 573,
+              "width": 126,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 13,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 396,
+              "y": 573,
+              "width": 122,
+              "height": 35
+            },
+            "mismatchPixels": 46,
+            "mismatchShare": 0.0026257206461556023,
+            "ratio": 0.010772833723653397,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 14,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 783,
+              "y": 622,
+              "width": 113,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 15,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 650,
+              "y": 622,
+              "width": 120,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 16,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "ChatEmptyState",
+              "ChatInterface",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 476,
+              "y": 622,
+              "width": 161,
+              "height": 35
+            },
+            "mismatchPixels": 0,
+            "mismatchShare": 0,
+            "ratio": 0,
+            "status": "matched"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 17,
+            "tag": "div",
+            "role": null,
+            "testId": "settings-modal-panel",
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 257,
+              "y": 196,
+              "width": 926,
+              "height": 632
+            },
+            "mismatchPixels": 11497,
+            "mismatchShare": 0.6562589188880644,
+            "ratio": 0.019645200535855865,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 18,
+            "tag": "div",
+            "role": null,
+            "testId": "settings-modal-content",
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 257,
+              "y": 196,
+              "width": 686,
+              "height": 632
+            },
+            "mismatchPixels": 9005,
+            "mismatchShare": 0.5140133569267652,
+            "ratio": 0.02077028822378861,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 19,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "ProfileTab",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 289,
+              "y": 228,
+              "width": 622,
+              "height": 26
+            },
+            "mismatchPixels": 431,
+            "mismatchShare": 0.024601860836805753,
+            "ratio": 0.026651001731387583,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 20,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "Button",
+              "ProfileTab",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 289,
+              "y": 561,
+              "width": 128,
+              "height": 41
+            },
+            "mismatchPixels": 743,
+            "mismatchShare": 0.042411096523774186,
+            "ratio": 0.14157774390243902,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 21,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "Button",
+              "ProfileTab",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 289,
+              "y": 664,
+              "width": 117,
+              "height": 41
+            },
+            "mismatchPixels": 832,
+            "mismatchShare": 0.04749129516524916,
+            "ratio": 0.17344173441734417,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 22,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "Button",
+              "ProfileTab",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 289,
+              "y": 767,
+              "width": 64,
+              "height": 41
+            },
+            "mismatchPixels": 542,
+            "mismatchShare": 0.030937838917746447,
+            "ratio": 0.20655487804878048,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 23,
+            "tag": "div",
+            "role": null,
+            "testId": "settings-modal-sidebar",
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 943,
+              "y": 196,
+              "width": 240,
+              "height": 632
+            },
+            "mismatchPixels": 2492,
+            "mismatchShare": 0.14224556196129917,
+            "ratio": 0.016429324894514766,
+            "status": "minor-drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 24,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 1147,
+              "y": 232,
+              "width": 20,
+              "height": 20
+            },
+            "mismatchPixels": 56,
+            "mismatchShare": 0.0031965294822763855,
+            "ratio": 0.14,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 25,
+            "tag": "h2",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 1067,
+              "y": 228,
+              "width": 64,
+              "height": 28
+            },
+            "mismatchPixels": 394,
+            "mismatchShare": 0.022489868143158856,
+            "ratio": 0.21986607142857142,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 26,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "DesignNavItem",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 960,
+              "y": 279,
+              "width": 207,
+              "height": 50
+            },
+            "mismatchPixels": 472,
+            "mismatchShare": 0.026942177064900964,
+            "ratio": 0.04560386473429952,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 27,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "DesignNavItem",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 960,
+              "y": 336,
+              "width": 207,
+              "height": 45
+            },
+            "mismatchPixels": 647,
+            "mismatchShare": 0.03693133169701467,
+            "ratio": 0.06945786366076222,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "ds-settings-modal",
+            "instance": 28,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": "ds-settings-modal",
+            "reactStack": [
+              "DesignNavItem",
+              "SettingsModal",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 960,
+              "y": 388,
+              "width": 207,
+              "height": 45
+            },
+            "mismatchPixels": 430,
+            "mismatchShare": 0.024544779953193676,
+            "ratio": 0.04616210413311862,
+            "status": "drift"
+          }
+        ],
+        "checkedCount": 29,
+        "unresolvedCount": 0
+      },
+      "attribution": {
+        "attributedRegionIndexes": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "attributedMismatchShare": 0.47770991494948345,
+        "unresolvedRegionIndexes": [
+          1,
+          4
+        ]
+      },
+      "pageOwners": [],
+      "dominantSourceCandidates": [],
+      "recommendedVerificationTargets": [
+        "desktop-chat-active",
+        "desktop-chat-empty",
+        "desktop-chat-followup-response",
+        "desktop-chat-settings",
+        "desktop-chat-with-response",
+        "desktop-onboarding",
+        "desktop-references",
+        "desktop-settings",
+        "desktop-survey-cta",
+        "desktop-survey-long-response",
+        "desktop-survey-multiple-choice",
+        "mobile-chat-empty",
+        "mobile-chat-empty-alt",
+        "mobile-chat-long-response",
+        "mobile-chat-onboarding-in-chat",
+        "mobile-chat-onboarding-options",
+        "mobile-chat-references",
+        "mobile-chat-response-variant",
+        "mobile-chat-user-message",
+        "mobile-onboarding-loading",
+        "mobile-onboarding-persona-list",
+        "mobile-onboarding-persona-result",
+        "mobile-onboarding-q1",
+        "mobile-onboarding-q2",
+        "mobile-sidebar",
+        "mobile-sidebar-menu"
+      ],
+      "experiment": {
+        "status": "needs-attribution",
+        "hypothesis": "shared-component-repetition",
+        "confidence": 0.7,
+        "expectedLeverage": 0.23762771847708203,
+        "predictedRegions": [
+          1
+        ],
+        "mutationScope": [],
+        "inspectionScope": [],
+        "witnessTargets": [
+          "desktop-settings"
+        ],
+        "controlTargets": [],
+        "checks": [
+          "The predicted region must improve in the fresh diagnosis.",
+          "The full-state ratio must not worsen.",
+          "Every witness target must move consistently with the causal claim."
+        ],
+        "decision": "Resolve the dominant region owner before mutation; graph membership or ownership of a secondary region is insufficient."
+      }
+    }
+  ]
+}

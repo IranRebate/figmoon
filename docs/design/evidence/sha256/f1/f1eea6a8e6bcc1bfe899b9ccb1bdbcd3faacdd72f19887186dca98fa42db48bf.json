@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "figma-reference-acquisition",
+  "runId": "reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d",
+  "target": {
+    "registryId": "comp-message-actions",
+    "manifestKey": "comp-message-actions",
+    "logicalReferencePath": "docs/design/figma/pages/actions.png"
+  },
+  "acquisition": {
+    "adapter": "figmoon-reference-broker",
+    "adapterVersion": "1.0.0",
+    "protocol": "figmoon-reference-acquisition/v1",
+    "plugin": {
+      "id": "figmoon",
+      "version": "1.0.0",
+      "build": "1.0.0+gethopp-v0.0.18.dc2ea5a.sha256.06c7cf551a3a26a0f5547c39aeeb61128104be195bb175e738a6ee1ffefbbb5a"
+    },
+    "operations": [
+      "acquire_reference"
+    ],
+    "listenHost": "127.0.0.1"
+  },
+  "source": {
+    "file": {
+      "key": "nMBsTjupTY2UtHK8ZfDi2z",
+      "name": "Example Design File (Copy)"
+    },
+    "page": {
+      "id": "0:1",
+      "name": "Final "
+    },
+    "node": {
+      "id": "1:1423",
+      "name": "actions",
+      "type": "COMPONENT",
+      "bounds": {
+        "x": 374.400390625,
+        "y": 28682.0546875,
+        "width": 84,
+        "height": 24
+      },
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/node.json",
+      "sha256": "7aca157a17876d09c4c498898c20caaf05bd95d84ec066b923cd71a5630e3fc4"
+    },
+    "variables": {
+      "collectionCount": 1,
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/variables.json",
+      "sha256": "7e9ff390c0e01766de31f28b71463095b9d655cde1766dedccb13f0d13dff6f3"
+    },
+    "export": {
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/reference.png",
+      "sha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda",
+      "bounds": {
+        "width": 84,
+        "height": 24
+      },
+      "spec": {
+        "format": "PNG",
+        "scale": 1,
+        "clip": false
+      }
+    },
+    "stability": {
+      "beforeSha256": "da20c4fe3ed572db060cf9b5f5f23df2a9268841724f6066a8e771f2758ba067",
+      "afterSha256": "da20c4fe3ed572db060cf9b5f5f23df2a9268841724f6066a8e771f2758ba067",
+      "ancestorPage": {
+        "id": "0:1",
+        "name": "Final "
+      },
+      "changeTracking": {
+        "supported": true,
+        "beforeReadStart": 0,
+        "beforeReadEnd": 0,
+        "afterReadStart": 0,
+        "afterReadEnd": 0
+      }
+    }
+  },
+  "canonicalBefore": {
+    "path": "docs/design/figma/pages/actions.png",
+    "sha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda",
+    "manifestSha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda",
+    "bounds": {
+      "width": 84,
+      "height": 24
+    }
+  },
+  "comparison": {
+    "dimensionsMatch": true,
+    "exactMatch": true,
+    "mismatchedPixels": 0,
+    "totalPixels": 2016,
+    "diffPixelRatio": 0,
+    "diffPath": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/candidate-vs-canonical.png"
+  },
+  "validation": {
+    "status": "ready",
+    "remapCandidate": false,
+    "nodeNameChangeCandidate": true,
+    "boundsChanged": false,
+    "fileBindingCandidate": false,
+    "sourceRemapCandidate": false,
+    "reviewRequired": [],
+    "blockingIssues": []
+  },
+  "acquiredAt": "2026-08-08T12:57:35.710Z",
+  "result": "staged"
+}

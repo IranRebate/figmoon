@@ -1,0 +1,575 @@
+{
+  "bounds": {
+    "height": 272,
+    "width": 478,
+    "x": 20422.103515625,
+    "y": 25993
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 64,
+        "width": 438,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 217,
+            "x": 156.17898559570312,
+            "y": 19.5
+          },
+          "characters": "وارن بافت، استراتژیست بلندمدت",
+          "id": "1:1443",
+          "name": "وارن بافت، استراتژیست بلندمدت",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#1f3262",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 48,
+            "width": 44.821014404296875,
+            "x": 385.1789855957031,
+            "y": 8
+          },
+          "id": "1:1444",
+          "name": "Gemini_Generated_Image_utdtugutdtugutdt 2",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#d0e6f9",
+                "opacity": 1,
+                "type": "SOLID"
+              },
+              {
+                "imageHash": "613d68a844f3a24a09f484ba3f0990e01822be34",
+                "imageTransform": [
+                  [
+                    0.26091763377189636,
+                    0,
+                    0.4586499333381653
+                  ],
+                  [
+                    0,
+                    0.2794235646724701,
+                    0.20478275418281555
+                  ]
+                ],
+                "opacity": 1,
+                "scaleMode": "CROP",
+                "type": "IMAGE"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1442",
+      "name": "Property 1=Default",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 12,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": "#4868b2",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "opacity": 0.009999999776482582,
+            "radius": 2,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": "#000000",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "opacity": 0.019999999552965164,
+            "radius": 12,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          }
+        ],
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 8,
+          "left": 8,
+          "right": 8,
+          "top": 8
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 64,
+        "width": 438,
+        "x": 20,
+        "y": 104
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 217,
+            "x": 156.17898559570312,
+            "y": 19.5
+          },
+          "characters": "وارن بافت، استراتژیست بلندمدت",
+          "id": "1:1446",
+          "name": "وارن بافت، استراتژیست بلندمدت",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#1f3262",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 48,
+            "width": 44.821014404296875,
+            "x": 385.1789855957031,
+            "y": 8
+          },
+          "id": "1:1447",
+          "name": "Gemini_Generated_Image_utdtugutdtugutdt 2",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#d0e6f9",
+                "opacity": 1,
+                "type": "SOLID"
+              },
+              {
+                "imageHash": "613d68a844f3a24a09f484ba3f0990e01822be34",
+                "imageTransform": [
+                  [
+                    0.26091763377189636,
+                    0,
+                    0.4586499333381653
+                  ],
+                  [
+                    0,
+                    0.2794235646724701,
+                    0.20478275418281555
+                  ]
+                ],
+                "opacity": 1,
+                "scaleMode": "CROP",
+                "type": "IMAGE"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1445",
+      "name": "Property 1=Focus",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 12,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": "#4868b2",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "opacity": 0.009999999776482582,
+            "radius": 2,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": "#000000",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "opacity": 0.019999999552965164,
+            "radius": 12,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          }
+        ],
+        "fills": [
+          {
+            "color": "#f6f8fe",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 8,
+          "left": 8,
+          "right": 8,
+          "top": 8
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 64,
+        "width": 438,
+        "x": 20,
+        "y": 188
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 217,
+            "x": 156.17898559570312,
+            "y": 19.5
+          },
+          "characters": "وارن بافت، استراتژیست بلندمدت",
+          "id": "1:1449",
+          "name": "وارن بافت، استراتژیست بلندمدت",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 48,
+            "width": 44.821014404296875,
+            "x": 385.1789855957031,
+            "y": 8
+          },
+          "id": "1:1450",
+          "name": "Gemini_Generated_Image_utdtugutdtugutdt 2",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#d0e6f9",
+                "opacity": 1,
+                "type": "SOLID"
+              },
+              {
+                "imageHash": "613d68a844f3a24a09f484ba3f0990e01822be34",
+                "imageTransform": [
+                  [
+                    0.26091763377189636,
+                    0,
+                    0.4586499333381653
+                  ],
+                  [
+                    0,
+                    0.2794235646724701,
+                    0.20478275418281555
+                  ]
+                ],
+                "opacity": 1,
+                "scaleMode": "CROP",
+                "type": "IMAGE"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1448",
+      "name": "Property 1=Active",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 12,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": "#4868b2",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "opacity": 0.009999999776482582,
+            "radius": 2,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": "#000000",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "opacity": 0.019999999552965164,
+            "radius": 12,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          }
+        ],
+        "fills": [
+          {
+            "color": "#f6f8fe",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 8,
+          "left": 8,
+          "right": 8,
+          "top": 8
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#3e74fe",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1441",
+  "name": "Persona Cards",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

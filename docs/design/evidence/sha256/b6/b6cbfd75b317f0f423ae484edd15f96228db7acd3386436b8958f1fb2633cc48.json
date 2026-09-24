@@ -1,0 +1,242 @@
+{
+  "bounds": {
+    "height": 140,
+    "width": 118,
+    "x": -837,
+    "y": 22099
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 40,
+        "width": 78,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 22,
+            "width": 46,
+            "x": 16,
+            "y": 9
+          },
+          "characters": "بازگشت",
+          "id": "1:1968",
+          "name": "بازگشت",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#4c5e8c",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 14,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        }
+      ],
+      "id": "1:1967",
+      "name": "Property 1=Default",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 8,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 8,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 16,
+          "right": 16,
+          "top": 0
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 40,
+        "width": 78,
+        "x": 20,
+        "y": 80
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 22,
+            "width": 46,
+            "x": 16,
+            "y": 9
+          },
+          "characters": "بازگشت",
+          "id": "1:1970",
+          "name": "بازگشت",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#1f3262",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 14,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        }
+      ],
+      "id": "1:1969",
+      "name": "Property 1=Variant2",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 8,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 8,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 16,
+          "right": 16,
+          "top": 0
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#3e74fe",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1966",
+  "name": "Secondary Button",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

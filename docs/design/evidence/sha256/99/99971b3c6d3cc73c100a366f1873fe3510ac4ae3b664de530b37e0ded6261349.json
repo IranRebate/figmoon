@@ -1,0 +1,111 @@
+{
+  "acquiredAt": "2026-08-08T12:57:35.710Z",
+  "approval": {
+    "approvedBy": "Codex",
+    "leaseOwner": "Codex",
+    "reason": "Canonical Final-page refresh from verified Figmoon batch."
+  },
+  "artifacts": {
+    "acquisitionEvidence": {
+      "path": "docs/design/evidence/sha256/f1/f1eea6a8e6bcc1bfe899b9ccb1bdbcd3faacdd72f19887186dca98fa42db48bf.json",
+      "sha256": "f1eea6a8e6bcc1bfe899b9ccb1bdbcd3faacdd72f19887186dca98fa42db48bf"
+    },
+    "comparisonDiff": {
+      "path": "docs/design/evidence/sha256/06/061e4b3bf9d079ddbedf25d88c5664578b1ae3043097df383adc68e1dc5468fc.png",
+      "sha256": "061e4b3bf9d079ddbedf25d88c5664578b1ae3043097df383adc68e1dc5468fc"
+    },
+    "node": {
+      "path": "docs/design/evidence/sha256/7a/7aca157a17876d09c4c498898c20caaf05bd95d84ec066b923cd71a5630e3fc4.json",
+      "sha256": "7aca157a17876d09c4c498898c20caaf05bd95d84ec066b923cd71a5630e3fc4"
+    },
+    "reference": {
+      "path": "docs/design/figma/artifacts/sha256/df/dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda.png",
+      "sha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda"
+    },
+    "variables": {
+      "path": "docs/design/evidence/sha256/7e/7e9ff390c0e01766de31f28b71463095b9d655cde1766dedccb13f0d13dff6f3.json",
+      "sha256": "7e9ff390c0e01766de31f28b71463095b9d655cde1766dedccb13f0d13dff6f3"
+    }
+  },
+  "canonicalBefore": {
+    "bounds": {
+      "height": 24,
+      "width": 84
+    },
+    "manifestSha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda",
+    "path": "docs/design/figma/pages/actions.png",
+    "sha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda"
+  },
+  "invalidation": {
+    "referenceContractChanged": true,
+    "registryIds": [],
+    "sourceContractChanged": false
+  },
+  "kind": "figma-reference-promotion",
+  "promotedAt": "2026-08-08T13:07:01.755Z",
+  "reviewSha256": "eccc97b194d7f8390df68de81af07d6a516137b51567d32e0dba2c1d676614e7",
+  "runId": "reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d",
+  "schemaVersion": 1,
+  "source": {
+    "export": {
+      "bounds": {
+        "height": 24,
+        "width": 84
+      },
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/reference.png",
+      "sha256": "dfe5c4c2c5e9301bf05e149f3329c3776c43bfa7698836a56ef434197fae4dda",
+      "spec": {
+        "clip": false,
+        "format": "PNG",
+        "scale": 1
+      }
+    },
+    "file": {
+      "key": "nMBsTjupTY2UtHK8ZfDi2z",
+      "name": "Example Design File (Copy)"
+    },
+    "node": {
+      "bounds": {
+        "height": 24,
+        "width": 84,
+        "x": 374.400390625,
+        "y": 28682.0546875
+      },
+      "id": "1:1423",
+      "name": "actions",
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/node.json",
+      "sha256": "7aca157a17876d09c4c498898c20caaf05bd95d84ec066b923cd71a5630e3fc4",
+      "type": "COMPONENT"
+    },
+    "page": {
+      "id": "0:1",
+      "name": "Final "
+    },
+    "stability": {
+      "afterSha256": "da20c4fe3ed572db060cf9b5f5f23df2a9268841724f6066a8e771f2758ba067",
+      "ancestorPage": {
+        "id": "0:1",
+        "name": "Final "
+      },
+      "beforeSha256": "da20c4fe3ed572db060cf9b5f5f23df2a9268841724f6066a8e771f2758ba067",
+      "changeTracking": {
+        "afterReadEnd": 0,
+        "afterReadStart": 0,
+        "beforeReadEnd": 0,
+        "beforeReadStart": 0,
+        "supported": true
+      }
+    },
+    "variables": {
+      "collectionCount": 1,
+      "path": "client/e2e/figma-reference-runs/reference-comp-message-actions-2026-08-08T12-57-35-658Z-808a6c1d/variables.json",
+      "sha256": "7e9ff390c0e01766de31f28b71463095b9d655cde1766dedccb13f0d13dff6f3"
+    }
+  },
+  "target": {
+    "manifestKey": "comp-message-actions",
+    "registryIds": [
+      "comp-message-actions"
+    ]
+  }
+}

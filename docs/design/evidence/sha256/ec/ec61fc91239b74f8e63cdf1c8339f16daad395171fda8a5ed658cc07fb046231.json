@@ -1,0 +1,52 @@
+{
+  "approval": {
+    "approvedBy": "emad",
+    "leaseOwner": "opencode",
+    "reason": "Accept the Figma-aligned Profile tab with real account deletion row at 1.19% drift."
+  },
+  "approvedAt": "2026-08-15T08:42:32.275Z",
+  "artifacts": {
+    "capture": {
+      "path": "docs/design/evidence/sha256/2f/2fcda9f9cae4d2dcab5df4b3b4d11e27849bb7d39418ad0275ff15f024ca07d1.png",
+      "sha256": "2fcda9f9cae4d2dcab5df4b3b4d11e27849bb7d39418ad0275ff15f024ca07d1"
+    },
+    "designDiagnosis": {
+      "path": "docs/design/evidence/sha256/d2/d2ac00ab1e3f9abb9818cb79dde7cbf8e785fd8cbe8a569b9e30aab719465418.json",
+      "sha256": "d2ac00ab1e3f9abb9818cb79dde7cbf8e785fd8cbe8a569b9e30aab719465418"
+    },
+    "designDiagnosisHtml": {
+      "path": "docs/design/evidence/sha256/4b/4b2daae79236bb8768fb3e9a988016ed2bfdbcf864078a8a0e4e5a1656eeec7c.html",
+      "sha256": "4b2daae79236bb8768fb3e9a988016ed2bfdbcf864078a8a0e4e5a1656eeec7c"
+    },
+    "diffReport": {
+      "path": "docs/design/evidence/sha256/11/11d547e65ce3caf5708fdd8eb71f5cfad8fc8a217a1e3680612d2fd61776280b.html",
+      "sha256": "11d547e65ce3caf5708fdd8eb71f5cfad8fc8a217a1e3680612d2fd61776280b"
+    },
+    "evidence": {
+      "path": "docs/design/evidence/sha256/6f/6f9ba77ea37f654857f27826012e3548023f9d1f704283f37dae72564934896e.json",
+      "sha256": "6f9ba77ea37f654857f27826012e3548023f9d1f704283f37dae72564934896e"
+    },
+    "strictAudit": {
+      "path": "docs/design/evidence/sha256/7e/7e60030b9ae7c76ff463e051ce62cb0bf8cbfd96e1e6a902748c7946dfe7a916.json",
+      "sha256": "7e60030b9ae7c76ff463e051ce62cb0bf8cbfd96e1e6a902748c7946dfe7a916"
+    }
+  },
+  "contract": {
+    "afterSha256": "2fcda9f9cae4d2dcab5df4b3b4d11e27849bb7d39418ad0275ff15f024ca07d1",
+    "beforeSha256": "e1e495aebe526c0996b1924358b55c3430a654e65206e12826d12a0fee5e5e21",
+    "captureSha256": "2fcda9f9cae4d2dcab5df4b3b4d11e27849bb7d39418ad0275ff15f024ca07d1",
+    "referenceAcquisitionReceiptSha256": "bb5456d3908c4aab5b139126d57224b453a35a562cf9632f28f5d8ee5a84f873",
+    "referenceSha256": "5e34af8a9916be11f8e0fba28be8eb2f1f0a279af8a6a8ded0f73d125930b80e",
+    "rendererFingerprint": "b32e910ca3c87fe5be352dae7ae219afde07cd9b06d22512da1c7288296d720d",
+    "targetSourceFingerprint": "0099bad9cd7759da2ed4a96ce4b24b432c5957b4602935cc9efaf9eefa5bc542"
+  },
+  "kind": "figma-baseline-promotion",
+  "reviewSha256": "c96b3c15d8718328412b6bf2ffcc8a72294befd7850473de4a19860705bce7a7",
+  "runId": "measure-2026-08-15T08-41-48-613Z-74715-d40cd903",
+  "schemaVersion": 1,
+  "target": {
+    "id": "desktop-settings",
+    "manifestKey": "desktop-settings",
+    "snapshotPath": "client/e2e/visual-snapshots/desktop/visual/pages.spec.ts/desktop-settings.png"
+  }
+}

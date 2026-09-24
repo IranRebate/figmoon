@@ -1,0 +1,203 @@
+{
+  "bounds": {
+    "height": 50,
+    "width": 109,
+    "x": 32,
+    "y": 28.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 22,
+        "width": 61,
+        "x": 10,
+        "y": 14
+      },
+      "characters": "نمونه متن",
+      "id": "1:1181",
+      "name": "نمونه متن",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "fills": [
+          {
+            "color": "#1f3262",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "fontFamily": "Yekan Bakh FaNum",
+        "fontSize": 14,
+        "fontStyle": "Regular",
+        "fontWeight": 400,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "opacity": 1,
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "textAlignHorizontal": "RIGHT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textDecoration": "NONE",
+        "visible": true
+      },
+      "type": "TEXT"
+    },
+    {
+      "bounds": {
+        "height": 16,
+        "width": 16,
+        "x": 83,
+        "y": 17
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          },
+          "id": "1:1183",
+          "name": "bg",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 2,
+            "fills": [
+              {
+                "color": "#ffffff",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1182",
+      "name": "Checkbox-Input",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "AUTO",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 0,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 2,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "FRAME"
+    }
+  ],
+  "id": "1:1180",
+  "name": "Property 1=Default",
+  "styles": {
+    "autoLayout": {
+      "counterAxisAlign": "CENTER",
+      "counterAxisSizing": "FIXED",
+      "counterAxisSpacing": 0,
+      "direction": "HORIZONTAL",
+      "gap": 12,
+      "primaryAxisAlign": "MAX",
+      "primaryAxisSizing": "AUTO",
+      "wrap": "NO_WRAP"
+    },
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 12,
+    "effects": [
+      {
+        "blendMode": "NORMAL",
+        "color": "#4868b2",
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "opacity": 0.009999999776482582,
+        "radius": 2,
+        "spread": 0,
+        "type": "DROP_SHADOW"
+      },
+      {
+        "blendMode": "NORMAL",
+        "color": "#000000",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "opacity": 0.019999999552965164,
+        "radius": 12,
+        "spread": 0,
+        "type": "DROP_SHADOW"
+      }
+    ],
+    "fills": [
+      {
+        "color": "#ffffff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "opacity": 1,
+    "padding": {
+      "bottom": 10,
+      "left": 10,
+      "right": 10,
+      "top": 10
+    },
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#e9ebf1",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT"
+}

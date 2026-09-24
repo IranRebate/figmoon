@@ -1,0 +1,618 @@
+{
+  "bounds": {
+    "height": 140,
+    "width": 60,
+    "x": 493.400390625,
+    "y": 28685.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 20,
+        "width": 20,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 1.0416666269302368,
+                        "y": 6.041666507720947
+                      },
+                      "id": "I1:1418;55:14776",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#a1abc3",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 6.041666507720947,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1418;55:14777",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#a1abc3",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1418;55:14778",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#a1abc3",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1418;55:14775",
+                  "name": "copy",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1418;55:14774",
+              "name": "vuesax/outline/copy",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1418",
+          "name": "vuesax/outline/copy",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1417",
+      "name": "Property 1=Default",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 20,
+        "width": 20,
+        "x": 20,
+        "y": 60
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 1.0416666269302368,
+                        "y": 6.041666507720947
+                      },
+                      "id": "I1:1420;55:14776",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 6.041666507720947,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1420;55:14777",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1420;55:14778",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1420;55:14775",
+                  "name": "copy",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1420;55:14774",
+              "name": "vuesax/outline/copy",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1420",
+          "name": "vuesax/outline/copy",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1419",
+      "name": "Property 1=Focus",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 20,
+        "width": 20,
+        "x": 20,
+        "y": 100
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 6.041666507720947,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1422;55:14782",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 12.916666984558105,
+                        "width": 12.916666984558105,
+                        "x": 1.0416666269302368,
+                        "y": 6.041666507720947
+                      },
+                      "id": "I1:1422;55:14783",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 4.489584445953369,
+                        "width": 6.112499713897705,
+                        "x": 4.443749904632568,
+                        "y": 10.260416984558105
+                      },
+                      "id": "I1:1422;55:14784",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#7684a7",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1422;55:14785",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1422;55:14781",
+                  "name": "copy-success",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1422;55:14780",
+              "name": "vuesax/outline/copy-success",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1422",
+          "name": "vuesax/outline/copy-success",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1421",
+      "name": "Property 1=Active",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1416",
+  "name": "Copy Action",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

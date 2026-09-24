@@ -1,0 +1,2215 @@
+{
+  "bounds": {
+    "height": 280,
+    "width": 724,
+    "x": -95.55419921875,
+    "y": 33337.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 40,
+        "width": 724,
+        "x": 0,
+        "y": 0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 40,
+            "width": 684,
+            "x": 20,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 40,
+                "width": 163.5,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 40,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "ویژگی",
+                  "id": "I64:7355;0:32;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#152242",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "SemiBold",
+                    "fontWeight": 600,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "NONE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7355;0:32",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 40,
+                "width": 163.5,
+                "x": 173.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 40,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "رگوله ها",
+                  "id": "I64:7355;0:33;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#152242",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "SemiBold",
+                    "fontWeight": 600,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "NONE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7355;0:33",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 40,
+                "width": 163.5,
+                "x": 347,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 40,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "ریبیت",
+                  "id": "I64:7355;0:34;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#152242",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "SemiBold",
+                    "fontWeight": 600,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "NONE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7355;0:34",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 40,
+                "width": 163.5,
+                "x": 520.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 40,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "نام بروکر",
+                  "id": "I64:7355;0:35;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#152242",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "SemiBold",
+                    "fontWeight": 600,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "NONE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7355;0:35",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            }
+          ],
+          "id": "64:7355",
+          "name": "Stable Table/ Grid",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 10,
+              "primaryAxisAlign": "MAX",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "STRETCH",
+              "vertical": "STRETCH"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "64:7353",
+      "name": "Stable Table/ Row",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 20,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "color": "#ecf1ff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 20,
+          "right": 20,
+          "top": 0
+        },
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "FRAME"
+    },
+    {
+      "bounds": {
+        "height": 60,
+        "width": 724,
+        "x": 0,
+        "y": 40
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 60,
+            "width": 684,
+            "x": 20,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "استفاده راحت، پشتیبانی خوب",
+                  "id": "I64:7358;0:32;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7358;0:32",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 173.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "IMTJ",
+                  "id": "I64:7358;0:33;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7358;0:33",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 347,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "25 درصد",
+                  "id": "I64:7358;0:34;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7358;0:34",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 520.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "آمارکتس",
+                  "id": "I64:7358;0:35;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7358;0:35",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            }
+          ],
+          "id": "64:7358",
+          "name": "Stable Table/ Grid",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 10,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "64:7356",
+      "name": "Stable Table/ Row",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 20,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 20,
+          "right": 20,
+          "top": 0
+        },
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "FRAME"
+    },
+    {
+      "bounds": {
+        "height": 60,
+        "width": 724,
+        "x": 0,
+        "y": 100
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 60,
+            "width": 684,
+            "x": 20,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "استفاده روزا",
+                  "id": "I64:7361;0:32;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#2c52b4",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7361;0:32",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 173.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "Admin",
+                  "id": "I64:7361;0:33;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#2c52b4",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7361;0:33",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 347,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "Story Inc",
+                  "id": "I64:7361;0:34;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#2c52b4",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7361;0:34",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 520.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "Hong Kong",
+                  "id": "I64:7361;0:35;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#2c52b4",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7361;0:35",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            }
+          ],
+          "id": "64:7361",
+          "name": "Stable Table/ Grid",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 10,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "64:7359",
+      "name": "Stable Table/ Row",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 20,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "color": "#f6f8fe",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 20,
+          "right": 20,
+          "top": 0
+        },
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "FRAME"
+    },
+    {
+      "bounds": {
+        "height": 60,
+        "width": 724,
+        "x": 0,
+        "y": 160
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 60,
+            "width": 684,
+            "x": 20,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "استفاده راحت",
+                  "id": "I64:7364;0:32;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7364;0:32",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 173.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "IMTJ",
+                  "id": "I64:7364;0:33;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7364;0:33",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 347,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "25 درصد",
+                  "id": "I64:7364;0:34;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7364;0:34",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 520.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "آمارکتس",
+                  "id": "I64:7364;0:35;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7364;0:35",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            }
+          ],
+          "id": "64:7364",
+          "name": "Stable Table/ Grid",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 10,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "64:7362",
+      "name": "Stable Table/ Row",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 20,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 20,
+          "right": 20,
+          "top": 0
+        },
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "FRAME"
+    },
+    {
+      "bounds": {
+        "height": 60,
+        "width": 724,
+        "x": 0,
+        "y": 220
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 60,
+            "width": 684,
+            "x": 20,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "پشتیبانی خوب",
+                  "id": "I64:7367;0:32;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7367;0:32",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 173.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "IMTJ",
+                  "id": "I64:7367;0:33;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7367;0:33",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 347,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "25 درصد",
+                  "id": "I64:7367;0:34;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7367;0:34",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            },
+            {
+              "bounds": {
+                "height": 60,
+                "width": 163.5,
+                "x": 520.5,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 60,
+                    "width": 163.5,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "characters": "آمارکتس",
+                  "id": "I64:7367;0:35;0:12",
+                  "name": "Value",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    },
+                    "fills": [
+                      {
+                        "color": "#1f3262",
+                        "opacity": 1,
+                        "type": "SOLID"
+                      }
+                    ],
+                    "fontFamily": "Yekan Bakh FaNum",
+                    "fontSize": 13,
+                    "fontStyle": "Regular",
+                    "fontWeight": 400,
+                    "letterSpacing": {
+                      "unit": "PIXELS",
+                      "value": 0
+                    },
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19
+                    },
+                    "opacity": 1,
+                    "strokeAlign": "OUTSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "textAlignHorizontal": "RIGHT",
+                    "textAlignVertical": "CENTER",
+                    "textAutoResize": "TRUNCATE",
+                    "textDecoration": "NONE",
+                    "visible": true
+                  },
+                  "type": "TEXT"
+                }
+              ],
+              "id": "I64:7367;0:35",
+              "name": "Stable Table/ Cell",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "CENTER",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "HORIZONTAL",
+                  "gap": 10,
+                  "primaryAxisAlign": "MIN",
+                  "primaryAxisSizing": "FIXED",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "STRETCH",
+                  "vertical": "STRETCH"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "INSTANCE"
+            }
+          ],
+          "id": "64:7367",
+          "name": "Stable Table/ Grid",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "CENTER",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "HORIZONTAL",
+              "gap": 10,
+              "primaryAxisAlign": "CENTER",
+              "primaryAxisSizing": "FIXED",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "64:7365",
+      "name": "Stable Table/ Row",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 20,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "color": "#ffffff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 0,
+          "left": 20,
+          "right": 20,
+          "top": 0
+        },
+        "strokeAlign": "OUTSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#e9ebf1",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "FRAME"
+    }
+  ],
+  "id": "64:7415",
+  "name": "Table",
+  "styles": {
+    "autoLayout": {
+      "counterAxisAlign": "MIN",
+      "counterAxisSizing": "FIXED",
+      "counterAxisSpacing": 0,
+      "direction": "VERTICAL",
+      "gap": 0,
+      "primaryAxisAlign": "MIN",
+      "primaryAxisSizing": "AUTO",
+      "wrap": "NO_WRAP"
+    },
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 10,
+    "cornerSmoothing": 1,
+    "fills": [
+      {
+        "color": "#ffffff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#e9ebf1",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT"
+}

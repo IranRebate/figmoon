@@ -1,0 +1,1857 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-08-08T13:07:14.007Z",
+  "run": "client/e2e/figma-audit-results/runs/measure-2026-08-08T13-06-56-096Z-95123-724b84b0",
+  "policy": {
+    "inference": "Ranked diagnostic evidence, not permission to mutate code, Figma, fixtures, references, or baselines.",
+    "mutation": "Prefer the highest shared owner that explains compatible regions; verify its complete impact matrix."
+  },
+  "shared": {
+    "components": [],
+    "tokens": []
+  },
+  "visualClusters": [],
+  "targets": [
+    {
+      "id": "desktop-news-list",
+      "title": "Desktop – News List",
+      "route": "/news?view=list",
+      "ratio": 0.13271891276041667,
+      "spatialPyramid": [
+        {
+          "scale": 2,
+          "shares": [
+            0.07498134919418299,
+            0.34963873644622945,
+            0.06958539003178302,
+            0.5057945243278045
+          ]
+        },
+        {
+          "scale": 4,
+          "shares": [
+            0.00967797978559238,
+            0.027828024240937752,
+            0.10252322408559954,
+            0.022927716630387018,
+            0.013341713421426454,
+            0.024133631746226406,
+            0.20904231944487026,
+            0.01514547628537266,
+            0.012289092599973428,
+            0.024062094408846102,
+            0.22682956740350124,
+            0.020071332944987787,
+            0.010914553760309042,
+            0.022319649262654444,
+            0.24040122226650723,
+            0.01849240171280825
+          ]
+        }
+      ],
+      "artifacts": {
+        "reference": "diff/figma/desktop-news-list.png",
+        "snapshot": "diff/snapshots/desktop-news-list.png",
+        "diff": "diff/diffs/desktop-news-list-diff.png"
+      },
+      "regions": [
+        {
+          "x": 112,
+          "y": 832,
+          "width": 960,
+          "height": 192,
+          "mismatchPixels": 46571,
+          "density": 0.2526638454861111,
+          "share": 0.23796895279557695,
+          "areaRatio": 0.125,
+          "edgeRatio": 0.21635781924373537,
+          "colorConsistency": 0.4914021358551085,
+          "meanSignedDelta": {
+            "red": -86.5701616886045,
+            "green": -57.831332803676105,
+            "blue": -23.745420970131626
+          },
+          "normalized": {
+            "centerX": 0.4111111111111111,
+            "centerY": 0.90625,
+            "width": 0.6666666666666666,
+            "height": 0.1875
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-scroll-container",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 167,
+                "width": 1160,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-grid",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 96,
+                "y": 167,
+                "width": 968,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9916666666666667
+            },
+            {
+              "tag": "img",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 841,
+                "y": 855,
+                "width": 223,
+                "height": 166
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.20083550347222223
+            },
+            {
+              "tag": "h3",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 855,
+                "width": 713,
+                "height": 32
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "500",
+                "lineHeight": "32px"
+              },
+              "overlap": 0.12378472222222223
+            },
+            {
+              "tag": "p",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 891,
+                "width": 713,
+                "height": 24
+              },
+              "style": {
+                "color": "rgb(37, 59, 115)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.09283854166666666
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 112,
+          "y": 608,
+          "width": 960,
+          "height": 192,
+          "mismatchPixels": 44195,
+          "density": 0.2397732204861111,
+          "share": 0.225828044680177,
+          "areaRatio": 0.125,
+          "edgeRatio": 0.25652223102160876,
+          "colorConsistency": 0.528207919346353,
+          "meanSignedDelta": {
+            "red": -81.21255798167213,
+            "green": -58.84240298676321,
+            "blue": -61.334200701436814
+          },
+          "normalized": {
+            "centerX": 0.4111111111111111,
+            "centerY": 0.6875,
+            "width": 0.6666666666666666,
+            "height": 0.1875
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-scroll-container",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 167,
+                "width": 1160,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-grid",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 96,
+                "y": 167,
+                "width": 968,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9916666666666667
+            },
+            {
+              "tag": "img",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 841,
+                "y": 631,
+                "width": 223,
+                "height": 166
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.20083550347222223
+            },
+            {
+              "tag": "h3",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 631,
+                "width": 713,
+                "height": 32
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "500",
+                "lineHeight": "32px"
+              },
+              "overlap": 0.12378472222222223
+            },
+            {
+              "tag": "p",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 667,
+                "width": 713,
+                "height": 24
+              },
+              "style": {
+                "color": "rgb(37, 59, 115)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.09283854166666666
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 112,
+          "y": 384,
+          "width": 960,
+          "height": 192,
+          "mismatchPixels": 43727,
+          "density": 0.2372341579861111,
+          "share": 0.22343665368774973,
+          "areaRatio": 0.125,
+          "edgeRatio": 0.26134882338143484,
+          "colorConsistency": 0.5384242851899242,
+          "meanSignedDelta": {
+            "red": -92.19989937567178,
+            "green": -55.46664532211219,
+            "blue": -46.47185949184714
+          },
+          "normalized": {
+            "centerX": 0.4111111111111111,
+            "centerY": 0.46875,
+            "width": 0.6666666666666666,
+            "height": 0.1875
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-scroll-container",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 167,
+                "width": 1160,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-grid",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 96,
+                "y": 167,
+                "width": 968,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9916666666666667
+            },
+            {
+              "tag": "img",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 841,
+                "y": 407,
+                "width": 223,
+                "height": 166
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.20083550347222223
+            },
+            {
+              "tag": "h3",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 407,
+                "width": 713,
+                "height": 32
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "500",
+                "lineHeight": "32px"
+              },
+              "overlap": 0.12378472222222223
+            },
+            {
+              "tag": "p",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 443,
+                "width": 713,
+                "height": 24
+              },
+              "style": {
+                "color": "rgb(37, 59, 115)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.09283854166666666
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 112,
+          "y": 160,
+          "width": 960,
+          "height": 192,
+          "mismatchPixels": 36832,
+          "density": 0.1998263888888889,
+          "share": 0.18820451502795066,
+          "areaRatio": 0.125,
+          "edgeRatio": 0.42601542137271936,
+          "colorConsistency": 0.08254343916212609,
+          "meanSignedDelta": {
+            "red": -8.57040073848827,
+            "green": -7.733248262380538,
+            "blue": -4.707917028670721
+          },
+          "normalized": {
+            "centerX": 0.4111111111111111,
+            "centerY": 0.25,
+            "width": 0.6666666666666666,
+            "height": 0.1875
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-scroll-container",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 167,
+                "width": 1160,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9635416666666666
+            },
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-grid",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 96,
+                "y": 167,
+                "width": 968,
+                "height": 857
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.9555121527777778
+            },
+            {
+              "tag": "p",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 219,
+                "width": 713,
+                "height": 72
+              },
+              "style": {
+                "color": "rgb(37, 59, 115)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.278515625
+            },
+            {
+              "tag": "img",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 841,
+                "y": 183,
+                "width": 223,
+                "height": 166
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.20083550347222223
+            },
+            {
+              "tag": "h3",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsCard",
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 112,
+                "y": 183,
+                "width": 713,
+                "height": 32
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "16px",
+                "fontWeight": "500",
+                "lineHeight": "32px"
+              },
+              "overlap": 0.12378472222222223
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 400,
+          "y": 80,
+          "width": 672,
+          "height": 64,
+          "mismatchPixels": 4367,
+          "density": 0.10153924851190477,
+          "share": 0.022314539452841564,
+          "areaRatio": 0.029166666666666667,
+          "edgeRatio": 0.8774902679184795,
+          "colorConsistency": 0.4846688097086406,
+          "meanSignedDelta": {
+            "red": -53.13166933821846,
+            "green": -46.18090222120449,
+            "blue": -27.099152736432334
+          },
+          "normalized": {
+            "centerX": 0.5111111111111111,
+            "centerY": 0.109375,
+            "width": 0.4666666666666667,
+            "height": 0.0625
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-page-header",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1160,
+                "height": 167
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 539.125,
+                "y": 95,
+                "width": 120.578125,
+                "height": 42
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.1177520751953125
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 412.875,
+                "y": 95,
+                "width": 118.25,
+                "height": 42
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.115478515625
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 760.40625,
+                "y": 95,
+                "width": 107.65625,
+                "height": 42
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.105133056640625
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 965.421875,
+                "y": 95,
+                "width": 98.578125,
+                "height": 42
+              },
+              "style": {
+                "color": "rgb(53, 99, 216)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.0962677001953125
+            },
+            {
+              "tag": "button",
+              "role": null,
+              "testId": null,
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 667.703125,
+                "y": 95,
+                "width": 84.703125,
+                "height": 42
+              },
+              "style": {
+                "color": "rgb(31, 50, 98)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 0.0827178955078125
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 832,
+          "y": 32,
+          "width": 240,
+          "height": 32,
+          "mismatchPixels": 2107,
+          "density": 0.27434895833333334,
+          "share": 0.010766369275735557,
+          "areaRatio": 0.005208333333333333,
+          "edgeRatio": 0.6127195064072141,
+          "colorConsistency": 0.316214152964613,
+          "meanSignedDelta": {
+            "red": -52.01376364499288,
+            "green": -45.57807308970099,
+            "blue": -26.570953962980543
+          },
+          "normalized": {
+            "centerX": 0.6611111111111111,
+            "centerY": 0.046875,
+            "width": 0.16666666666666666,
+            "height": 0.03125
+          },
+          "semanticSuspects": [
+            {
+              "tag": "div",
+              "role": null,
+              "testId": "news-page-header",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1160,
+                "height": 167
+              },
+              "style": {
+                "color": "rgb(51, 69, 111)",
+                "backgroundColor": "rgb(252, 254, 255)",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px"
+              },
+              "overlap": 1
+            },
+            {
+              "tag": "h1",
+              "role": null,
+              "testId": "news-page-heading",
+              "owner": null,
+              "reactStack": [
+                "NewsPage",
+                "ErrorBoundary",
+                "AppContent",
+                "App",
+                "QueryClientProvider"
+              ],
+              "rect": {
+                "x": 835.6875,
+                "y": 32,
+                "width": 228.3125,
+                "height": 30
+              },
+              "style": {
+                "color": "rgb(36, 59, 120)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "fontSize": "24px",
+                "fontWeight": "700",
+                "lineHeight": "30px"
+              },
+              "overlap": 0.891845703125
+            }
+          ],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 1184,
+          "y": 16,
+          "width": 256,
+          "height": 32,
+          "mismatchPixels": 2071,
+          "density": 0.2528076171875,
+          "share": 0.010582416122471922,
+          "areaRatio": 0.005555555555555556,
+          "edgeRatio": 0.6059874456784162,
+          "colorConsistency": 0.055677044192956146,
+          "meanSignedDelta": {
+            "red": -4.609367455335587,
+            "green": -1.3915982617093192,
+            "blue": 7.338966682761951
+          },
+          "normalized": {
+            "centerX": 0.9111111111111111,
+            "centerY": 0.03125,
+            "width": 0.17777777777777778,
+            "height": 0.03125
+          },
+          "semanticSuspects": [],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        },
+        {
+          "x": 1184,
+          "y": 912,
+          "width": 240,
+          "height": 96,
+          "mismatchPixels": 1701,
+          "density": 0.073828125,
+          "share": 0.00869178649170678,
+          "areaRatio": 0.015625,
+          "edgeRatio": 0.8594944150499706,
+          "colorConsistency": 0.13367796058963566,
+          "meanSignedDelta": {
+            "red": -11.81657848324515,
+            "green": -10.636096413874192,
+            "blue": -7.91358024691358
+          },
+          "normalized": {
+            "centerX": 0.9055555555555556,
+            "centerY": 0.9375,
+            "width": 0.16666666666666666,
+            "height": 0.09375
+          },
+          "semanticSuspects": [],
+          "sourceAttribution": [],
+          "sourceCandidates": []
+        }
+      ],
+      "hypotheses": [
+        {
+          "cause": "geometry-or-spacing",
+          "confidence": 0.76,
+          "reason": "A broad but sparse region is consistent with displaced edges, padding, size, or alignment."
+        },
+        {
+          "cause": "shared-component-repetition",
+          "confidence": 0.7,
+          "reason": "Several separated regions repeat in one state; check repeated component instances before page-specific CSS."
+        }
+      ],
+      "components": [],
+      "verifiedOwners": [],
+      "ownershipEvidence": "client/e2e/figma-audit-results/runs/measure-2026-08-08T13-06-56-096Z-95123-724b84b0/design-ownership/desktop-news-list.design-ownership.json",
+      "coverage": {
+        "statusContract": {
+          "matched": "checked with zero perceptual mismatch inside bounds",
+          "minor-drift": "checked with up to 3% perceptual mismatch inside bounds",
+          "drift": "checked with more than 3% perceptual mismatch inside bounds",
+          "unresolved": "bounds unavailable or outside the captured viewport"
+        },
+        "components": [],
+        "elements": [
+          {
+            "kind": "element",
+            "id": "news-page-header",
+            "instance": 1,
+            "tag": "div",
+            "role": null,
+            "testId": "news-page-header",
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1160,
+              "height": 167
+            },
+            "mismatchPixels": 7187,
+            "mismatchShare": 0.03672420312515968,
+            "ratio": 0.03709993805492463,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "news-page-heading",
+            "instance": 2,
+            "tag": "h1",
+            "role": null,
+            "testId": "news-page-heading",
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 835,
+              "y": 32,
+              "width": 229,
+              "height": 30
+            },
+            "mismatchPixels": 2100,
+            "mismatchShare": 0.010730600607045405,
+            "ratio": 0.3056768558951965,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 3,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 965,
+              "y": 95,
+              "width": 99,
+              "height": 42
+            },
+            "mismatchPixels": 688,
+            "mismatchShare": 0.00351554915126059,
+            "ratio": 0.16546416546416545,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 4,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 876,
+              "y": 95,
+              "width": 82,
+              "height": 42
+            },
+            "mismatchPixels": 533,
+            "mismatchShare": 0.0027235286302643817,
+            "ratio": 0.15476190476190477,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 5,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 760,
+              "y": 95,
+              "width": 109,
+              "height": 42
+            },
+            "mismatchPixels": 759,
+            "mismatchShare": 0.0038783456479749823,
+            "ratio": 0.1657929226736566,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 6,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 667,
+              "y": 95,
+              "width": 86,
+              "height": 42
+            },
+            "mismatchPixels": 648,
+            "mismatchShare": 0.0033111567587454393,
+            "ratio": 0.17940199335548174,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 7,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 539,
+              "y": 95,
+              "width": 121,
+              "height": 42
+            },
+            "mismatchPixels": 918,
+            "mismatchShare": 0.004690805408222706,
+            "ratio": 0.1806375442739079,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 8,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 412,
+              "y": 95,
+              "width": 120,
+              "height": 42
+            },
+            "mismatchPixels": 763,
+            "mismatchShare": 0.0038987848872264973,
+            "ratio": 0.15138888888888888,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 9,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 96,
+              "y": 105,
+              "width": 24,
+              "height": 25
+            },
+            "mismatchPixels": 178,
+            "mismatchShare": 0.0009095461466924202,
+            "ratio": 0.2966666666666667,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 10,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 128,
+              "y": 105,
+              "width": 24,
+              "height": 25
+            },
+            "mismatchPixels": 469,
+            "mismatchShare": 0.002396500802240141,
+            "ratio": 0.7816666666666666,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "news-scroll-container",
+            "instance": 11,
+            "tag": "div",
+            "role": null,
+            "testId": "news-scroll-container",
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 0,
+              "y": 167,
+              "width": 1160,
+              "height": 857
+            },
+            "mismatchPixels": 173517,
+            "mismatchShare": 0.8866388693012847,
+            "ratio": 0.17454331469037943,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "news-grid",
+            "instance": 12,
+            "tag": "div",
+            "role": null,
+            "testId": "news-grid",
+            "owner": null,
+            "reactStack": [
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 96,
+              "y": 167,
+              "width": 968,
+              "height": 857
+            },
+            "mismatchPixels": 173517,
+            "mismatchShare": 0.8866388693012847,
+            "ratio": 0.20916347628185966,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "img",
+            "instance": 13,
+            "tag": "img",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 841,
+              "y": 183,
+              "width": 223,
+              "height": 166
+            },
+            "mismatchPixels": 26318,
+            "mismatchShare": 0.13447997465534334,
+            "ratio": 0.7109514290345238,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "h3",
+            "instance": 14,
+            "tag": "h3",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 183,
+              "width": 713,
+              "height": 32
+            },
+            "mismatchPixels": 2208,
+            "mismatchShare": 0.011282460066836312,
+            "ratio": 0.0967741935483871,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "p",
+            "instance": 15,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 219,
+              "width": 713,
+              "height": 72
+            },
+            "mismatchPixels": 4632,
+            "mismatchShare": 0.023668639053254437,
+            "ratio": 0.09022907900888266,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 16,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsAnalysisButton",
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 303,
+              "width": 106,
+              "height": 25
+            },
+            "mismatchPixels": 389,
+            "mismatchShare": 0.0019877160172098395,
+            "ratio": 0.14679245283018869,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "img",
+            "instance": 17,
+            "tag": "img",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 841,
+              "y": 407,
+              "width": 223,
+              "height": 166
+            },
+            "mismatchPixels": 32401,
+            "mismatchShare": 0.16556294774708485,
+            "ratio": 0.8752768923226538,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "h3",
+            "instance": 18,
+            "tag": "h3",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 407,
+              "width": 713,
+              "height": 32
+            },
+            "mismatchPixels": 1967,
+            "mismatchShare": 0.01005099590193253,
+            "ratio": 0.08621143057503507,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "p",
+            "instance": 19,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 443,
+              "width": 713,
+              "height": 24
+            },
+            "mismatchPixels": 2867,
+            "mismatchShare": 0.014649824733523418,
+            "ratio": 0.16754324450677888,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 20,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsAnalysisButton",
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 479,
+              "width": 106,
+              "height": 25
+            },
+            "mismatchPixels": 472,
+            "mismatchShare": 0.002411830231678777,
+            "ratio": 0.1781132075471698,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "img",
+            "instance": 21,
+            "tag": "img",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 841,
+              "y": 631,
+              "width": 223,
+              "height": 166
+            },
+            "mismatchPixels": 32410,
+            "mismatchShare": 0.16560893603540075,
+            "ratio": 0.8755200172888865,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "h3",
+            "instance": 22,
+            "tag": "h3",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 631,
+              "width": 713,
+              "height": 32
+            },
+            "mismatchPixels": 2141,
+            "mismatchShare": 0.010940102809373435,
+            "ratio": 0.09383765778401122,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "p",
+            "instance": 23,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 667,
+              "width": 713,
+              "height": 24
+            },
+            "mismatchPixels": 3183,
+            "mismatchShare": 0.016264524634393106,
+            "ratio": 0.18600981767180927,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 24,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsAnalysisButton",
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 703,
+              "width": 106,
+              "height": 25
+            },
+            "mismatchPixels": 472,
+            "mismatchShare": 0.002411830231678777,
+            "ratio": 0.1781132075471698,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "img",
+            "instance": 25,
+            "tag": "img",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 841,
+              "y": 855,
+              "width": 223,
+              "height": 166
+            },
+            "mismatchPixels": 35051,
+            "mismatchShare": 0.17910394375121358,
+            "ratio": 0.9468636879355989,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "h3",
+            "instance": 26,
+            "tag": "h3",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 855,
+              "width": 713,
+              "height": 32
+            },
+            "mismatchPixels": 1959,
+            "mismatchShare": 0.0100101174234295,
+            "ratio": 0.08586079943899018,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "p",
+            "instance": 27,
+            "tag": "p",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 891,
+              "width": 713,
+              "height": 24
+            },
+            "mismatchPixels": 3119,
+            "mismatchShare": 0.015937496806368866,
+            "ratio": 0.18226975222066386,
+            "status": "drift"
+          },
+          {
+            "kind": "element",
+            "id": "button",
+            "instance": 28,
+            "tag": "button",
+            "role": null,
+            "testId": null,
+            "owner": null,
+            "reactStack": [
+              "NewsAnalysisButton",
+              "NewsCard",
+              "NewsPage",
+              "ErrorBoundary",
+              "AppContent",
+              "App",
+              "QueryClientProvider"
+            ],
+            "rect": {
+              "x": 112,
+              "y": 927,
+              "width": 106,
+              "height": 25
+            },
+            "mismatchPixels": 472,
+            "mismatchShare": 0.002411830231678777,
+            "ratio": 0.1781132075471698,
+            "status": "drift"
+          }
+        ],
+        "checkedCount": 28,
+        "unresolvedCount": 0
+      },
+      "attribution": {
+        "attributedRegionIndexes": [],
+        "attributedMismatchShare": 0,
+        "unresolvedRegionIndexes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "pageOwners": [],
+      "dominantSourceCandidates": [],
+      "recommendedVerificationTargets": [],
+      "experiment": {
+        "status": "needs-attribution",
+        "hypothesis": "geometry-or-spacing",
+        "confidence": 0.76,
+        "expectedLeverage": 0.23796895279557695,
+        "predictedRegions": [
+          1
+        ],
+        "mutationScope": [],
+        "inspectionScope": [],
+        "witnessTargets": [
+          "desktop-news-list"
+        ],
+        "controlTargets": [],
+        "checks": [
+          "The predicted region must improve in the fresh diagnosis.",
+          "The full-state ratio must not worsen.",
+          "Every witness target must move consistently with the causal claim."
+        ],
+        "decision": "Resolve the dominant region owner before mutation; graph membership or ownership of a secondary region is insufficient."
+      }
+    }
+  ]
+}

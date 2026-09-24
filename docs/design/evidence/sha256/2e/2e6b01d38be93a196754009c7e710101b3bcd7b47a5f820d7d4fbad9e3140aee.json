@@ -1,0 +1,52 @@
+{
+  "approval": {
+    "approvedBy": "Emad",
+    "leaseOwner": "codex-mobile-sidebar",
+    "reason": "Approved Figma-aligned mobile drawer baseline after exact scenario review."
+  },
+  "approvedAt": "2026-08-09T05:54:30.147Z",
+  "artifacts": {
+    "capture": {
+      "path": "docs/design/evidence/sha256/9a/9a0c3bc1484fccbf90d1cd2b612172c11e60c6fd02c7bd22645efd141f4f95a7.png",
+      "sha256": "9a0c3bc1484fccbf90d1cd2b612172c11e60c6fd02c7bd22645efd141f4f95a7"
+    },
+    "designDiagnosis": {
+      "path": "docs/design/evidence/sha256/bc/bcb40b08e871b6232b3ffa73d38c6de01f4c9a51c32fc25d3c8691a773282e68.json",
+      "sha256": "bcb40b08e871b6232b3ffa73d38c6de01f4c9a51c32fc25d3c8691a773282e68"
+    },
+    "designDiagnosisHtml": {
+      "path": "docs/design/evidence/sha256/d8/d82673ef75618ed742ad4aa661678a130a22cf7676eb731a296c6c2835e78e40.html",
+      "sha256": "d82673ef75618ed742ad4aa661678a130a22cf7676eb731a296c6c2835e78e40"
+    },
+    "diffReport": {
+      "path": "docs/design/evidence/sha256/ec/ecdc10a87d15c0f05789049684717aaccaac8821722e0f5244221692832d221e.html",
+      "sha256": "ecdc10a87d15c0f05789049684717aaccaac8821722e0f5244221692832d221e"
+    },
+    "evidence": {
+      "path": "docs/design/evidence/sha256/3e/3ecff2e932cdb4b4e5fffe3d0afb41b6d2733093225d2fd75e89d1051cd77132.json",
+      "sha256": "3ecff2e932cdb4b4e5fffe3d0afb41b6d2733093225d2fd75e89d1051cd77132"
+    },
+    "strictAudit": {
+      "path": "docs/design/evidence/sha256/e4/e46252ecf47e5df4bafcb1d90b041268b7304aa531f070c1ec04d2817afe2483.json",
+      "sha256": "e46252ecf47e5df4bafcb1d90b041268b7304aa531f070c1ec04d2817afe2483"
+    }
+  },
+  "contract": {
+    "afterSha256": "9a0c3bc1484fccbf90d1cd2b612172c11e60c6fd02c7bd22645efd141f4f95a7",
+    "beforeSha256": "deda24dafe7be4dc05f2c96f7bf6dd0b9bad4fcdf6d585471e1818f4622664cd",
+    "captureSha256": "9a0c3bc1484fccbf90d1cd2b612172c11e60c6fd02c7bd22645efd141f4f95a7",
+    "referenceAcquisitionReceiptSha256": "b2c423948a2af77ab19405b41f39e5584b6422c978930c8fc95003141d397301",
+    "referenceSha256": "2de175e1587238140f9c0c10d21d595c54ade3eb1938c59ec1c5602dfc6faa5a",
+    "rendererFingerprint": "ac31bba843824359d4989cc6fed0c443bd9c2bf902ff6479e60b61601a8a4fc9",
+    "targetSourceFingerprint": "5d42c175d9e15d255ee0518e8f21df6db9fa8bab87a55d2fad0a57928ba6bbdf"
+  },
+  "kind": "figma-baseline-promotion",
+  "reviewSha256": "d6707154e5cd53b12c061ca5c4019638555243bd53e8aadd66852466d54b6bbd",
+  "runId": "measure-2026-08-09T05-52-59-766Z-777-418257be",
+  "schemaVersion": 1,
+  "target": {
+    "id": "mobile-sidebar",
+    "manifestKey": "mobile-sidebar",
+    "snapshotPath": "client/e2e/visual-snapshots/mobile/visual/mobile.spec.ts/mobile-sidebar.png"
+  }
+}

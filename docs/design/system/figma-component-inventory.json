@@ -1,0 +1,581 @@
+{
+  "version": "1.0.0",
+  "source": {
+    "authority": "figma",
+    "documentName": "Final ",
+    "channelStored": false,
+    "scope": "All top-level COMPONENT and COMPONENT_SET nodes on Final plus the canonical DS/Button set on the design-system page.",
+    "lastLiveInspectionAt": "2026-07-26"
+  },
+  "coverage": {
+    "totalSourceComponents": 46,
+    "mapped": 27,
+    "coveredByParent": 7,
+    "implementedByContract": 1,
+    "duplicateSource": 1,
+    "supersededSource": 5,
+    "sourceAsset": 2,
+    "needsProductDecision": 3
+  },
+  "components": [
+    {
+      "id": "figma-ds-button",
+      "figma": {
+        "pageId": "2240:46415",
+        "nodeId": "2241:46530",
+        "name": "DS/Button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-button",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-side-items",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1169",
+        "name": "Ai Side Items",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-sidebar-nav-item",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-suggest-badges",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1179",
+        "name": "Suggest Badges",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-suggest-badge",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-first-interaction",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1197",
+        "name": "First Interaction",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-onboarding-flow",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-user-message",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1408",
+        "name": "User msg box",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-user-message",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-copy-action",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1416",
+        "name": "Copy Action",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-message-actions",
+      "parentFigmaComponentId": "figma-message-actions",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-message-actions",
+      "figma": { "pageId": "0:1", "nodeId": "1:1423", "name": "actions", "type": "COMPONENT" },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-message-actions",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-dislike-action",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1427",
+        "name": "Dislike Action",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-message-actions",
+      "parentFigmaComponentId": "figma-message-actions",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-like-action",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1434",
+        "name": "Like Action",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-message-actions",
+      "parentFigmaComponentId": "figma-message-actions",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-persona-cards",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1441",
+        "name": "Persona Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-persona-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-read-more",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1458",
+        "name": "Ai Read more",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-discover-image-card",
+      "parentFigmaComponentId": "figma-ai-discover-cards-1",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-discover-cards-1",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1465",
+        "name": "Ai Discover Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-discover-image-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-discover-cards-2",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1482",
+        "name": "Ai Discover Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "duplicate-source",
+      "canonicalFigmaComponentId": "figma-ai-discover-cards-1",
+      "lifecycle": "duplicate-source",
+      "reason": "Live inspection shows identical default and selected image-card geometry and child structure to 1:1465."
+    },
+    {
+      "id": "figma-ai-news-cards",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1499",
+        "name": "Ai News Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-news-grid-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-radio-button",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1726",
+        "name": "radio-btn",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-choice-indicator",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-survey-completion",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1874",
+        "name": "Survey Completion",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "superseded-source",
+      "canonicalFigmaComponentId": "figma-first-interaction",
+      "lifecycle": "legacy-source",
+      "reason": "The shipped quiz uses the newer First Interaction flow rather than this separate legacy survey composite."
+    },
+    {
+      "id": "figma-prompt-rep-card",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1888",
+        "name": "Prompt Rep Card",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-prompt-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-setting-sidebar",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1917",
+        "name": "Ai Setting Sidebar",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-settings-modal",
+      "parentFigmaComponentId": "figma-settings",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-side-category",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1949",
+        "name": "Ai Side Category",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-settings-nav-item",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-primary-button-legacy",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1959",
+        "name": "Primary Button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "superseded-source",
+      "canonicalFigmaComponentId": "figma-ds-button",
+      "lifecycle": "legacy-source",
+      "reason": "The product Button implements this visual variant, while DS/Button is the canonical Figma source."
+    },
+    {
+      "id": "figma-secondary-button-legacy",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1966",
+        "name": "Secondary Button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "superseded-source",
+      "canonicalFigmaComponentId": "figma-ds-button",
+      "lifecycle": "legacy-source",
+      "reason": "The product Button implements this visual variant, while DS/Button is the canonical Figma source."
+    },
+    {
+      "id": "figma-secondary-button-error-legacy",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "1:1971",
+        "name": "Secondary Button Error",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "superseded-source",
+      "canonicalFigmaComponentId": "figma-ds-button",
+      "lifecycle": "legacy-source",
+      "reason": "The product Button implements this visual variant, while DS/Button is the canonical Figma source."
+    },
+    {
+      "id": "figma-settings",
+      "figma": { "pageId": "0:1", "nodeId": "3:7405", "name": "Settings", "type": "COMPONENT_SET" },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-settings-modal",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-theme-cards",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "4:19088",
+        "name": "Ai Theme Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-theme-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-vector-510",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "51:8700",
+        "name": "Vector 510",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "source-asset",
+      "lifecycle": "asset-source",
+      "assetHandling": {
+        "owner": "frontend-platform",
+        "reason": "Calendar impact icons are delivered as the controlled image set in lib/calendarImpact.ts, not as a reusable React component."
+      }
+    },
+    {
+      "id": "figma-document-folder-icon",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "51:8709",
+        "name": "icons8_Document_In_Folder 1",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "source-asset",
+      "lifecycle": "asset-source",
+      "assetHandling": {
+        "owner": "product-design",
+        "reason": "The exported folder illustration is a source asset; no production UI owner imports it as a React component."
+      }
+    },
+    {
+      "id": "figma-desktop-date-picker",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "51:8722",
+        "name": "Desktop Date Picker",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-date-picker-popover",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-filters",
+      "figma": { "pageId": "0:1", "nodeId": "51:8816", "name": "Filters", "type": "COMPONENT" },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-calendar-filters",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-date-picker-trigger",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "51:9243",
+        "name": "Date Picker Button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-date-picker-trigger",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-filters-button",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "51:9254",
+        "name": "Filters button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-calendar-filters",
+      "parentFigmaComponentId": "figma-filters",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-pending",
+      "figma": { "pageId": "0:1", "nodeId": "51:9261", "name": "pending", "type": "COMPONENT_SET" },
+      "mappingStatus": "needs-product-decision",
+      "lifecycle": "source-unowned",
+      "decision": {
+        "owner": "product-design",
+        "reason": "The Figma status pill has only a handwritten visual fixture; the shipped calendar has no matching state contract.",
+        "nextReviewAt": "2026-08-15"
+      }
+    },
+    {
+      "id": "figma-news-ai-list-cards",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "52:6390",
+        "name": "News Ai List Cards",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-news-list-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-news-ai-list-cards-phone",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "52:7584",
+        "name": "News Ai List Cards - Phone",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "needs-product-decision",
+      "lifecycle": "source-unowned",
+      "decision": {
+        "owner": "product-design",
+        "reason": "This compact 345x128 horizontal card is not the shipped vertical mobile NewsCard state and must not be mapped to it.",
+        "nextReviewAt": "2026-08-15"
+      }
+    },
+    {
+      "id": "figma-prompt-rep-card-phone",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "56:7613",
+        "name": "Prompt Rep Card - Phone",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-prompt-card-mobile",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-table",
+      "figma": { "pageId": "0:1", "nodeId": "64:7415", "name": "Table", "type": "COMPONENT" },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-data-table",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-references-related",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "66:8164",
+        "name": "References or Related",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-related-content",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-phone-menu",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "157:16076",
+        "name": "Ai Phone Menu 2",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-mobile-top-bar",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-checkbox",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "459:16621",
+        "name": "CheckBox",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "implemented-by-contract",
+      "componentRegistryId": "ds-choice-indicator",
+      "contractVariant": "checkbox",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-suggest-badges-later",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "567:10340",
+        "name": "Suggest Badges",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "superseded-source",
+      "canonicalFigmaComponentId": "figma-suggest-badges",
+      "lifecycle": "legacy-source",
+      "reason": "The 35px pill source is older than the canonical selection-row component used by the product."
+    },
+    {
+      "id": "figma-chatbox",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "578:16111",
+        "name": "Chatbox",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-chat-input",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-text-button",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "578:16187",
+        "name": "Text Button",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "covered-by-parent",
+      "componentRegistryId": "ds-chat-input",
+      "parentFigmaComponentId": "figma-chatbox",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-analysis-summary",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "588:16139",
+        "name": "Analysis summery",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-analysis-summary-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-news-ai-list-cards-phone-2",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "613:16064",
+        "name": "News Ai List Cards 2 - Phone",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-news-mobile-card",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-ai-sidebar",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "679:18972",
+        "name": "Ai Sidebar",
+        "type": "COMPONENT_SET"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-chat-sidebar",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-special-offer",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "690:42968",
+        "name": "Special Offer",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "mapped",
+      "componentRegistryId": "ds-chat-special-offer",
+      "lifecycle": "active"
+    },
+    {
+      "id": "figma-close-button",
+      "figma": {
+        "pageId": "0:1",
+        "nodeId": "690:43094",
+        "name": "Close Button",
+        "type": "COMPONENT"
+      },
+      "mappingStatus": "needs-product-decision",
+      "lifecycle": "source-unowned",
+      "decision": {
+        "owner": "frontend-platform",
+        "reason": "The product has local dialog close controls but no reusable 32px surface matching this source; extract only after a product consumer is selected.",
+        "nextReviewAt": "2026-08-15"
+      }
+    }
+  ]
+}

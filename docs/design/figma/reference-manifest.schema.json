@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://figmoon.local/schemas/figma-reference-manifest.schema.json",
+  "title": "Figmoon Figma Reference Manifest",
+  "type": "object",
+  "required": ["$schema", "version", "figmaFile", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "string" },
+    "figmaFile": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": true,
+      "properties": {
+        "name": { "type": "string" },
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Durable Figma file key verified by the read-only acquisition broker. Never store session channel IDs."
+        },
+        "currentPageId": { "type": "string" },
+        "currentPageName": { "type": "string" },
+        "lastLiveInspectionAt": { "type": "string" },
+        "dailySync": {
+          "type": "object",
+          "required": ["sourceSelection", "reason"],
+          "additionalProperties": false,
+          "properties": {
+            "sourceSelection": {
+              "const": "unique-connected-file-name",
+              "description": "Daily discovery selects the one connected Figmoon document whose file name matches this manifest. Its durable Figma key may change when the design file is recreated or copied."
+            },
+            "fileName": { "type": "string", "minLength": 1 },
+            "reason": { "type": "string", "minLength": 1 },
+            "lastReviewedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+          }
+        },
+        "freshnessPolicy": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "maxAgeDays": { "type": "integer", "minimum": 1 },
+            "enforcement": { "enum": ["signoff-only", "all-checks"] },
+            "staleAction": { "type": "string" }
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/referenceItem" }
+    }
+  },
+  "$defs": {
+    "dimensions": {
+      "type": "object",
+      "required": ["width", "height"],
+      "additionalProperties": false,
+      "properties": {
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "height": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "durableEvidencePointer": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^docs/design/evidence/sha256/[a-f0-9]{2}/[a-f0-9]{64}\\.(?:json|png|html)$"
+        },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "captureKind": {
+      "enum": [
+        "full-frame",
+        "overlay",
+        "component",
+        "tall-mobile-frame",
+        "storyboard",
+        "foundation",
+        "derived-crop",
+        "figma-board"
+      ]
+    },
+    "figmaNode": {
+      "type": "object",
+      "required": ["pageId", "pageName", "nodeId", "nodeName", "nodeType"],
+      "additionalProperties": true,
+      "properties": {
+        "pageId": { "type": "string", "pattern": "^[0-9]+:[0-9]+$" },
+        "pageName": { "type": "string" },
+        "nodeId": { "type": "string", "pattern": "^(?:I)?[0-9]+:[0-9]+(?:;[0-9]+:[0-9]+)*$" },
+        "nodeName": { "type": "string" },
+        "nodeType": { "type": "string" },
+        "liveBounds": { "$ref": "#/$defs/dimensions" },
+        "aliases": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "lifecycle": {
+      "type": "object",
+      "required": ["status", "owner", "reason", "reviewBy"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": ["canonical-product", "historical", "source-only", "superseded"]
+        },
+        "owner": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "reviewBy": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "acquisition": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "runId",
+        "adapter",
+        "adapterVersion",
+        "protocol",
+        "plugin",
+        "operations",
+        "fileKey",
+        "fileName",
+        "pageId",
+        "pageName",
+        "nodeId",
+        "nodeSha256",
+        "variablesSha256",
+        "exportSha256",
+        "exportSpec",
+        "acquiredAt",
+        "promotedAt",
+        "previousAssetSha256",
+        "reviewSha256",
+        "receipt",
+        "evidence",
+        "node",
+        "variables",
+        "approvedBy",
+        "leaseOwner",
+        "reason"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": { "const": 1 },
+        "runId": { "type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,119}$" },
+        "adapter": {
+          "enum": ["figmoon-reference-broker", "legacy-readonly-acquisition-broker"]
+        },
+        "adapterVersion": { "type": "string", "minLength": 1 },
+        "protocol": {
+          "enum": ["figmoon-reference-acquisition/v1", "legacy-figma-readonly-acquisition/v1"]
+        },
+        "plugin": {
+          "type": "object",
+          "required": ["id", "version", "build"],
+          "additionalProperties": false,
+          "properties": {
+            "id": { "type": "string" },
+            "version": { "type": "string" },
+            "build": { "type": "string" }
+          },
+          "oneOf": [
+            {
+              "properties": {
+                "id": { "const": "figmoon" },
+                "version": { "const": "1.0.0" },
+                "build": {
+                  "const": "1.0.0+gethopp-v0.0.18.dc2ea5a.sha256.06c7cf551a3a26a0f5547c39aeeb61128104be195bb175e738a6ee1ffefbbb5a"
+                }
+              }
+            },
+            {
+              "properties": {
+                "id": { "const": "legacy-figma-readonly-acquisition" },
+                "version": { "const": "1.1.0" },
+                "build": {
+                  "const": "1.1.0+gethopp-v0.0.18.dc2ea5a.sha256.6639a20b7a658b9b536927d4ca5eaeead6c798fe309158914550c53b086cdb51"
+                }
+              }
+            }
+          ]
+        },
+        "operations": {
+          "type": "array",
+          "items": {
+            "const": "acquire_reference"
+          },
+          "minItems": 1,
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "fileKey": { "type": "string", "minLength": 1 },
+        "fileName": { "type": "string", "minLength": 1 },
+        "pageId": { "type": "string", "pattern": "^[0-9]+:[0-9]+$" },
+        "pageName": { "type": "string", "minLength": 1 },
+        "nodeId": { "type": "string", "pattern": "^(?:I)?[0-9]+:[0-9]+(?:;[0-9]+:[0-9]+)*$" },
+        "nodeSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "variablesSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "exportSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "exportSpec": {
+          "type": "object",
+          "required": ["format", "scale", "clip"],
+          "additionalProperties": false,
+          "properties": {
+            "format": { "const": "PNG" },
+            "scale": { "const": 1 },
+            "clip": { "type": "boolean" }
+          }
+        },
+        "acquiredAt": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(?:\\.[0-9]{3})?Z$"
+        },
+        "promotedAt": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(?:\\.[0-9]{3})?Z$"
+        },
+        "previousAssetSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "reviewSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "receipt": { "$ref": "#/$defs/durableEvidencePointer" },
+        "evidence": { "$ref": "#/$defs/durableEvidencePointer" },
+        "node": { "$ref": "#/$defs/durableEvidencePointer" },
+        "variables": { "$ref": "#/$defs/durableEvidencePointer" },
+        "comparisonDiff": { "$ref": "#/$defs/durableEvidencePointer" },
+        "approvedBy": { "type": "string", "minLength": 2 },
+        "leaseOwner": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 12 }
+      }
+    },
+    "referenceItem": {
+      "type": "object",
+      "required": ["registryIds", "referencePath", "captureKind", "exportBounds", "lifecycle"],
+      "additionalProperties": true,
+      "dependentRequired": {
+        "acquisition": ["artifactPath", "assetSha256", "exportedAt", "lastCheckedAt", "figma"]
+      },
+      "properties": {
+        "registryIds": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "referencePath": { "type": "string", "pattern": "^docs/design/figma/" },
+        "artifactPath": {
+          "type": "string",
+          "pattern": "^docs/design/figma/artifacts/sha256/[a-f0-9]{2}/[a-f0-9]{64}\\.png$",
+          "description": "Optional content-addressed canonical artifact. referencePath remains the stable logical target key during migration."
+        },
+        "captureKind": { "$ref": "#/$defs/captureKind" },
+        "lifecycle": { "$ref": "#/$defs/lifecycle" },
+        "exportBounds": { "$ref": "#/$defs/dimensions" },
+        "assetSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "exportedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "lastCheckedAt": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "staleAfterDays": { "type": "integer", "minimum": 1 },
+        "figma": { "$ref": "#/$defs/figmaNode" },
+        "dailySyncFigma": {
+          "allOf": [{ "$ref": "#/$defs/figmaNode" }],
+          "description": "Read-only daily-discovery mapping for an approved current design copy. It never replaces figma/acquisition canonical-reference provenance; accept a candidate through the ordinary one-target acquisition and promotion flow."
+        },
+        "acquisition": { "$ref": "#/$defs/acquisition" },
+        "sharesReferenceWith": { "type": "string" },
+        "derivedFrom": { "type": "string" },
+        "sourceVariant": { "type": "string" },
+        "reason": { "type": "string" },
+        "legacyFilename": { "type": "boolean" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

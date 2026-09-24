@@ -1,0 +1,261 @@
+{
+  "bounds": {
+    "height": 92,
+    "width": 56,
+    "x": -291,
+    "y": 21994.5
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 16,
+        "width": 16,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          },
+          "id": "1:1728",
+          "name": "halo",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#ecf1ff",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 3,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "ELLIPSE"
+        },
+        {
+          "bounds": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          },
+          "id": "1:1729",
+          "name": "Rectangle",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#ffffff",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#cbd0dd",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1727",
+      "name": "Property 1=Default",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 16,
+        "width": 16,
+        "x": 20,
+        "y": 56
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          },
+          "id": "1:1731",
+          "name": "halo",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#ecf1ff",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 3,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "ELLIPSE"
+        },
+        {
+          "bounds": {
+            "height": 16,
+            "width": 16,
+            "x": 0,
+            "y": 0
+          },
+          "id": "1:1732",
+          "name": "Rectangle",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "cornerRadius": 100,
+            "fills": [
+              {
+                "color": "#ffffff",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        },
+        {
+          "bounds": {
+            "height": 8,
+            "width": 8,
+            "x": 4,
+            "y": 4
+          },
+          "id": "1:1733",
+          "name": "Rectangle",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "CENTER",
+              "vertical": "CENTER"
+            },
+            "cornerRadius": 20,
+            "fills": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "RECTANGLE"
+        }
+      ],
+      "id": "1:1730",
+      "name": "Property 1=Variant2",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1726",
+  "name": "radio-btn",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

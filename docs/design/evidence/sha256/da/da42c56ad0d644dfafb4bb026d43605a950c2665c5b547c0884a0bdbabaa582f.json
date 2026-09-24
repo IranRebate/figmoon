@@ -1,0 +1,1548 @@
+{
+  "bounds": {
+    "height": 212,
+    "width": 205.33334350585938,
+    "x": 42865.25,
+    "y": 21767
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 76,
+        "width": 165.33334350585938,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 76,
+            "width": 165.33334350585938,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 44,
+                "width": 133.33334350585938,
+                "x": 16,
+                "y": 16
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 133.33349609375,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 57,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 20,
+                            "width": 25,
+                            "x": 8,
+                            "y": 0
+                          },
+                          "characters": "LONG",
+                          "id": "I588:16098;491:8910",
+                          "name": "Pending",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#008e77",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PIXELS",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "PERCENT",
+                              "value": 200
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 12,
+                            "width": 12,
+                            "x": 37,
+                            "y": 4
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 12,
+                                "width": 12,
+                                "x": 0,
+                                "y": 0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 12,
+                                    "width": 12,
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 0.75,
+                                        "width": 9.25,
+                                        "x": 1.375,
+                                        "y": 10.625
+                                      },
+                                      "id": "I588:16098;491:9152;4:12379",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#008e77",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 7.74875020980835,
+                                        "width": 7.747498989105225,
+                                        "x": 2.126220703125,
+                                        "y": 1.376251220703125
+                                      },
+                                      "id": "I588:16098;491:9152;4:12380",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#008e77",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 5.885000228881836,
+                                        "width": 5.885000228881836,
+                                        "x": 2.125,
+                                        "y": 1.375
+                                      },
+                                      "id": "I588:16098;491:9152;4:12381",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#008e77",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 12,
+                                        "width": 12,
+                                        "x": 0,
+                                        "y": 0
+                                      },
+                                      "id": "I588:16098;491:9152;4:12382",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [],
+                                        "opacity": 0,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    }
+                                  ],
+                                  "id": "I588:16098;491:9152;4:12378",
+                                  "name": "send",
+                                  "styles": {
+                                    "blendMode": "PASS_THROUGH",
+                                    "opacity": 1,
+                                    "visible": true
+                                  },
+                                  "type": "GROUP"
+                                }
+                              ],
+                              "id": "I588:16098;491:9152;4:12377",
+                              "name": "vuesax/outline/send",
+                              "styles": {
+                                "blendMode": "PASS_THROUGH",
+                                "opacity": 1,
+                                "visible": true
+                              },
+                              "type": "GROUP"
+                            }
+                          ],
+                          "id": "I588:16098;491:9152",
+                          "name": "vuesax/outline/send",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "clipsContent": false,
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "INSTANCE"
+                        }
+                      ],
+                      "id": "588:16098",
+                      "name": "md-Badge",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 4,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 100,
+                        "fills": [
+                          {
+                            "color": "#e8f8ed",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "padding": {
+                          "bottom": 0,
+                          "left": 8,
+                          "right": 8,
+                          "top": 0
+                        },
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "INSTANCE"
+                    },
+                    {
+                      "bounds": {
+                        "height": 19,
+                        "width": 56,
+                        "x": 77.33349609375,
+                        "y": 0
+                      },
+                      "characters": "BTC/USDT",
+                      "id": "588:16092",
+                      "name": "BTC/USDT",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 12,
+                        "fontStyle": "SemiBold",
+                        "fontWeight": 600,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    }
+                  ],
+                  "id": "588:16112",
+                  "name": "Frame 2147225065",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "MIN",
+                      "counterAxisSizing": "AUTO",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 8,
+                      "primaryAxisAlign": "SPACE_BETWEEN",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 0,
+                    "fills": [],
+                    "opacity": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "FRAME"
+                },
+                {
+                  "bounds": {
+                    "height": 16,
+                    "width": 133.33334350585938,
+                    "x": 0,
+                    "y": 28
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 27,
+                        "x": 8,
+                        "y": 0
+                      },
+                      "characters": "+1.2%",
+                      "id": "588:16096",
+                      "name": "+1.2%",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#3e74fe",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh",
+                        "fontSize": 10,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 85,
+                        "x": 48.333343505859375,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 61,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "characters": "10 دقیقه پیش",
+                          "id": "588:16136",
+                          "name": "10 دقیقه پیش",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 6,
+                            "width": 3,
+                            "x": 65,
+                            "y": 5
+                          },
+                          "characters": "•",
+                          "id": "588:16095",
+                          "name": "•",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 4,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 13,
+                            "x": 72,
+                            "y": 0
+                          },
+                          "characters": "4H",
+                          "id": "588:16093",
+                          "name": "4H",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        }
+                      ],
+                      "id": "588:16137",
+                      "name": "Frame 2147225066",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 4,
+                          "primaryAxisAlign": "MIN",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "588:16097",
+                  "name": "Frame 2147225064",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "AUTO",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 4,
+                      "primaryAxisAlign": "SPACE_BETWEEN",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 0,
+                    "fills": [],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 0,
+                      "left": 8,
+                      "right": 0,
+                      "top": 0
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "FRAME"
+                }
+              ],
+              "id": "588:16090",
+              "name": "Frame 1000008113",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "588:16089",
+          "name": "Frame 1890167492",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MIN",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "MIN",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "padding": {
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "top": 16
+            },
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "588:16138",
+      "name": "Property 1=Long",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 0,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#ecf1ff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 76,
+        "width": 165.33334350585938,
+        "x": 20,
+        "y": 116
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 76,
+            "width": 165.33334350585938,
+            "x": 0,
+            "y": 0
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 44,
+                "width": 133.33334350585938,
+                "x": 16,
+                "y": 16
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 133.33349609375,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 62,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 20,
+                            "width": 30,
+                            "x": 8,
+                            "y": 0
+                          },
+                          "characters": "Short",
+                          "id": "I588:16146;491:8920",
+                          "name": "Pending",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#ff4d4f",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PIXELS",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "PERCENT",
+                              "value": 200
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 12,
+                            "width": 12,
+                            "x": 42,
+                            "y": 4
+                          },
+                          "children": [
+                            {
+                              "bounds": {
+                                "height": 12,
+                                "width": 12,
+                                "x": 0,
+                                "y": 0
+                              },
+                              "children": [
+                                {
+                                  "bounds": {
+                                    "height": 12,
+                                    "width": 12,
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "bounds": {
+                                        "height": 7.74875020980835,
+                                        "width": 7.747500419616699,
+                                        "x": 2.126220703125,
+                                        "y": 1.376251220703125
+                                      },
+                                      "id": "I588:16146;491:9158;4:12393",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#ff4d4f",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 5.885000228881836,
+                                        "width": 5.885000228881836,
+                                        "x": 2.125,
+                                        "y": 3.239990234375
+                                      },
+                                      "id": "I588:16146;491:9158;4:12394",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#ff4d4f",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 0.75,
+                                        "width": 9.25,
+                                        "x": 1.375,
+                                        "y": 10.625
+                                      },
+                                      "id": "I588:16146;491:9158;4:12395",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [
+                                          {
+                                            "color": "#ff4d4f",
+                                            "opacity": 1,
+                                            "type": "SOLID"
+                                          }
+                                        ],
+                                        "opacity": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    },
+                                    {
+                                      "bounds": {
+                                        "height": 12,
+                                        "width": 12,
+                                        "x": 0,
+                                        "y": 0
+                                      },
+                                      "id": "I588:16146;491:9158;4:12396",
+                                      "name": "Vector",
+                                      "styles": {
+                                        "blendMode": "PASS_THROUGH",
+                                        "constraints": {
+                                          "horizontal": "SCALE",
+                                          "vertical": "SCALE"
+                                        },
+                                        "cornerRadius": 0,
+                                        "fills": [],
+                                        "opacity": 0,
+                                        "strokeAlign": "INSIDE",
+                                        "strokeWeight": 1,
+                                        "strokes": [],
+                                        "visible": true
+                                      },
+                                      "type": "VECTOR"
+                                    }
+                                  ],
+                                  "id": "I588:16146;491:9158;4:12392",
+                                  "name": "received",
+                                  "styles": {
+                                    "blendMode": "PASS_THROUGH",
+                                    "opacity": 1,
+                                    "visible": true
+                                  },
+                                  "type": "GROUP"
+                                }
+                              ],
+                              "id": "I588:16146;491:9158;4:12391",
+                              "name": "vuesax/outline/received",
+                              "styles": {
+                                "blendMode": "PASS_THROUGH",
+                                "opacity": 1,
+                                "visible": true
+                              },
+                              "type": "GROUP"
+                            }
+                          ],
+                          "id": "I588:16146;491:9158",
+                          "name": "vuesax/outline/received",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "clipsContent": false,
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "cornerRadius": 0,
+                            "fills": [],
+                            "opacity": 1,
+                            "strokeAlign": "INSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "visible": true
+                          },
+                          "type": "INSTANCE"
+                        }
+                      ],
+                      "id": "588:16146",
+                      "name": "md-Badge",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 4,
+                          "primaryAxisAlign": "CENTER",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 100,
+                        "fills": [
+                          {
+                            "color": "#fff2f2",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "padding": {
+                          "bottom": 0,
+                          "left": 8,
+                          "right": 8,
+                          "top": 0
+                        },
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "INSTANCE"
+                    },
+                    {
+                      "bounds": {
+                        "height": 19,
+                        "width": 56,
+                        "x": 77.33349609375,
+                        "y": 0
+                      },
+                      "characters": "BTC/USDT",
+                      "id": "588:16147",
+                      "name": "BTC/USDT",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#1f3262",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh FaNum",
+                        "fontSize": 12,
+                        "fontStyle": "SemiBold",
+                        "fontWeight": 600,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    }
+                  ],
+                  "id": "588:16145",
+                  "name": "Frame 2147225065",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "MIN",
+                      "counterAxisSizing": "AUTO",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 8,
+                      "primaryAxisAlign": "SPACE_BETWEEN",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 0,
+                    "fills": [],
+                    "opacity": 1,
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "FRAME"
+                },
+                {
+                  "bounds": {
+                    "height": 16,
+                    "width": 133.33334350585938,
+                    "x": 0,
+                    "y": 28
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 29,
+                        "x": 8,
+                        "y": 0
+                      },
+                      "characters": "-2.7%",
+                      "id": "588:16149",
+                      "name": "-2.7%",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "fills": [
+                          {
+                            "color": "#ff4d4f",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "fontFamily": "Yekan Bakh",
+                        "fontSize": 10,
+                        "fontStyle": "Regular",
+                        "fontWeight": 400,
+                        "letterSpacing": {
+                          "unit": "PERCENT",
+                          "value": 0
+                        },
+                        "lineHeight": {
+                          "unit": "AUTO"
+                        },
+                        "opacity": 1,
+                        "strokeAlign": "OUTSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "textAlignHorizontal": "RIGHT",
+                        "textAlignVertical": "TOP",
+                        "textAutoResize": "WIDTH_AND_HEIGHT",
+                        "textDecoration": "NONE",
+                        "visible": true
+                      },
+                      "type": "TEXT"
+                    },
+                    {
+                      "bounds": {
+                        "height": 16,
+                        "width": 75,
+                        "x": 58.333343505859375,
+                        "y": 0
+                      },
+                      "children": [
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 44,
+                            "x": 0,
+                            "y": 0
+                          },
+                          "characters": "2 روز پیش",
+                          "id": "588:16151",
+                          "name": "2 روز پیش",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 6,
+                            "width": 3,
+                            "x": 48,
+                            "y": 5
+                          },
+                          "characters": "•",
+                          "id": "588:16152",
+                          "name": "•",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh FaNum",
+                            "fontSize": 4,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        },
+                        {
+                          "bounds": {
+                            "height": 16,
+                            "width": 20,
+                            "x": 55,
+                            "y": 0
+                          },
+                          "characters": "30m",
+                          "id": "588:16153",
+                          "name": "30m",
+                          "styles": {
+                            "blendMode": "PASS_THROUGH",
+                            "constraints": {
+                              "horizontal": "MIN",
+                              "vertical": "MIN"
+                            },
+                            "fills": [
+                              {
+                                "color": "#7684a7",
+                                "opacity": 1,
+                                "type": "SOLID"
+                              }
+                            ],
+                            "fontFamily": "Yekan Bakh",
+                            "fontSize": 10,
+                            "fontStyle": "Regular",
+                            "fontWeight": 400,
+                            "letterSpacing": {
+                              "unit": "PERCENT",
+                              "value": 0
+                            },
+                            "lineHeight": {
+                              "unit": "AUTO"
+                            },
+                            "opacity": 1,
+                            "strokeAlign": "OUTSIDE",
+                            "strokeWeight": 1,
+                            "strokes": [],
+                            "textAlignHorizontal": "RIGHT",
+                            "textAlignVertical": "TOP",
+                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                            "textDecoration": "NONE",
+                            "visible": true
+                          },
+                          "type": "TEXT"
+                        }
+                      ],
+                      "id": "588:16150",
+                      "name": "Frame 2147225066",
+                      "styles": {
+                        "autoLayout": {
+                          "counterAxisAlign": "CENTER",
+                          "counterAxisSizing": "AUTO",
+                          "counterAxisSpacing": 0,
+                          "direction": "HORIZONTAL",
+                          "gap": 4,
+                          "primaryAxisAlign": "MIN",
+                          "primaryAxisSizing": "AUTO",
+                          "wrap": "NO_WRAP"
+                        },
+                        "blendMode": "PASS_THROUGH",
+                        "clipsContent": false,
+                        "constraints": {
+                          "horizontal": "MIN",
+                          "vertical": "MIN"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "FRAME"
+                    }
+                  ],
+                  "id": "588:16148",
+                  "name": "Frame 2147225064",
+                  "styles": {
+                    "autoLayout": {
+                      "counterAxisAlign": "CENTER",
+                      "counterAxisSizing": "AUTO",
+                      "counterAxisSpacing": 0,
+                      "direction": "HORIZONTAL",
+                      "gap": 4,
+                      "primaryAxisAlign": "SPACE_BETWEEN",
+                      "primaryAxisSizing": "FIXED",
+                      "wrap": "NO_WRAP"
+                    },
+                    "blendMode": "PASS_THROUGH",
+                    "clipsContent": false,
+                    "constraints": {
+                      "horizontal": "MIN",
+                      "vertical": "MIN"
+                    },
+                    "cornerRadius": 0,
+                    "fills": [],
+                    "opacity": 1,
+                    "padding": {
+                      "bottom": 0,
+                      "left": 8,
+                      "right": 0,
+                      "top": 0
+                    },
+                    "strokeAlign": "INSIDE",
+                    "strokeWeight": 1,
+                    "strokes": [],
+                    "visible": true
+                  },
+                  "type": "FRAME"
+                }
+              ],
+              "id": "588:16143",
+              "name": "Frame 1000008113",
+              "styles": {
+                "autoLayout": {
+                  "counterAxisAlign": "MAX",
+                  "counterAxisSizing": "FIXED",
+                  "counterAxisSpacing": 0,
+                  "direction": "VERTICAL",
+                  "gap": 8,
+                  "primaryAxisAlign": "CENTER",
+                  "primaryAxisSizing": "AUTO",
+                  "wrap": "NO_WRAP"
+                },
+                "blendMode": "PASS_THROUGH",
+                "clipsContent": false,
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "cornerRadius": 0,
+                "fills": [],
+                "opacity": 1,
+                "strokeAlign": "INSIDE",
+                "strokeWeight": 1,
+                "strokes": [],
+                "visible": true
+              },
+              "type": "FRAME"
+            }
+          ],
+          "id": "588:16142",
+          "name": "Frame 1890167492",
+          "styles": {
+            "autoLayout": {
+              "counterAxisAlign": "MIN",
+              "counterAxisSizing": "FIXED",
+              "counterAxisSpacing": 0,
+              "direction": "VERTICAL",
+              "gap": 16,
+              "primaryAxisAlign": "MIN",
+              "primaryAxisSizing": "AUTO",
+              "wrap": "NO_WRAP"
+            },
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "padding": {
+              "bottom": 16,
+              "left": 16,
+              "right": 16,
+              "top": 16
+            },
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "FRAME"
+        }
+      ],
+      "id": "588:16140",
+      "name": "Property 1=Short",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "MIN",
+          "counterAxisSizing": "FIXED",
+          "counterAxisSpacing": 0,
+          "direction": "VERTICAL",
+          "gap": 0,
+          "primaryAxisAlign": "CENTER",
+          "primaryAxisSizing": "AUTO",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": true,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "color": "#ecf1ff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "588:16139",
+  "name": "Analysis summery",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

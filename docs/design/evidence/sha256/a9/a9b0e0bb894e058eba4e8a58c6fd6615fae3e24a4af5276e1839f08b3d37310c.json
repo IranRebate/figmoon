@@ -1,0 +1,880 @@
+{
+  "bounds": {
+    "height": 218,
+    "width": 296,
+    "x": -507,
+    "y": 22310.02734375
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 49,
+        "width": 256,
+        "x": 20,
+        "y": 20
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 198,
+            "x": 16,
+            "y": 12
+          },
+          "characters": "نمونه متن",
+          "id": "1:1951",
+          "name": "نمونه متن",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#4c5e8c",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 220,
+            "y": 14.5
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 17.91666603088379,
+                        "width": 17.91666603088379,
+                        "x": 1.0416666269302368,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1952;55:16377",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#4c5e8c",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 13.910417556762695,
+                        "width": 13.917725563049316,
+                        "x": 5.251194953918457,
+                        "y": 0.831250011920929
+                      },
+                      "id": "I1:1952;55:16378",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#4c5e8c",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 5.372881889343262,
+                        "width": 5.362430572509766,
+                        "x": 11.802118301391602,
+                        "y": 2.818784713745117
+                      },
+                      "id": "I1:1952;55:16379",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#4c5e8c",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1952;55:16380",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1952;55:16376",
+                  "name": "edit",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1952;55:16375",
+              "name": "vuesax/outline/edit",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1952",
+          "name": "vuesax/outline/edit",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1950",
+      "name": "Property 1=Default",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "AUTO",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 6,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 8,
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": "#87929f",
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "opacity": 0.07999999821186066,
+            "radius": 10,
+            "spread": 0,
+            "type": "DROP_SHADOW"
+          }
+        ],
+        "fills": [],
+        "opacity": 1,
+        "padding": {
+          "bottom": 12,
+          "left": 16,
+          "right": 16,
+          "top": 12
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 49,
+        "width": 256,
+        "x": 20,
+        "y": 86
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 198,
+            "x": 16,
+            "y": 12
+          },
+          "characters": "نمونه متن",
+          "id": "1:1954",
+          "name": "نمونه متن",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#3e74fe",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 220,
+            "y": 14.5
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 17.91666603088379,
+                        "width": 17.91666603088379,
+                        "x": 1.0416666269302368,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1955;55:16377",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#3e74fe",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 13.910417556762695,
+                        "width": 13.917725563049316,
+                        "x": 5.251194953918457,
+                        "y": 0.831250011920929
+                      },
+                      "id": "I1:1955;55:16378",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#3e74fe",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 5.372881889343262,
+                        "width": 5.362430572509766,
+                        "x": 11.802118301391602,
+                        "y": 2.818784713745117
+                      },
+                      "id": "I1:1955;55:16379",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#3e74fe",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1955;55:16380",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1955;55:16376",
+                  "name": "edit",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1955;55:16375",
+              "name": "vuesax/outline/edit",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1955",
+          "name": "vuesax/outline/edit",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1953",
+      "name": "Property 1=Hover",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "AUTO",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 6,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 8,
+        "fills": [
+          {
+            "color": "#ecf1ff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 12,
+          "left": 16,
+          "right": 16,
+          "top": 12
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 49,
+        "width": 256,
+        "x": 20,
+        "y": 152
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 25,
+            "width": 198,
+            "x": 16,
+            "y": 12
+          },
+          "characters": "نمونه متن",
+          "id": "1:1957",
+          "name": "نمونه متن",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#2c52b4",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 16,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        },
+        {
+          "bounds": {
+            "height": 20,
+            "width": 20,
+            "x": 220,
+            "y": 14.5
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 20,
+                "width": 20,
+                "x": 0,
+                "y": 0
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 20,
+                    "width": 20,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "children": [
+                    {
+                      "bounds": {
+                        "height": 17.91666603088379,
+                        "width": 17.91666603088379,
+                        "x": 1.0416666269302368,
+                        "y": 1.0416666269302368
+                      },
+                      "id": "I1:1958;55:16377",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#2c52b4",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 13.910417556762695,
+                        "width": 13.917725563049316,
+                        "x": 5.251194953918457,
+                        "y": 0.831250011920929
+                      },
+                      "id": "I1:1958;55:16378",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#2c52b4",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 5.372881889343262,
+                        "width": 5.362430572509766,
+                        "x": 11.802118301391602,
+                        "y": 2.818784713745117
+                      },
+                      "id": "I1:1958;55:16379",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [
+                          {
+                            "color": "#2c52b4",
+                            "opacity": 1,
+                            "type": "SOLID"
+                          }
+                        ],
+                        "opacity": 1,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    },
+                    {
+                      "bounds": {
+                        "height": 20,
+                        "width": 20,
+                        "x": 0,
+                        "y": 0
+                      },
+                      "id": "I1:1958;55:16380",
+                      "name": "Vector",
+                      "styles": {
+                        "blendMode": "PASS_THROUGH",
+                        "constraints": {
+                          "horizontal": "SCALE",
+                          "vertical": "SCALE"
+                        },
+                        "cornerRadius": 0,
+                        "fills": [],
+                        "opacity": 0,
+                        "strokeAlign": "INSIDE",
+                        "strokeWeight": 1,
+                        "strokes": [],
+                        "visible": true
+                      },
+                      "type": "VECTOR"
+                    }
+                  ],
+                  "id": "I1:1958;55:16376",
+                  "name": "edit",
+                  "styles": {
+                    "blendMode": "PASS_THROUGH",
+                    "opacity": 1,
+                    "visible": true
+                  },
+                  "type": "GROUP"
+                }
+              ],
+              "id": "I1:1958;55:16375",
+              "name": "vuesax/outline/edit",
+              "styles": {
+                "blendMode": "PASS_THROUGH",
+                "opacity": 1,
+                "visible": true
+              },
+              "type": "GROUP"
+            }
+          ],
+          "id": "1:1958",
+          "name": "vuesax/outline/edit",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "clipsContent": false,
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "cornerRadius": 0,
+            "fills": [],
+            "opacity": 1,
+            "strokeAlign": "INSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "visible": true
+          },
+          "type": "INSTANCE"
+        }
+      ],
+      "id": "1:1956",
+      "name": "Property 1=Active",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "AUTO",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 6,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 8,
+        "fills": [
+          {
+            "color": "#e3ebff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 12,
+          "left": 16,
+          "right": 16,
+          "top": 12
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "1:1949",
+  "name": "Ai Side Category",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

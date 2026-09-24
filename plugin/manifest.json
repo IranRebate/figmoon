@@ -1,0 +1,16 @@
+{
+  "name": "Figmoon",
+  "id": "figmoon",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/index.html",
+  "permissions": ["teamlibrary"],
+  "networkAccess": {
+    "allowedDomains": ["ws://localhost:29194", "ws://localhost:29195"],
+    "reasoning": "Connects to the local Figmoon MCP bridge and the nonce-protected reference acquisition broker."
+  },
+  "documentAccess": "dynamic-page",
+  "editorType": ["figma", "figjam", "slides", "dev"],
+  "enablePrivatePluginApi": true,
+  "capabilities": ["inspect"]
+}

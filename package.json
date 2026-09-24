@@ -1,0 +1,104 @@
+{
+  "name": "figmoon",
+  "version": "1.0.0",
+  "description": "Local design-intelligence workspace: Figma MCP bridge, verified reference acquisition, and structural parity evidence",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "bin": {
+    "figmoon-doctor": "./doctor.mjs"
+  },
+  "exports": {
+    "./lib/config.mjs": "./lib/config.mjs",
+    "./lib/figma-plugin-integrity.mjs": "./lib/figma-plugin-integrity.mjs",
+    "./lib/*": "./lib/*",
+    "./scripts/*": "./scripts/*",
+    "./doctor.mjs": "./doctor.mjs",
+    "./server/launch.mjs": "./server/launch.mjs"
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "server/src",
+    "server/dist",
+    "server/launch.mjs",
+    "server/package.json",
+    "server/tsconfig.json",
+    "plugin/manifest.json",
+    "plugin/package.json",
+    "plugin/src",
+    "plugin/tsconfig.json",
+    "plugin/vite.config.ts",
+    "plugin/vite.config.main.ts",
+    "plugin/dist",
+    "integrity.json",
+    "doctor.mjs",
+    "update-integrity.mjs",
+    "demo",
+    "docs",
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "setup": "npm ci --prefix server && npm ci --prefix plugin && npm run build",
+    "build": "npm run build --prefix server && node update-integrity.mjs",
+    "doctor": "node doctor.mjs",
+    "check:figma": "node scripts/check-figma-refs.mjs",
+    "figma:inspect": "node scripts/figma-inspect.mjs",
+    "figma:probe": "node scripts/figma-probe.mjs",
+    "figma:measure": "node scripts/figma-signoff.mjs --measure",
+    "figma:signoff": "node scripts/figma-signoff.mjs",
+    "figma:attest": "node scripts/figma-attest.mjs",
+    "figma:acquire": "node scripts/figma-acquire-reference.mjs",
+    "figma:promote-reference": "node scripts/figma-promote-reference.mjs",
+    "figma:governance": "node scripts/check-visual-qa-boundaries.mjs && node scripts/figma-strict-audit.mjs --mode=governance",
+    "figma:daily": "node scripts/figma-daily-sync.mjs",
+    "figma:daily:status": "node scripts/figma-daily-sync.mjs --status",
+    "design:impact": "node scripts/design-impact.mjs",
+    "design:verify": "node scripts/verify-design-impact.mjs",
+    "design:lease": "node scripts/design-lease.mjs",
+    "design:diagnose": "node scripts/design-diagnose.mjs",
+    "test": "npm run build && node --test server.test.mjs plugin.test.mjs pattern-analysis.test.mjs scripts/figma-workflow-docs.test.mjs",
+    "test:plugins": "npm run build && node --test server.test.mjs plugin.test.mjs pattern-analysis.test.mjs",
+    "test:evidence": "node --test scripts/**/*.test.mjs scripts/*.test.mjs",
+    "demo": "npm run build --prefix server && node demo/run-demo.mjs demo/input.svg"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.3",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "openai": "^7.4.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.40.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@playwright/test": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "figma",
+    "mcp",
+    "design-to-code",
+    "pixel-perfect",
+    "visual-regression",
+    "ai",
+    "design-system"
+  ]
+}

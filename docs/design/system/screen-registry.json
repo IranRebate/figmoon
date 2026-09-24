@@ -1,0 +1,3380 @@
+{
+  "version": "1.1.0",
+  "source": {
+    "authority": "figma",
+    "documentName": "Example Design File (Copy)",
+    "channelStored": false,
+    "generatedFrom": [
+      "docs/design/pixel-perfect-registry.json",
+      "docs/design/figma/reference-manifest.json",
+      "client/scripts/generate-design-system-screen-registry.mjs"
+    ]
+  },
+  "coverage": {
+    "totalScreens": 86,
+    "mappingStatus": {
+      "mapped": 50,
+      "requires-remap": 21,
+      "needs-figma-node": 5,
+      "reference-only": 10
+    }
+  },
+  "screens": [
+    {
+      "id": "desktop-chat-empty",
+      "kind": "page",
+      "title": "Desktop – Chat Empty State",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "chat-empty",
+      "visualRegistryId": "desktop-chat-empty",
+      "referencePath": "docs/design/figma/pages/Main Chat.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "source-main-chat",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "803:17448",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-chat-active",
+      "kind": "page",
+      "title": "Desktop – Chat Active / Input Suggestion",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "chat-active",
+      "visualRegistryId": "desktop-chat-active",
+      "referencePath": "docs/design/figma/pages/Main Chat - Focus.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "source-main-chat-focus",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "803:17665",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-chat-with-response",
+      "kind": "page",
+      "title": "Desktop – Chat with Assistant Response",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "chat-with-response",
+      "visualRegistryId": "desktop-chat-with-response",
+      "referencePath": "docs/design/figma/pages/Main Chat - Long Chat.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "source-main-chat-long",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:42060",
+        "nodeName": "Main Chat - Long Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-chat-settings",
+      "kind": "overlay",
+      "title": "Desktop – Settings Modal (Profile Tab)",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "settings-modal-profile",
+      "visualRegistryId": "desktop-chat-settings",
+      "referencePath": "docs/design/figma/pages/Settings-1-profile.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-chat-settings",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21632",
+        "nodeName": "Settings",
+        "nodeType": "INSTANCE",
+        "liveBounds": {
+          "width": 926,
+          "height": 631
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/SettingsModal.tsx",
+        "export": "SettingsModal",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "always mounted; visibility is owned by useSettingsStore"
+        }
+      }
+    },
+    {
+      "id": "desktop-onboarding",
+      "kind": "overlay",
+      "title": "Desktop – Onboarding Flow (Question)",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "onboarding-q1",
+      "visualRegistryId": "desktop-onboarding",
+      "referencePath": "docs/design/figma/pages/Frame 1890167531.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-onboarding",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:41111",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding"
+        }
+      }
+    },
+    {
+      "id": "desktop-date-picker",
+      "kind": "overlay",
+      "title": "Desktop – Jalali Date Picker Popover",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "date-picker-open",
+      "visualRegistryId": "desktop-date-picker",
+      "referencePath": "docs/design/figma/pages/Desktop Date Picker.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-date-picker",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "51:8722",
+        "nodeName": "Desktop Date Picker",
+        "nodeType": "COMPONENT",
+        "liveBounds": {
+          "width": 353,
+          "height": 447
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/DatePicker.tsx",
+        "export": "DatePicker",
+        "role": "popover-owner",
+        "mount": {
+          "module": "client/src/components/calendar/CalendarPage.tsx",
+          "condition": "CalendarPage renders DatePicker"
+        }
+      }
+    },
+    {
+      "id": "desktop-filters",
+      "kind": "overlay",
+      "title": "Desktop – Calendar Filters Popover",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "filters-open",
+      "visualRegistryId": "desktop-filters",
+      "referencePath": "docs/design/figma/pages/Filters.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-filters",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "51:8816",
+        "nodeName": "desktop-filters",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 353,
+          "height": 528
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarFilters.tsx",
+        "export": "CalendarFilters",
+        "role": "popover-owner",
+        "mount": {
+          "module": "client/src/components/calendar/CalendarPage.tsx",
+          "condition": "CalendarPage renders CalendarFilters"
+        }
+      }
+    },
+    {
+      "id": "desktop-references",
+      "kind": "page",
+      "title": "Desktop – Chat with References / Broker Table",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "chat-with-references",
+      "visualRegistryId": "desktop-references",
+      "referencePath": "docs/design/figma/pages/Frame 1890167537.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-references",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:15505",
+        "nodeName": "Frame 1890167537",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-survey-long-response",
+      "kind": "page",
+      "title": "Desktop – Survey Long Response",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "survey-long-response",
+      "visualRegistryId": "desktop-survey-long-response",
+      "referencePath": "docs/design/figma/pages/Frame 1890167534.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-chat-with-response",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:42060",
+        "nodeName": "Main Chat - Long Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-survey-cta",
+      "kind": "page",
+      "title": "Desktop – Survey CTA Tools",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "survey-cta",
+      "visualRegistryId": "desktop-survey-cta",
+      "referencePath": "docs/design/figma/pages/Frame 1890167535.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-survey-cta",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:14523",
+        "nodeName": "Frame 1890167535",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-survey-multiple-choice",
+      "kind": "page",
+      "title": "Desktop – Survey Multiple Choice",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "survey-multiple-choice",
+      "visualRegistryId": "desktop-survey-multiple-choice",
+      "referencePath": "docs/design/figma/pages/Frame 1890167536.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-survey-multiple-choice",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:15160",
+        "nodeName": "Frame 1890167536",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-discover",
+      "kind": "page",
+      "title": "Desktop – Discover Page",
+      "route": "/discover",
+      "runtimeRoute": "/discover",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "discover",
+      "visualRegistryId": "desktop-discover",
+      "referencePath": "docs/design/figma/pages/Discover.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-discover",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:16989",
+        "nodeName": "Discover",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/discover/DiscoverPage.tsx",
+        "export": "DiscoverPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'discover'"
+        }
+      }
+    },
+    {
+      "id": "desktop-calendar",
+      "kind": "page",
+      "title": "Desktop – Economic Calendar",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "desktop-calendar",
+      "visualRegistryId": "desktop-calendar",
+      "referencePath": "docs/design/figma/pages/Forex Factory.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-calendar",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:30308",
+        "nodeName": "Forex Factory",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarPage.tsx",
+        "export": "CalendarPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'calendar'"
+        }
+      }
+    },
+    {
+      "id": "desktop-settings",
+      "kind": "page",
+      "title": "Desktop – Settings Overlay",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "settings-modal-profile",
+      "visualRegistryId": "desktop-settings",
+      "referencePath": "docs/design/figma/pages/Settings.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-settings",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21345",
+        "nodeName": "Settings",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/SettingsModal.tsx",
+        "export": "SettingsModal",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "always mounted; visibility is owned by useSettingsStore"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-empty",
+      "kind": "page",
+      "title": "Mobile – Chat Empty State",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-empty",
+      "visualRegistryId": "mobile-chat-empty",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 28.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-empty",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:7778",
+        "nodeName": "Main Chat - iPhone 13 & 14 - 28",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-empty-alt",
+      "kind": "page",
+      "title": "Mobile – Chat Empty State Alt",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-empty-alt",
+      "visualRegistryId": "mobile-chat-empty-alt",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 31.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-empty-alt",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:7949",
+        "nodeName": "Main Chat - after type - iPhone 13 & 14",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-user-message",
+      "kind": "page",
+      "title": "Mobile – Chat with User Message",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-user-message",
+      "visualRegistryId": "mobile-chat-user-message",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 33.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-chat-user-message",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:8019",
+        "nodeName": "iPhone 13 & 14 - 33",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-long-response",
+      "kind": "page",
+      "title": "Mobile – Chat Long Response",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-long-response",
+      "visualRegistryId": "mobile-chat-long-response",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 34.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-chat-long-response",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:8058",
+        "nodeName": "iPhone 13 & 14 - 34",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-references",
+      "kind": "page",
+      "title": "Mobile – Chat with References",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-with-references",
+      "visualRegistryId": "mobile-chat-references",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 36.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-references",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:8160",
+        "nodeName": "iPhone 13 & 14 - 36",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-onboarding-in-chat",
+      "kind": "page",
+      "title": "Mobile – Onboarding Inside Chat Flow",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-in-chat",
+      "visualRegistryId": "mobile-chat-onboarding-in-chat",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 37.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-onboarding-in-chat",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:8202",
+        "nodeName": "iPhone 13 & 14 - 37",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding"
+        }
+      }
+    },
+    {
+      "id": "mobile-sidebar",
+      "kind": "overlay",
+      "title": "Mobile – Sidebar / Drawer Menu",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "sidebar-open-figma",
+      "visualRegistryId": "mobile-sidebar",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 30.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-sidebar",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:42394",
+        "nodeName": "Main Chat - iPhone 13 & 14 - 29",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatSidebar.tsx",
+        "export": "ChatSidebar",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "mobile && !sidebarCollapsed"
+        }
+      }
+    },
+    {
+      "id": "mobile-discover",
+      "kind": "page",
+      "title": "Mobile – Discover Page",
+      "route": "/discover",
+      "runtimeRoute": "/discover",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "discover-mobile",
+      "visualRegistryId": "mobile-discover",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 38.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-discover",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:16450",
+        "nodeName": "iPhone 13 & 14 - 38",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/discover/DiscoverPage.tsx",
+        "export": "DiscoverPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'discover'"
+        }
+      }
+    },
+    {
+      "id": "mobile-news",
+      "kind": "page",
+      "title": "Mobile – News Page",
+      "route": "/news?view=grid",
+      "runtimeRoute": "/news",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "news",
+      "visualRegistryId": "mobile-news",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 73.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-news",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:50490",
+        "nodeName": "iPhone 13 & 14 - 73",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/news/NewsPage.tsx",
+        "export": "NewsPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'news'"
+        }
+      }
+    },
+    {
+      "id": "mobile-prompts",
+      "kind": "page",
+      "title": "Mobile – Prompt Repository",
+      "route": "/prompts",
+      "runtimeRoute": "/prompts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "prompts",
+      "visualRegistryId": "mobile-prompts",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 49.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-prompts",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22801",
+        "nodeName": "iPhone 13 & 14 - 49",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/prompts/PromptRepository.tsx",
+        "export": "PromptRepository",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'prompts'"
+        }
+      }
+    },
+    {
+      "id": "mobile-calendar",
+      "kind": "page",
+      "title": "Mobile – Economic Calendar",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "calendar",
+      "visualRegistryId": "mobile-calendar",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 50.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-calendar",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:25358",
+        "nodeName": "iPhone 13 & 14 - 50",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarPage.tsx",
+        "export": "CalendarPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'calendar'"
+        }
+      }
+    },
+    {
+      "id": "mobile-calendar-filters",
+      "kind": "overlay",
+      "title": "Mobile – Calendar Filters Sheet",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "filters-open",
+      "visualRegistryId": "mobile-calendar-filters",
+      "referencePath": "docs/design/figma/pages/Filters-1.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-calendar-filters",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:25792",
+        "nodeName": "Filters",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 675
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarFilters.tsx",
+        "export": "CalendarFilters",
+        "role": "sheet-owner",
+        "mount": {
+          "module": "client/src/components/calendar/CalendarPage.tsx",
+          "condition": "CalendarPage renders CalendarFilters"
+        }
+      }
+    },
+    {
+      "id": "mobile-calendar-filters-partial",
+      "kind": "page",
+      "title": "Mobile – Calendar with Filters Tab",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "calendar-with-filters",
+      "visualRegistryId": "mobile-calendar-filters-partial",
+      "referencePath": null,
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "needs-figma-node",
+      "figmaReferenceId": null,
+      "figma": null,
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarPage.tsx",
+        "export": "CalendarPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'calendar'"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-landing",
+      "kind": "page",
+      "title": "Mobile – Settings Landing Page",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-landing",
+      "visualRegistryId": "mobile-settings-landing",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 40.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-settings-landing",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21881",
+        "nodeName": "iPhone 13 & 14 - 40",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/SettingsPage.tsx",
+        "export": "SettingsPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'settings'"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-profile",
+      "kind": "page",
+      "title": "Mobile – Settings Profile Tab",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-profile",
+      "visualRegistryId": "mobile-settings-profile",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 41.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-settings-profile",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21897",
+        "nodeName": "iPhone 13 & 14 - 41",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/ProfileTab.tsx",
+        "export": "ProfileTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-personalization",
+      "kind": "page",
+      "title": "Mobile – Settings Personalization Tab",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 820
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-personalization",
+      "visualRegistryId": "mobile-settings-personalization",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 42.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-settings-personalization",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21923",
+        "nodeName": "iPhone 13 & 14 - 42",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 819.09326171875
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-subscription",
+      "kind": "page",
+      "title": "Mobile – Settings Subscription Tab",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 783
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-subscription",
+      "visualRegistryId": "mobile-settings-subscription",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 43.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-settings-subscription",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:21954",
+        "nodeName": "iPhone 13 & 14 - 43",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 790
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/SubscriptionTab.tsx",
+        "export": "SubscriptionTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "activeTab === 'subscription'"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-persona-list",
+      "kind": "page",
+      "title": "Mobile – Settings Persona Selection",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-persona-list",
+      "visualRegistryId": "mobile-settings-persona-list",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 44.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-persona-list",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22012",
+        "nodeName": "iPhone 13 & 14 - 44",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-persona-quiz-q1",
+      "kind": "page",
+      "title": "Mobile – Settings Persona Quiz Question 1",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-persona-quiz-q1",
+      "visualRegistryId": "mobile-settings-persona-quiz-q1",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 45.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-q1",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22042",
+        "nodeName": "iPhone 13 & 14 - 45",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-persona-quiz-q2",
+      "kind": "page",
+      "title": "Mobile – Settings Persona Quiz Question 2",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-persona-quiz-q2",
+      "visualRegistryId": "mobile-settings-persona-quiz-q2",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 46.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-q2",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22071",
+        "nodeName": "iPhone 13 & 14 - 46",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-persona-loading",
+      "kind": "page",
+      "title": "Mobile – Settings Persona Quiz Loading",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-persona-loading",
+      "visualRegistryId": "mobile-settings-persona-loading",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 47.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-loading",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22102",
+        "nodeName": "iPhone 13 & 14 - 47",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-settings-persona-result",
+      "kind": "page",
+      "title": "Mobile – Settings Persona Quiz Result",
+      "route": "/settings",
+      "runtimeRoute": "/settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "settings-persona-result",
+      "visualRegistryId": "mobile-settings-persona-result",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 48.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-persona-result",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22119",
+        "nodeName": "iPhone 13 & 14 - 48",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-onboarding-q1",
+      "kind": "page",
+      "title": "Mobile – Onboarding Question 1",
+      "route": "/onboarding",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-q1",
+      "visualRegistryId": "mobile-onboarding-q1",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 45.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-q1",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22042",
+        "nodeName": "iPhone 13 & 14 - 45",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding; visual scenario is mounted over /chat"
+        }
+      }
+    },
+    {
+      "id": "mobile-onboarding-q2",
+      "kind": "page",
+      "title": "Mobile – Onboarding Question 2",
+      "route": "/onboarding",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-q2",
+      "visualRegistryId": "mobile-onboarding-q2",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 46.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-q2",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22071",
+        "nodeName": "iPhone 13 & 14 - 46",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding; visual scenario is mounted over /chat"
+        }
+      }
+    },
+    {
+      "id": "mobile-onboarding-loading",
+      "kind": "page",
+      "title": "Mobile – Onboarding Persona Loading",
+      "route": "/onboarding",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-loading",
+      "visualRegistryId": "mobile-onboarding-loading",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 47.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-loading",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22102",
+        "nodeName": "iPhone 13 & 14 - 47",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding; visual scenario is mounted over /chat"
+        }
+      }
+    },
+    {
+      "id": "mobile-onboarding-persona-result",
+      "kind": "page",
+      "title": "Mobile – Onboarding Persona Result",
+      "route": "/settings",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-persona-result",
+      "visualRegistryId": "mobile-onboarding-persona-result",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 48.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-persona-result",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22119",
+        "nodeName": "iPhone 13 & 14 - 48",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-copilot",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Copilot",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-copilot",
+      "visualRegistryId": "desktop-analysis-copilot",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-copilot",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:22518",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 960
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-copilot-chat",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Copilot Chat",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-copilot-chat",
+      "visualRegistryId": "desktop-analysis-copilot-chat",
+      "referencePath": null,
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "needs-figma-node",
+      "figmaReferenceId": null,
+      "figma": null,
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-manual-symbol",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Manual Symbol Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-manual-symbol",
+      "visualRegistryId": "desktop-analysis-manual-symbol",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance Symbol.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-manual-symbol",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:26380",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 960
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-manual-strategy",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Manual Strategy Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-manual-strategy",
+      "visualRegistryId": "desktop-analysis-manual-strategy",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance Strategy.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-analysis-manual-strategy",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:26576",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 960
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-manual-indicators",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Manual Indicators Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-manual-indicators",
+      "visualRegistryId": "desktop-analysis-manual-indicators",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance Indicators.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-manual-indicators",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:26776",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1441,
+          "height": 1023
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-manual-custom",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Manual Custom Strategy",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-manual-custom",
+      "visualRegistryId": "desktop-analysis-manual-custom",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance Custom.png",
+      "pixelStatus": "waived",
+      "implementationStatus": "implemented",
+      "parityStatus": "waived",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-manual-custom",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:27000",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 960
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-loading",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Processing",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-loading",
+      "visualRegistryId": "desktop-analysis-loading",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance Loading.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-loading",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:23343",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 960
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-analysis-result",
+      "kind": "page",
+      "title": "Desktop – Market Assistant Result",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "analysis-result",
+      "visualRegistryId": "desktop-analysis-result",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance-6.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-analysis-result",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:24888",
+        "nodeName": "Intelligence Assistance",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 994
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-copilot",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Copilot",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-copilot",
+      "visualRegistryId": "mobile-analysis-copilot",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 64.png",
+      "pixelStatus": "in_progress",
+      "implementationStatus": "implemented",
+      "parityStatus": "in-progress",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-copilot",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:26242",
+        "nodeName": "iPhone 13 & 14 - 65",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-copilot-chat",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Copilot Chat",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-copilot-chat",
+      "visualRegistryId": "mobile-analysis-copilot-chat",
+      "referencePath": null,
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "needs-figma-node",
+      "figmaReferenceId": null,
+      "figma": null,
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-loading",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Processing",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-loading",
+      "visualRegistryId": "mobile-analysis-loading",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 67.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-manual-custom-loading",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:23864",
+        "nodeName": "iPhone 13 & 14 - 67",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-result",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Result",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-result",
+      "visualRegistryId": "mobile-analysis-result",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 68.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-analysis-result",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:25726",
+        "nodeName": "iPhone 13 & 14 - 68",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 1266
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-symbol",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Manual Symbol Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-manual-symbol",
+      "visualRegistryId": "mobile-analysis-manual-symbol",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 69.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-manual-symbol",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:27120",
+        "nodeName": "iPhone 13 & 14 - 69",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 1342
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-strategy",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Manual Strategy Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-manual-strategy",
+      "visualRegistryId": "mobile-analysis-manual-strategy",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 70.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-analysis-manual-strategy",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:27339",
+        "nodeName": "iPhone 13 & 14 - 70",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 1516
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-indicators",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Manual Indicators Step",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-manual-indicators",
+      "visualRegistryId": "mobile-analysis-manual-indicators",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 72.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-manual-indicators",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:27740",
+        "nodeName": "iPhone 13 & 14 - 72",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 1514
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-custom",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Manual Custom Strategy",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-manual-custom",
+      "visualRegistryId": "mobile-analysis-manual-custom",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 71.png",
+      "pixelStatus": "waived",
+      "implementationStatus": "implemented",
+      "parityStatus": "waived",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-manual-custom",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:27558",
+        "nodeName": "iPhone 13 & 14 - 71",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 1457
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "desktop-calendar-expanded",
+      "kind": "page",
+      "title": "Desktop – Calendar Event Row Expanded",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "calendar",
+      "visualRegistryId": "desktop-calendar-expanded",
+      "referencePath": null,
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "needs-figma-node",
+      "figmaReferenceId": null,
+      "figma": null,
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarPage.tsx",
+        "export": "CalendarPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'calendar'"
+        }
+      }
+    },
+    {
+      "id": "mobile-calendar-expanded",
+      "kind": "page",
+      "title": "Mobile – Calendar Event Row Expanded",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "calendar-expanded",
+      "visualRegistryId": "mobile-calendar-expanded",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 51.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-calendar-expanded",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:25483",
+        "nodeName": "iPhone 13 & 14 - 51",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/CalendarEventRow.tsx",
+        "export": "CalendarEventRow",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/calendar/CalendarPage.tsx",
+          "condition": "selected event row renders its detail state"
+        }
+      }
+    },
+    {
+      "id": "desktop-chat-followup-response",
+      "kind": "page",
+      "title": "Desktop – Chat Follow-up Response",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "chat-followup-response",
+      "visualRegistryId": "desktop-chat-followup-response",
+      "referencePath": "docs/design/figma/pages/Frame 1890167533.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-chat-followup-response",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:13050",
+        "nodeName": "Frame 1890167533",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "desktop-news-list",
+      "kind": "page",
+      "title": "Desktop – News List",
+      "route": "/news?view=list",
+      "runtimeRoute": "/news",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "news-list",
+      "visualRegistryId": "desktop-news-list",
+      "referencePath": "docs/design/figma/pages/News-1.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-news-list",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:50186",
+        "nodeName": "News",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/news/NewsPage.tsx",
+        "export": "NewsPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'news'"
+        }
+      }
+    },
+    {
+      "id": "desktop-news-grid",
+      "kind": "page",
+      "title": "Desktop – News Grid",
+      "route": "/news?view=grid",
+      "runtimeRoute": "/news",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "news-grid",
+      "visualRegistryId": "desktop-news-grid",
+      "referencePath": "docs/design/figma/pages/News.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "desktop-news-grid",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:49802",
+        "nodeName": "News",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/news/NewsPage.tsx",
+        "export": "NewsPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'news'"
+        }
+      }
+    },
+    {
+      "id": "desktop-prompt-repository",
+      "kind": "page",
+      "title": "Desktop – Prompt Repository",
+      "route": "/prompts",
+      "runtimeRoute": "/prompts",
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": "prompts",
+      "visualRegistryId": "desktop-prompt-repository",
+      "referencePath": "docs/design/figma/pages/Prompt Repository.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "desktop-prompt-repository",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:24524",
+        "nodeName": "Prompt Repository",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/prompts/PromptRepository.tsx",
+        "export": "PromptRepository",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'prompts'"
+        }
+      }
+    },
+    {
+      "id": "mobile-date-picker-full",
+      "kind": "page",
+      "title": "Mobile – Full Date Picker",
+      "route": "/calendar",
+      "runtimeRoute": "/calendar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "date-picker-open",
+      "visualRegistryId": "mobile-date-picker-full",
+      "referencePath": "docs/design/figma/pages/calendar.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-date-picker-full",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:25611",
+        "nodeName": "calendar",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 974
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/calendar/DatePicker.tsx",
+        "export": "DatePicker",
+        "role": "sheet-owner",
+        "mount": {
+          "module": "client/src/components/calendar/CalendarPage.tsx",
+          "condition": "CalendarPage renders DatePicker"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-onboarding-options",
+      "kind": "page",
+      "title": "Mobile – Chat Onboarding Options",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-in-chat-options",
+      "visualRegistryId": "mobile-chat-onboarding-options",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 29.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-onboarding-options",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:7811",
+        "nodeName": "iPhone 13 & 14 - 29",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/onboarding/OnboardingFlow.tsx",
+        "export": "OnboardingFlow",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "showOnboarding"
+        }
+      }
+    },
+    {
+      "id": "mobile-sidebar-menu",
+      "kind": "page",
+      "title": "Mobile – Sidebar Menu Variant",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-followup-response",
+      "visualRegistryId": "mobile-sidebar-menu",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 32.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "requires-remap",
+      "figmaReferenceId": "mobile-sidebar-menu",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:7982",
+        "nodeName": "iPhone 13 & 14 - 32",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatSidebar.tsx",
+        "export": "ChatSidebar",
+        "role": "overlay-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "mobile && !sidebarCollapsed"
+        }
+      }
+    },
+    {
+      "id": "mobile-chat-response-variant",
+      "kind": "page",
+      "title": "Mobile – Chat Response Variant",
+      "route": "/chat",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "chat-response-variant",
+      "visualRegistryId": "mobile-chat-response-variant",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 35.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-chat-response-variant",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:8097",
+        "nodeName": "iPhone 13 & 14 - 35",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/chat/ChatInterface.tsx",
+        "export": "ChatInterface",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'chat'"
+        }
+      }
+    },
+    {
+      "id": "mobile-onboarding-persona-list",
+      "kind": "page",
+      "title": "Mobile – Onboarding Persona List",
+      "route": "/settings",
+      "runtimeRoute": "/chat",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "onboarding-persona-list",
+      "visualRegistryId": "mobile-onboarding-persona-list",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 44.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-onboarding-persona-list",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:22012",
+        "nodeName": "iPhone 13 & 14 - 44",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/settings/PersonalizationTab.tsx",
+        "export": "PersonalizationTab",
+        "role": "state-owner",
+        "mount": {
+          "module": "client/src/components/settings/SettingsPage.tsx",
+          "condition": "active settings view/tab"
+        }
+      }
+    },
+    {
+      "id": "mobile-discover-filtered",
+      "kind": "page",
+      "title": "Mobile – Discover (Category Filter Selected)",
+      "route": "/discover?category=broker",
+      "runtimeRoute": "/discover",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "discover-filtered",
+      "visualRegistryId": "mobile-discover-filtered",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 39.png",
+      "pixelStatus": "waived",
+      "implementationStatus": "implemented",
+      "parityStatus": "waived",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-discover-filtered",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "157:17951",
+        "nodeName": "iPhone 13 & 14 - 39",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/discover/DiscoverPage.tsx",
+        "export": "DiscoverPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'discover'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-mode-select",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Mode Selection",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-mode-select",
+      "visualRegistryId": "mobile-analysis-mode-select",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 66.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-mode-select",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:23052",
+        "nodeName": "iPhone 13 & 14 - 66",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-symbol-focus",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Symbol Input Focused",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-manual-symbol-focus",
+      "visualRegistryId": "mobile-analysis-manual-symbol-focus",
+      "referencePath": null,
+      "pixelStatus": "unmapped",
+      "implementationStatus": "missing",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "needs-figma-node",
+      "figmaReferenceId": null,
+      "figma": null,
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "mobile-analysis-manual-custom-loading",
+      "kind": "page",
+      "title": "Mobile – Market Assistant Processing",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "viewportName": "mobile",
+      "theme": "light",
+      "scenario": "analysis-loading",
+      "visualRegistryId": "mobile-analysis-manual-custom-loading",
+      "referencePath": "docs/design/figma/pages/iPhone 13 & 14 - 67.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "mobile-analysis-manual-custom-loading",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:23864",
+        "nodeName": "iPhone 13 & 14 - 67",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 390,
+          "height": 844
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "source-analysis-copilot-intro-legacy",
+      "kind": "page",
+      "title": "Figma Source – Intelligence Assistance 1",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-analysis-copilot-intro-legacy",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance-1.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-analysis-copilot-intro-legacy",
+      "figma": null,
+      "implementation": null
+    },
+    {
+      "id": "source-analysis-intelligence-assistance-5",
+      "kind": "page",
+      "title": "Figma Source – Intelligence Assistance 5",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-analysis-intelligence-assistance-5",
+      "referencePath": "docs/design/figma/pages/Intelligence Assistance-5.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-analysis-intelligence-assistance-5",
+      "figma": null,
+      "implementation": null
+    },
+    {
+      "id": "source-legacy-main-chat-empty-archived",
+      "kind": "page",
+      "title": "Archived Figma Source – Legacy Main Chat Empty",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-legacy-main-chat-empty-archived",
+      "referencePath": "docs/design/figma/pages/Frame 1890167530.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-legacy-main-chat-empty-archived",
+      "figma": null,
+      "implementation": null
+    },
+    {
+      "id": "source-legacy-main-chat-focus-archived",
+      "kind": "page",
+      "title": "Archived Figma Source – Legacy Main Chat Focus",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-legacy-main-chat-focus-archived",
+      "referencePath": "docs/design/figma/pages/Frame 1890167532.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-legacy-main-chat-focus-archived",
+      "figma": null,
+      "implementation": null
+    },
+    {
+      "id": "source-main-chat",
+      "kind": "page",
+      "title": "Figma Source – Main Chat",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-main-chat",
+      "referencePath": "docs/design/figma/pages/Main Chat.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-main-chat",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "803:17448",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "source-main-chat-focus",
+      "kind": "page",
+      "title": "Figma Source – Main Chat Focus",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-main-chat-focus",
+      "referencePath": "docs/design/figma/pages/Main Chat - Focus.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-main-chat-focus",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "803:17665",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "source-main-chat-dropdown",
+      "kind": "page",
+      "title": "Figma Source – Main Chat Dropdown",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-main-chat-dropdown",
+      "referencePath": "docs/design/figma/pages/Main Chat - Dropdown.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-main-chat-dropdown",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:41582",
+        "nodeName": "Main Chat - Dropdown",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "source-main-chat-long",
+      "kind": "page",
+      "title": "Figma Source – Main Chat Long",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-main-chat-long",
+      "referencePath": "docs/design/figma/pages/Main Chat - Long Chat.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-main-chat-long",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "690:42060",
+        "nodeName": "Main Chat - Long Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "source-main-chat-voice",
+      "kind": "page",
+      "title": "Figma Source – Main Chat Voice Input",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-main-chat-voice",
+      "referencePath": "docs/design/figma/pages/Main Chat - Voice.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-main-chat-voice",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "803:17448",
+        "nodeName": "Main Chat",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "source-pricing-modal",
+      "kind": "overlay",
+      "title": "Figma Source – Pricing Modal",
+      "route": null,
+      "runtimeRoute": null,
+      "viewport": {
+        "width": 1440,
+        "height": 1024
+      },
+      "viewportName": "desktop",
+      "theme": "light",
+      "scenario": null,
+      "visualRegistryId": "source-pricing-modal",
+      "referencePath": "docs/design/figma/pages/Pricing Modal.png",
+      "pixelStatus": "unmapped",
+      "implementationStatus": "not-applicable",
+      "parityStatus": "not-comparable",
+      "mappingStatus": "reference-only",
+      "figmaReferenceId": "source-pricing-modal",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "688:27401",
+        "nodeName": "Pricing Modal",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 1440,
+          "height": 1024
+        }
+      },
+      "implementation": null
+    },
+    {
+      "id": "tablet-analysis-landscape-1",
+      "kind": "page",
+      "title": "Tablet Landscape – Analysis 1",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 1133,
+        "height": 744
+      },
+      "viewportName": "tablet-landscape",
+      "theme": "light",
+      "scenario": "analysis-copilot",
+      "visualRegistryId": "tablet-analysis-landscape-1",
+      "referencePath": "docs/design/figma/pages/iPad mini 8.3 - 1.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "tablet-analysis-landscape-1",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "808:24362",
+        "nodeName": "iPad mini 8.3 - 1",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 744,
+          "height": 1133
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "tablet-analysis-portrait-2",
+      "kind": "page",
+      "title": "Tablet Portrait – Analysis 2",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 744,
+        "height": 1133
+      },
+      "viewportName": "tablet-portrait",
+      "theme": "light",
+      "scenario": "analysis-copilot-chat",
+      "visualRegistryId": "tablet-analysis-portrait-2",
+      "referencePath": "docs/design/figma/pages/iPad mini 8.3 - 2.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "tablet-analysis-portrait-2",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "807:16474",
+        "nodeName": "iPad mini 8.3 - 2",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 744,
+          "height": 1133
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "tablet-analysis-portrait-3",
+      "kind": "page",
+      "title": "Tablet Portrait – Analysis 3",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 744,
+        "height": 1133
+      },
+      "viewportName": "tablet-portrait",
+      "theme": "light",
+      "scenario": "analysis-copilot",
+      "visualRegistryId": "tablet-analysis-portrait-3",
+      "referencePath": "docs/design/figma/pages/iPad mini 8.3 - 3.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "tablet-analysis-portrait-3",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "807:16550",
+        "nodeName": "iPad mini 8.3 - 3",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 744,
+          "height": 1133
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "tablet-analysis-portrait-4",
+      "kind": "page",
+      "title": "Tablet Portrait – Analysis 4",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 744,
+        "height": 1133
+      },
+      "viewportName": "tablet-portrait",
+      "theme": "light",
+      "scenario": "analysis-loading",
+      "visualRegistryId": "tablet-analysis-portrait-4",
+      "referencePath": "docs/design/figma/pages/iPad mini 8.3 - 4.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "tablet-analysis-portrait-4",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "807:16645",
+        "nodeName": "iPad mini 8.3 - 4",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 744,
+          "height": 1133
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    },
+    {
+      "id": "tablet-analysis-portrait-5",
+      "kind": "page",
+      "title": "Tablet Portrait – Analysis 5",
+      "route": "/analysis",
+      "runtimeRoute": "/analysis",
+      "viewport": {
+        "width": 744,
+        "height": 1133
+      },
+      "viewportName": "tablet-portrait",
+      "theme": "light",
+      "scenario": "analysis-result",
+      "visualRegistryId": "tablet-analysis-portrait-5",
+      "referencePath": "docs/design/figma/pages/iPad mini 8.3 - 5.png",
+      "pixelStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "mappingStatus": "mapped",
+      "figmaReferenceId": "tablet-analysis-portrait-5",
+      "figma": {
+        "pageId": "0:1",
+        "pageName": "Final ",
+        "nodeId": "807:16730",
+        "nodeName": "iPad mini 8.3 - 5",
+        "nodeType": "FRAME",
+        "liveBounds": {
+          "width": 744,
+          "height": 1133
+        }
+      },
+      "implementation": {
+        "module": "client/src/components/analysis/MarketAssistantPage.tsx",
+        "export": "MarketAssistantPage",
+        "role": "page-owner",
+        "mount": {
+          "module": "client/src/App.tsx",
+          "condition": "activeSection === 'analysis'"
+        }
+      }
+    }
+  ]
+}

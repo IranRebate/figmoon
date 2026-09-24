@@ -1,0 +1,482 @@
+{
+  "bounds": {
+    "height": 151,
+    "width": 58.69230651855469,
+    "x": 34921.0859375,
+    "y": 21719.0546875
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 16,
+        "width": 19.692306518554688,
+        "x": 19,
+        "y": 19
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 14.15384578704834,
+            "width": 17.472185134887695,
+            "x": 1.230769157409668,
+            "y": 1.2307692766189575
+          },
+          "id": "51:8702",
+          "name": "Vector 510",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "SCALE"
+            },
+            "cornerRadius": 0,
+            "fills": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#f9e430",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#ead517",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#ddc501",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#938300",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        }
+      ],
+      "id": "51:8701",
+      "name": "Property 1=impact-yel",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 16,
+        "width": 19.692306518554688,
+        "x": 19,
+        "y": 51
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 14.15384578704834,
+            "width": 17.472185134887695,
+            "x": 1.230769157409668,
+            "y": 1.2307692766189575
+          },
+          "id": "51:8704",
+          "name": "Vector 509",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "SCALE"
+            },
+            "cornerRadius": 0,
+            "fills": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#f59432",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#dd7f17",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#e48729",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#94500c",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        }
+      ],
+      "id": "51:8703",
+      "name": "Property 1=impact-yel-ora",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 16,
+        "width": 19.692306518554688,
+        "x": 19,
+        "y": 83
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 14.15384578704834,
+            "width": 17.472185134887695,
+            "x": 1.230769157409668,
+            "y": 1.2307692766189575
+          },
+          "id": "51:8706",
+          "name": "Vector 511",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "SCALE"
+            },
+            "cornerRadius": 0,
+            "fills": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#fa0000",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#da0000",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#c10e0e",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#871010",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        }
+      ],
+      "id": "51:8705",
+      "name": "Property 1=impact-red",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    },
+    {
+      "bounds": {
+        "height": 16,
+        "width": 19.692306518554688,
+        "x": 19,
+        "y": 115
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 14.15384578704834,
+            "width": 17.472185134887695,
+            "x": 1.230769157409668,
+            "y": 1.2307692766189575
+          },
+          "id": "51:8708",
+          "name": "Vector 510",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "SCALE",
+              "vertical": "SCALE"
+            },
+            "cornerRadius": 0,
+            "fills": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#f5f5f5",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#b4b4b4",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "opacity": 1,
+            "strokeAlign": "CENTER",
+            "strokeWeight": 1,
+            "strokes": [
+              {
+                "gradientStops": [
+                  {
+                    "color": "#c9c9c9",
+                    "opacity": 1,
+                    "position": 0
+                  },
+                  {
+                    "color": "#888888",
+                    "opacity": 1,
+                    "position": 1
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    6.123234262925839e-17,
+                    1,
+                    0
+                  ],
+                  [
+                    -1,
+                    6.123234262925839e-17,
+                    1
+                  ]
+                ],
+                "opacity": 1,
+                "type": "GRADIENT_LINEAR"
+              }
+            ],
+            "visible": true
+          },
+          "type": "VECTOR"
+        }
+      ],
+      "id": "51:8707",
+      "name": "Property 1=impact-gray",
+      "styles": {
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 0,
+        "fills": [],
+        "opacity": 1,
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "COMPONENT"
+    }
+  ],
+  "id": "51:8700",
+  "name": "Vector 510",
+  "styles": {
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": true,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 5,
+    "dashPattern": [
+      10,
+      5
+    ],
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [
+      {
+        "color": "#9747ff",
+        "opacity": 1,
+        "type": "SOLID"
+      }
+    ],
+    "visible": true
+  },
+  "type": "COMPONENT_SET"
+}

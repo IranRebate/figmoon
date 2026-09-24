@@ -1,0 +1,135 @@
+{
+  "bounds": {
+    "height": 120,
+    "width": 768,
+    "x": 20,
+    "y": 20
+  },
+  "children": [
+    {
+      "bounds": {
+        "height": 120,
+        "width": 512,
+        "x": 256,
+        "y": 0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 96,
+            "width": 480,
+            "x": 16,
+            "y": 12
+          },
+          "characters": "من همیشه تحلیل هایی که میکنم درست در میاد اما در نهایت ضرر میکنم. فکر کنم مشکل از استراتژی مدیریت سرمایه ایه که دارم و تو این بخش احساس ضعف میکنم. بهم کمک کن که بهترین استراتژی برای مدیریت سرمایه رو پیدا کنم.",
+          "id": "1:1411",
+          "name": "من همیشه تحلیل هایی که میکنم درست در میاد اما در نهایت ضرر میکنم. فکر کنم مشکل از استراتژی مدیریت سرمایه ایه که دارم و تو این بخش احساس ضعف میکنم. بهم کمک کن که بهترین استراتژی برای مدیریت سرمایه رو پیدا کنم.",
+          "styles": {
+            "blendMode": "PASS_THROUGH",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "fills": [
+              {
+                "color": "#1f3262",
+                "opacity": 1,
+                "type": "SOLID"
+              }
+            ],
+            "fontFamily": "Yekan Bakh FaNum",
+            "fontSize": 15,
+            "fontStyle": "Regular",
+            "fontWeight": 400,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "opacity": 1,
+            "strokeAlign": "OUTSIDE",
+            "strokeWeight": 1,
+            "strokes": [],
+            "textAlignHorizontal": "RIGHT",
+            "textAlignVertical": "TOP",
+            "textAutoResize": "HEIGHT",
+            "textDecoration": "NONE",
+            "visible": true
+          },
+          "type": "TEXT"
+        }
+      ],
+      "id": "1:1410",
+      "name": "Frame 1000008021",
+      "styles": {
+        "autoLayout": {
+          "counterAxisAlign": "CENTER",
+          "counterAxisSizing": "AUTO",
+          "counterAxisSpacing": 0,
+          "direction": "HORIZONTAL",
+          "gap": 10,
+          "primaryAxisAlign": "MAX",
+          "primaryAxisSizing": "FIXED",
+          "wrap": "NO_WRAP"
+        },
+        "blendMode": "PASS_THROUGH",
+        "clipsContent": false,
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "cornerRadius": 12,
+        "fills": [
+          {
+            "color": "#ecf1ff",
+            "opacity": 1,
+            "type": "SOLID"
+          }
+        ],
+        "opacity": 1,
+        "padding": {
+          "bottom": 12,
+          "left": 16,
+          "right": 16,
+          "top": 12
+        },
+        "strokeAlign": "INSIDE",
+        "strokeWeight": 1,
+        "strokes": [],
+        "visible": true
+      },
+      "type": "FRAME"
+    }
+  ],
+  "id": "1:1409",
+  "name": "Property 1=Default",
+  "styles": {
+    "autoLayout": {
+      "counterAxisAlign": "MAX",
+      "counterAxisSizing": "FIXED",
+      "counterAxisSpacing": 0,
+      "direction": "VERTICAL",
+      "gap": 16,
+      "primaryAxisAlign": "CENTER",
+      "primaryAxisSizing": "AUTO",
+      "wrap": "NO_WRAP"
+    },
+    "blendMode": "PASS_THROUGH",
+    "clipsContent": false,
+    "constraints": {
+      "horizontal": "MIN",
+      "vertical": "MIN"
+    },
+    "cornerRadius": 0,
+    "fills": [],
+    "opacity": 1,
+    "strokeAlign": "INSIDE",
+    "strokeWeight": 1,
+    "strokes": [],
+    "visible": true
+  },
+  "type": "COMPONENT"
+}

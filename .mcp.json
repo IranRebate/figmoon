@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "figmoon": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["server/launch.mjs"]
+    }
+  }
+}

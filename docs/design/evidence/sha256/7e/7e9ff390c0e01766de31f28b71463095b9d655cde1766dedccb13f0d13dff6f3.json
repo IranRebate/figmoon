@@ -1,0 +1,93 @@
+{
+  "collections": [
+    {
+      "defaultModeId": "10953:0",
+      "id": "VariableCollectionId:3:6936",
+      "modes": [
+        {
+          "modeId": "10953:0",
+          "name": "Mode 1"
+        }
+      ],
+      "name": "Variable collection",
+      "variables": [
+        {
+          "description": "",
+          "id": "VariableID:3:6937",
+          "key": "f7030e58b047c8f461cfa61e1724a3f6de162383",
+          "name": "cards backgrounfd",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "valuesByMode": {
+            "10953:0": {
+              "a": 1,
+              "b": 0.9960784316062927,
+              "g": 0.9725490212440491,
+              "r": 0.9647058844566345,
+              "type": "COLOR"
+            }
+          }
+        },
+        {
+          "description": "",
+          "id": "VariableID:3:6938",
+          "key": "17b7e461e01ef088d28bb1125f7c6ae037f5ed44",
+          "name": "Support/Error/Main",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "valuesByMode": {
+            "10953:0": {
+              "a": 1,
+              "b": 0.30980393290519714,
+              "g": 0.3019607961177826,
+              "r": 1,
+              "type": "COLOR"
+            }
+          }
+        },
+        {
+          "description": "",
+          "id": "VariableID:3:6939",
+          "key": "ce5af902ef5f83943c4d262eac444bf5d30d5863",
+          "name": "Support/Error/Fill",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "valuesByMode": {
+            "10953:0": {
+              "a": 1,
+              "b": 0.9471153616905212,
+              "g": 0.9471153616905212,
+              "r": 1,
+              "type": "COLOR"
+            }
+          }
+        },
+        {
+          "description": "",
+          "id": "VariableID:3:6943",
+          "key": "21a93cdc1c9c0e2ee15416e4ecbc04640f47129b",
+          "name": "Support/Error/Active",
+          "resolvedType": "COLOR",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "valuesByMode": {
+            "10953:0": {
+              "a": 1,
+              "b": 0.2549019753932953,
+              "g": 0.24705882370471954,
+              "r": 0.9764705896377563,
+              "type": "COLOR"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

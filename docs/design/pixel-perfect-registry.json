@@ -1,0 +1,105 @@
+{
+  "$schema": "./pixel-perfect-registry.schema.json",
+  "_meta": {
+    "version": "2.0.0",
+    "statusValues": [
+      "unmapped",
+      "mapped",
+      "in_progress",
+      "figma_parity",
+      "regression_locked",
+      "waived"
+    ],
+    "thresholds": {
+      "figmaParityPage": 0.005,
+      "figmaParityComponent": 0.002,
+      "structuralEdgeJaccard": 0,
+      "regressionBaseline": 0.0005
+    },
+    "measurement": {
+      "acceptanceMetric": "pixelmatch-aa-excluded-v1",
+      "rawMetric": "pixelmatch-include-aa-v1",
+      "structuralMetric": "pixelmatch-raw-masked-sobel-jaccard-v3",
+      "rule": "Parity gates use the AA-excluded pixel ratio plus a zero-tolerance, raw-mismatch-localized edge-location check, exact dimensions, and alpha checks. The include-AA ratio and structural canvas ratio remain diagnostics and never disappear from evidence."
+    },
+    "viewports": {
+      "desktop": {
+        "width": 1440,
+        "height": 1024
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844
+      },
+      "tablet-landscape": {
+        "width": 1133,
+        "height": 744
+      },
+      "tablet-portrait": {
+        "width": 744,
+        "height": 1133
+      }
+    },
+    "note": "Registry items are a target inventory, not a batch work queue. Select one mapped product state at a time; no item graduates to regression_locked without a focused visual test and human sign-off.",
+    "canonicalDesignFamily": {
+      "id": "refreshed-main-chat-ipad",
+      "status": "approved",
+      "frozenAt": "2026-07-16",
+      "decisionOwner": "user",
+      "decisionRequired": false,
+      "rule": "The refreshed Main Chat and iPad Figma families are canonical production targets. Map each adopted state to its matching app route and visual scenario using the durable live node IDs."
+    },
+    "statusAxes": {
+      "referenceStatusValues": [
+        "missing",
+        "mapped",
+        "requires-remap",
+        "waived"
+      ],
+      "implementationStatusValues": [
+        "missing",
+        "partial",
+        "implemented",
+        "not-applicable"
+      ],
+      "parityStatusValues": [
+        "not-comparable",
+        "drifting",
+        "in-progress",
+        "parity",
+        "locked",
+        "waived"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "comp-message-actions",
+      "title": "Component \u2013 Message Actions (Like/Copy/Dislike)",
+      "kind": "component",
+      "referencePath": "docs/design/figma/pages/actions.png",
+      "route": "/visual-qa/message-actions",
+      "viewport": "desktop",
+      "theme": "light",
+      "mockScenario": "message-actions",
+      "status": "mapped",
+      "owner": null,
+      "notes": "2026-07-26: Visual fixture renders the shipped MessageActions DOM with deterministic callbacks. The live Figma component reference (node 1:1423) was refreshed and a fresh targeted measurement reached 0.00% drift. 2026-07-30: read-only live Figma inspection confirmed action-specific 100ms ease-out hover/active colors, no hover background, and Copy's 800ms reset. The production controls now clear an active like/dislike selection on the next click through optimistic store/API/server persistence with rollback. Fresh run-scoped measurement and targeted app-DOM signoff both remained 0.00% drift; no Figma or baseline changed. 2026-08-02: demoted pending a durable signoff attestation; an ignored run and narrative note cannot substantiate stored parity.",
+      "lastVerifiedAt": null,
+      "referenceStatus": "mapped",
+      "implementationStatus": "implemented",
+      "parityStatus": "drifting",
+      "designDecision": {
+        "status": "accepted",
+        "owner": "product-design",
+        "reason": "No unresolved design choice is recorded for this mapped target.",
+        "reviewBy": null
+      },
+      "visualTest": {
+        "file": "client/e2e/visual/components.spec.ts",
+        "name": "comp-message-actions"
+      },
+      "snapshot": "desktop/visual/components.spec.ts/comp-message-actions.png"
+    }
+  ]
+}

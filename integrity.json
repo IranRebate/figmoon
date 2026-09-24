@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "normalization": "figmoon-source-build-id/v1",
+  "files": [
+    "manifest.json",
+    "package-lock.json",
+    "package.json",
+    "src/main/acquisition.ts",
+    "src/main/code.ts",
+    "src/main/design-system.ts",
+    "src/main/pattern-analysis.mjs",
+    "src/main/serializer.ts",
+    "src/main/workspace.ts",
+    "src/ui/App.tsx",
+    "src/ui/index.css",
+    "src/ui/index.html",
+    "src/ui/main.tsx",
+    "tsconfig.json",
+    "vite.config.main.ts",
+    "vite.config.ts"
+  ],
+  "bundleSha256": "6003b643bea74a3fa67eb5c616a4d6f1709ffe442edd94c8955c8e7e66bcc60c",
+  "artifacts": {
+    "dist/code.js": "478d4f7b2127c7327c6456774fc1bc3682603af2c64fcb1ff28be7a7be75f834",
+    "dist/index.html": "4ac81024ffc9382d01301031cb458814a02217afc8872c267e3931ad31cd0217"
+  },
+  "plugin": {
+    "id": "figmoon",
+    "version": "1.0.0",
+    "build": "1.0.0+gethopp-v0.0.18.dc2ea5a.sha256.6003b643bea74a3fa67eb5c616a4d6f1709ffe442edd94c8955c8e7e66bcc60c"
+  }
+}
